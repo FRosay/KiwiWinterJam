@@ -574,6 +574,33 @@
         "name": "assets/sprites/pineapple.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/avocado-cutted.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/avocado-cutted.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/potato-cooked.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/potato-cooked.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/cookbook.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/cookbook.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -649,6 +676,14 @@
         {
           "type": "string",
           "value": "pineapple"
+        },
+        {
+          "type": "string",
+          "value": "avocado-cutted"
+        },
+        {
+          "type": "string",
+          "value": "potato-cooked"
         }
       ]
     },
