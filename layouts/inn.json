@@ -465,7 +465,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Chair.png",
+                  "image": "assets/sprites/chair.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -505,7 +505,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/Stone_No Shadow.png",
+                  "image": "assets/sprites/oven.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -525,7 +525,7 @@
           ]
         },
         {
-          "name": "Stone_NoShadow",
+          "name": "oven-outline",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -534,7 +534,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/Stone_No Shadow.png",
+                  "image": "assets/sprites/oven-outline.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -591,7 +591,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Cereal2.png",
+                  "image": "assets/sprites/market.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -611,7 +611,7 @@
           ]
         },
         {
-          "name": "Cereal2",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -620,7 +620,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/Cereal2-1.png",
+                  "image": "assets/sprites/market-outline.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

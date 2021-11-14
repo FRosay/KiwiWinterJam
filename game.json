@@ -421,6 +421,60 @@
         "name": "assets/Stone_No Shadow.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/market-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/market-outline.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/market.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/market.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/chair.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/chair.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/oven.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/oven.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/Stone_NoShadow-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/Stone_NoShadow-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/oven-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/oven-outline.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
