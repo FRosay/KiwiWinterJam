@@ -707,6 +707,10 @@
         {
           "type": "string",
           "value": "potato-cooked"
+        },
+        {
+          "type": "string",
+          "value": "pineapple-cutted"
         }
       ]
     },
