@@ -16,7 +16,7 @@
           "parameters": [
             "Player",
             "Interactive",
-            "128",
+            "GlobalVariable(gDistanceOfInteraction)",
             ""
           ],
           "subInstructions": []
@@ -51,7 +51,7 @@
           "parameters": [
             "Player",
             "Interactive",
-            "128",
+            "GlobalVariable(gDistanceOfInteraction)",
             ""
           ],
           "subInstructions": []
@@ -87,6 +87,14 @@
             "",
             "Space"
           ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
           "subInstructions": []
         }
       ],
@@ -132,6 +140,31 @@
               },
               "parameters": [
                 "",
+                "\"CuttingBoard\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "ButtonCuttingBoard",
+                "SceneWindowWidth()/2",
+                "SceneWindowHeight()/2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeLayer"
+              },
+              "parameters": [
+                "ButtonCuttingBoard",
                 "\"CuttingBoard\""
               ],
               "subInstructions": []
@@ -272,6 +305,40 @@
           "parameters": [
             "",
             "\"Oven\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "CuttingBoard",
+            "GlobalVariable(gDistanceOfInteraction)",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"CuttingBoard\""
           ],
           "subInstructions": []
         }

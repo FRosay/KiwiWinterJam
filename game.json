@@ -538,6 +538,42 @@
         "name": "assets/sprites/button-oven-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/cutting-board.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/cutting-board.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/cutting-board-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/cutting-board-outline.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/button-cutting-board.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/button-cutting-board.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/pineapple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/pineapple.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -609,6 +645,10 @@
         {
           "type": "string",
           "value": "stew"
+        },
+        {
+          "type": "string",
+          "value": "pineapple"
         }
       ]
     },
