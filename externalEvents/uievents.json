@@ -1,6 +1,15 @@
 {
-  "associatedLayout": "",
+  "associatedLayout": "Inn",
   "lastChangeTimeStamp": 0,
   "name": "UiEvents",
-  "events": []
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    }
+  ]
 }
