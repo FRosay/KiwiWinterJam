@@ -1024,11 +1024,50 @@
         "name": "assets/sprites/octopus-cooked.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/plage.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\plage.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/cod.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\cod.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/validFish.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\validFish.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "height": 32,
+      "name": "Fade",
+      "tags": "",
+      "texture": "assets\\images\\fade.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    }
+  ],
   "objectsGroups": [],
   "variables": [
     {
@@ -1175,6 +1214,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/inn"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/beach"
     }
   ],
   "externalEvents": [
@@ -1197,9 +1240,17 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/customers"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/fishing"
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/animatedbackandforthmovement"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/draggableslidercontrol"
