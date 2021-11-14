@@ -169,7 +169,23 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\musics\\ambient_music.mp3",
+                "1",
+                "yes",
+                "GlobalVariable(gOptions.musicLevel)",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         }
       ]

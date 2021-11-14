@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8739999999999997,
+    "zoomFactor": 0.8539999999999996,
     "windowMask": false
   },
   "objectsGroups": [
@@ -125,8 +125,8 @@
       "name": "Player",
       "persistentUuid": "d75eeed8-69c3-4e6a-b424-31d64da8ab0a",
       "width": 64,
-      "x": 367,
-      "y": 321,
+      "x": 358,
+      "y": 154,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -135,14 +135,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 68,
+      "height": 34,
       "layer": "",
       "locked": false,
       "name": "Chair",
       "persistentUuid": "56505d69-7a9e-4ea3-9e5d-cfbf1e937419",
-      "width": 42,
-      "x": 193,
-      "y": 194,
+      "width": 394,
+      "x": 460,
+      "y": 613,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -157,8 +157,8 @@
       "name": "Oven",
       "persistentUuid": "430b98e0-fd62-41b1-b643-29b2f838754b",
       "width": 0,
-      "x": 126,
-      "y": 106,
+      "x": 61,
+      "y": 45,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -173,8 +173,8 @@
       "name": "Market",
       "persistentUuid": "1f5352da-db6b-400a-af87-54336b672603",
       "width": 0,
-      "x": 257,
-      "y": 353,
+      "x": 471,
+      "y": 48,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -189,8 +189,8 @@
       "name": "Resources",
       "persistentUuid": "0a0a640a-9ac4-4d83-be61-10b9723a035b",
       "width": 31,
-      "x": 33,
-      "y": 23,
+      "x": 34,
+      "y": 27,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -211,8 +211,8 @@
       "name": "CuttingBoard",
       "persistentUuid": "3026470f-6d38-4558-b121-26d43d13b20c",
       "width": 0,
-      "x": 426,
-      "y": 189,
+      "x": 235,
+      "y": 31,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -227,8 +227,8 @@
       "name": "Resources",
       "persistentUuid": "65d1386f-5e7b-4bd6-8fff-31aef58f823f",
       "width": 31,
-      "x": 171,
-      "y": 17,
+      "x": 172,
+      "y": 21,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -249,8 +249,8 @@
       "name": "Resources",
       "persistentUuid": "b3cc27dc-ba66-4ce2-9824-abbb46efb711",
       "width": 31,
-      "x": 98,
-      "y": 26,
+      "x": 99,
+      "y": 30,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -271,8 +271,8 @@
       "name": "CookBook",
       "persistentUuid": "43dbe87e-9336-45d7-a7c3-179f455dea61",
       "width": 0,
-      "x": 5,
-      "y": 530,
+      "x": 6,
+      "y": 534,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -303,8 +303,8 @@
       "name": "WoodenFloor",
       "persistentUuid": "1dff7298-0f95-45a1-9461-d0780b9d28da",
       "width": 821,
-      "x": -10,
-      "y": -10,
+      "x": -9,
+      "y": -6,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -319,8 +319,8 @@
       "name": "Trashcan",
       "persistentUuid": "1b10da79-c144-475b-b17f-6d22c5b09218",
       "width": 0,
-      "x": 692,
-      "y": 229,
+      "x": 664,
+      "y": 36,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -328,96 +328,96 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 68,
       "layer": "",
       "locked": false,
-      "name": "Customer_female",
-      "persistentUuid": "2289f9f6-059f-4f60-9e76-691155c56705",
-      "width": 0,
-      "x": 615,
-      "y": 323,
-      "zOrder": 18,
+      "name": "Chair",
+      "persistentUuid": "8149cc9d-46f6-47a0-8245-b8eb217e7c28",
+      "width": 42,
+      "x": 371,
+      "y": 233,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 627,
       "layer": "",
       "locked": false,
-      "name": "Customer_male",
-      "persistentUuid": "97c6f669-4757-475c-8528-f4e22f1eef1a",
-      "width": 0,
-      "x": 414,
-      "y": 458,
-      "zOrder": 19,
+      "name": "Chair",
+      "persistentUuid": "e14aa330-1c91-48e5-adbd-7ee4a9a25e2a",
+      "width": 42,
+      "x": -51,
+      "y": -11,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 627,
       "layer": "",
       "locked": false,
-      "name": "Customer_male",
-      "persistentUuid": "033ec7a3-2f82-4f8a-b8b2-566cd2a8d113",
-      "width": 0,
-      "x": 76,
-      "y": 278,
-      "zOrder": 20,
+      "name": "Chair",
+      "persistentUuid": "ca8e1dc4-69f5-4dfe-b816-377662067ffa",
+      "width": 42,
+      "x": 811,
+      "y": -7,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 34,
       "layer": "",
       "locked": false,
-      "name": "Customer_female",
-      "persistentUuid": "73711dec-9abb-4a04-a402-87361c533415",
-      "width": 0,
-      "x": 202,
-      "y": 470,
-      "zOrder": 21,
+      "name": "Chair",
+      "persistentUuid": "1dfcda6d-0190-476e-9e86-011e2f67d22a",
+      "width": 871,
+      "x": -50,
+      "y": -39,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 34,
       "layer": "",
       "locked": false,
-      "name": "Customer_male",
-      "persistentUuid": "a1c290b1-e51b-4473-99a5-23b1d2af29c0",
-      "width": 0,
-      "x": 546,
-      "y": 89,
-      "zOrder": 23,
+      "name": "Chair",
+      "persistentUuid": "6b1fa221-f57e-4454-8d2e-47727b182a77",
+      "width": 409,
+      "x": -51,
+      "y": 613,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 144,
       "layer": "",
       "locked": false,
-      "name": "Customer_female",
-      "persistentUuid": "af7910cc-ad95-4c45-badb-e12ffcef71bc",
-      "width": 0,
-      "x": 282,
-      "y": 66,
-      "zOrder": 24,
+      "name": "hall",
+      "persistentUuid": "95963457-0e13-4c64-9f8e-4f2c74d67138",
+      "width": 174,
+      "x": 316,
+      "y": 456,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1001,8 +1001,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 21,
+                    "y": 42
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1030,8 +1030,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 21,
+                    "y": 42
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1059,8 +1059,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 21,
+                    "y": 42
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1088,8 +1088,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 21,
+                    "y": 42
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1128,8 +1128,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 22,
+                    "y": 32
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1157,8 +1157,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 22,
+                    "y": 32
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1186,8 +1186,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 22,
+                    "y": 32
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1215,8 +1215,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 22,
+                    "y": 32
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1421,6 +1421,46 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets/sprites/trashcan-outline.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hall",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
