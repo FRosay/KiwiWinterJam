@@ -80,6 +80,16 @@
       "name": "foundSpace",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "foundResource",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "cookBookVisibility",
+      "type": "boolean",
+      "value": false
     }
   ],
   "instances": [
@@ -140,8 +150,8 @@
       "name": "Market",
       "persistentUuid": "1f5352da-db6b-400a-af87-54336b672603",
       "width": 0,
-      "x": 368,
-      "y": 288,
+      "x": 287,
+      "y": 322,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -178,8 +188,8 @@
       "name": "CuttingBoard",
       "persistentUuid": "3026470f-6d38-4558-b121-26d43d13b20c",
       "width": 0,
-      "x": 476,
-      "y": 142,
+      "x": 426,
+      "y": 189,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -337,6 +347,38 @@
       "x": 554,
       "y": 311,
       "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Ui",
+      "locked": false,
+      "name": "CookBook",
+      "persistentUuid": "43dbe87e-9336-45d7-a7c3-179f455dea61",
+      "width": 0,
+      "x": 5,
+      "y": 530,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 584,
+      "layer": "CookBookRecepies",
+      "locked": false,
+      "name": "CookBookRecepies",
+      "persistentUuid": "077a695d-9ac6-466f-8bdb-18fee679360f",
+      "width": 777,
+      "x": 10,
+      "y": 6,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -868,6 +910,64 @@
               ]
             }
           ]
+        },
+        {
+          "name": "avocado-cutted",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/avocado-cutted.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "potato-cooked",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/potato-cooked.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -996,6 +1096,66 @@
       ],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "name": "CookBook",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "cookbook",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/cookbook.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "CookBookRecepies",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Salade = avocat tranché + fruits tranchés\nFrites = patates cuites",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "events": [
@@ -1212,6 +1372,17 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Ui",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 7745072,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 7864952,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "CookBookRecepies",
       "visibility": true,
       "cameras": [],
       "effects": []
