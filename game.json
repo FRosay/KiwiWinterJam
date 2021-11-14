@@ -11,6 +11,7 @@
     "folderProject": true,
     "orientation": "landscape",
     "packageName": "com.example.gamename",
+    "pixelsRounding": false,
     "projectUuid": "90789492-171d-44a8-b2a4-f228bd1b1d78",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
@@ -41,6 +42,7 @@
       "showGDevelopSplash": true,
       "showProgressBar": true
     },
+    "authorIds": [],
     "extensionProperties": [],
     "platforms": [
       {
@@ -56,7 +58,16 @@
   "objects": [],
   "objectsGroups": [],
   "variables": [],
-  "layouts": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/mainmenu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/firstscene"
+    }
+  ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [],
   "externalLayouts": [],
