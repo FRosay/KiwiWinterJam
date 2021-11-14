@@ -879,23 +879,19 @@
         },
         {
           "type": "string",
+          "value": "banana"
+        },
+        {
+          "type": "string",
           "value": "potato"
         },
         {
           "type": "string",
-          "value": "pineapple"
-        },
-        {
-          "type": "string",
-          "value": "avocado-cutted"
+          "value": "potato-cutted"
         },
         {
           "type": "string",
           "value": "potato-cooked"
-        },
-        {
-          "type": "string",
-          "value": "pineapple-cutted"
         },
         {
           "type": "string",
@@ -904,6 +900,30 @@
         {
           "type": "string",
           "value": "rum"
+        },
+        {
+          "type": "string",
+          "value": "octopus"
+        },
+        {
+          "type": "string",
+          "value": "octopus-cutted"
+        },
+        {
+          "type": "string",
+          "value": "octopus-cutted"
+        },
+        {
+          "type": "string",
+          "value": "cod"
+        },
+        {
+          "type": "string",
+          "value": "cod-dried"
+        },
+        {
+          "type": "string",
+          "value": "seaweed"
         }
       ]
     },

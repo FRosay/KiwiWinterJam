@@ -449,7 +449,7 @@
                       "parameters": [
                         "playerInventory[Variable(itemSlot)]",
                         "=",
-                        "\"avocado\""
+                        "\"potato\""
                       ],
                       "subInstructions": []
                     }
@@ -463,7 +463,7 @@
                       "parameters": [
                         "playerInventory[Variable(itemSlot)]",
                         "=",
-                        "\"avocado-cutted\""
+                        "\"potato-cutted\""
                       ],
                       "subInstructions": []
                     }
@@ -483,7 +483,7 @@
                       "parameters": [
                         "playerInventory[Variable(itemSlot)]",
                         "=",
-                        "\"pineapple\""
+                        "\"octopus\""
                       ],
                       "subInstructions": []
                     }
@@ -497,7 +497,7 @@
                       "parameters": [
                         "playerInventory[Variable(itemSlot)]",
                         "=",
-                        "\"pineapple-cutted\""
+                        "\"octopus-cutted\""
                       ],
                       "subInstructions": []
                     }
@@ -554,7 +554,7 @@
                       "parameters": [
                         "playerInventory[Variable(itemSlot)]",
                         "=",
-                        "\"potato\""
+                        "\"potato-cutted\""
                       ],
                       "subInstructions": []
                     }
@@ -569,6 +569,189 @@
                         "playerInventory[Variable(itemSlot)]",
                         "=",
                         "\"potato-cooked\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "playerInventory[Variable(itemSlot)]",
+                        "=",
+                        "\"octopus-cutted\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "playerInventory[Variable(itemSlot)]",
+                        "=",
+                        "\"octopus-cooked\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Drying rack",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "DryingRack",
+                    "GlobalVariable(gDistanceOfInteraction)",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "playerInventory[Variable(itemSlot)]",
+                        "=",
+                        "\"empty\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ObjectTimer"
+                          },
+                          "parameters": [
+                            "DryingRack",
+                            "\"dryingTimer\"",
+                            "10"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "playerInventory[Variable(itemSlot)]",
+                            "=",
+                            "\"cod-dried\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "RemoveObjectTimer"
+                          },
+                          "parameters": [
+                            "DryingRack",
+                            "\"dryingTimer\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "playerInventory[Variable(itemSlot)]",
+                        "=",
+                        "\"cod\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "playerInventory[Variable(itemSlot)]",
+                        "=",
+                        "\"empty\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"dryingTimer\""
                       ],
                       "subInstructions": []
                     }
