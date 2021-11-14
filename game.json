@@ -574,6 +574,24 @@
         "name": "assets/sprites/pineapple.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/fade.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\fade.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/horizontal_banner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\horizontal_banner.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -589,6 +607,11 @@
           "name": "currentLanguage",
           "type": "string",
           "value": "fr"
+        },
+        {
+          "name": "globalSoundLevel",
+          "type": "string",
+          "value": ""
         },
         {
           "name": "musicLevel",
@@ -690,7 +713,12 @@
       "referenceTo": "/externalEvents/customers"
     }
   ],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/draggableslidercontrol"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }

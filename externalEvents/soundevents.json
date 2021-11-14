@@ -48,7 +48,7 @@
                 "\"Options\"",
                 "\"Sound\"",
                 "",
-                "Options.Sound"
+                "options.sound"
               ],
               "subInstructions": []
             },
@@ -58,9 +58,9 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "Options.Sound",
+                "gOptions.soundLevel",
                 "=",
-                "Variable(Options.Sound)"
+                "Variable(options.sound)"
               ],
               "subInstructions": []
             }
@@ -108,6 +108,18 @@
         {
           "type": {
             "inverted": false,
+            "value": "ModGlobalVolume"
+          },
+          "parameters": [
+            "",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
             "value": "StopMusicCanal"
           },
           "parameters": [
@@ -138,8 +150,97 @@
           ],
           "actions": [],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "StrEqual"
+              },
+              "parameters": [
+                "CurrentSceneName()",
+                "=",
+                "\"Inn\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": []
         }
       ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "GlobalVolume"
+          },
+          "parameters": [
+            "",
+            "<",
+            "GlobalVariable(gOptions.globalSoundLevel)"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModGlobalVolume"
+          },
+          "parameters": [
+            "",
+            "+",
+            "TimeDelta()+0.3"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "GlobalVolume"
+          },
+          "parameters": [
+            "",
+            ">",
+            "GlobalVariable(gOptions.globalSoundLevel)"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModGlobalVolume"
+          },
+          "parameters": [
+            "",
+            "-",
+            "TimeDelta()+0.5"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
     }
   ]
 }
