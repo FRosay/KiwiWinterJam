@@ -385,6 +385,42 @@
         "name": "stew-1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources-empty-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources-empty-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cereal2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cereal2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cereal2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Cereal2-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Stone_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Stone_No Shadow.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

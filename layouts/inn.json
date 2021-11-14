@@ -44,6 +44,9 @@
       "objects": [
         {
           "name": "Oven"
+        },
+        {
+          "name": "Market"
         }
       ]
     }
@@ -206,60 +209,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 26,
       "layer": "",
       "locked": false,
-      "name": "PlayerInventoryBar",
-      "persistentUuid": "8526e096-204e-4f40-a747-6957b84ec974",
-      "width": 0,
-      "x": 17,
-      "y": 21,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "id",
-          "type": "string",
-          "value": "0"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "PlayerInventory",
-      "locked": false,
-      "name": "PlayerInventoryBar",
-      "persistentUuid": "4a6382cf-a0ff-44d7-ab4b-3deda9445ab9",
-      "width": 0,
-      "x": 15,
-      "y": 71,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "id",
-          "type": "string",
-          "value": "1"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "PlayerInventory",
-      "locked": false,
-      "name": "PlayerInventoryBar",
-      "persistentUuid": "7fda8a9c-b6fb-4c1f-8665-affd1d302f1c",
-      "width": 0,
-      "x": 19,
-      "y": 115,
-      "zOrder": 10,
+      "name": "Resources",
+      "persistentUuid": "c905a939-fad9-44fa-bd92-a5b54edc79e2",
+      "width": 31,
+      "x": 157,
+      "y": 25,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -272,16 +231,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "PlayerInventory",
+      "customSize": true,
+      "height": 26,
+      "layer": "",
       "locked": false,
-      "name": "PlayerInventoryBar",
-      "persistentUuid": "2bb19218-f534-487f-b2d0-fd1b22bfb58d",
-      "width": 0,
-      "x": 17,
-      "y": 21,
-      "zOrder": 8,
+      "name": "Resources",
+      "persistentUuid": "0a0a640a-9ac4-4d83-be61-10b9723a035b",
+      "width": 31,
+      "x": 33,
+      "y": 23,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -294,23 +253,23 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 26,
       "layer": "",
       "locked": false,
-      "name": "PlayerInventoryBar",
-      "persistentUuid": "6ca7f70c-0428-4850-960f-0b3d8061d453",
-      "width": 0,
-      "x": 17,
-      "y": 21,
-      "zOrder": 8,
+      "name": "Resources",
+      "persistentUuid": "265c6b06-91ff-4c1f-82aa-ef2944d90cde",
+      "width": 31,
+      "x": 95,
+      "y": 25,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
         {
           "name": "id",
           "type": "string",
-          "value": "0"
+          "value": "1"
         }
       ]
     }
@@ -546,7 +505,36 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Stone_No Shadow.png",
+                  "image": "assets/Stone_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Stone_NoShadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/Stone_No Shadow.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -604,6 +592,35 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Cereal2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cereal2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/Cereal2-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -704,10 +721,45 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "id",
+          "type": "string",
+          "value": ""
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
+        {
+          "name": "empty",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "resources-empty-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
         {
           "name": "avocado",
           "useMultipleDirections": false,
