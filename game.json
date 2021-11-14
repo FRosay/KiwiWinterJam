@@ -511,6 +511,33 @@
         "name": "assets/sprites/stew.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/customers-0-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/customers-0-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/customers-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/customers-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/button-oven-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/button-oven-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -584,6 +611,11 @@
           "value": "stew"
         }
       ]
+    },
+    {
+      "name": "gDistanceOfInteraction",
+      "type": "number",
+      "value": 64
     }
   ],
   "layouts": [
@@ -612,6 +644,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/soundevents"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/customers"
     }
   ],
   "eventsFunctionsExtensions": [],
