@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1,
+    "zoomFactor": 0.9787999999999999,
     "windowMask": false
   },
   "objectsGroups": [
@@ -88,14 +88,14 @@
       "value": false
     },
     {
-      "name": "foundResource",
+      "name": "cookBookVisibility",
       "type": "boolean",
       "value": false
     },
     {
-      "name": "cookBookVisibility",
-      "type": "boolean",
-      "value": false
+      "name": "itemSlot",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -672,23 +672,6 @@
       ]
     },
     {
-      "height": 32,
-      "name": "ButtonOven",
-      "tags": "",
-      "texture": "assets/sprites/button-oven-1.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [
-        {
-          "name": "dish",
-          "type": "string",
-          "value": ""
-        }
-      ],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "name": "Market",
       "tags": "",
       "type": "Sprite",
@@ -1087,23 +1070,6 @@
       ]
     },
     {
-      "height": 32,
-      "name": "ButtonCuttingBoard",
-      "tags": "",
-      "texture": "assets/sprites/button-cutting-board.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [
-        {
-          "name": "id",
-          "type": "string",
-          "value": ""
-        }
-      ],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "name": "CookBook",
       "tags": "",
       "type": "Sprite",
@@ -1339,34 +1305,12 @@
       "effects": []
     },
     {
-      "ambientLightColorB": 7910480,
-      "ambientLightColorG": 6024160,
-      "ambientLightColorR": 7070184,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "name": "Oven",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
-    {
       "ambientLightColorB": -2147483616,
       "ambientLightColorG": 6024160,
       "ambientLightColorR": 7861016,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "PlayerInventory",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
-    {
-      "ambientLightColorB": 8122256,
-      "ambientLightColorG": 6024160,
-      "ambientLightColorR": 8107640,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "name": "CuttingBoard",
       "visibility": true,
       "cameras": [],
       "effects": []
