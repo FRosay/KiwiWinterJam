@@ -55,49 +55,46 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "assets/Red Orb_No Shadow.png",
+        "file": "assets/images/main_menu_temp_background.jpg",
         "kind": "image",
         "metadata": "",
-        "name": "Red Orb_No Shadow.png",
+        "name": "assets\\images\\main_menu_temp_background.jpg",
         "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Fantasy Icons Pack v2/Icons/Orbs/Red Orb_No Shadow.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red Orb_Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red Orb_Shadow.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Fantasy Icons Pack v2/Icons/Orbs/Red Orb_Shadow.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Chair.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Chair.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Objects/Other Objects/Chair.png",
-          "name": "gdevelop-asset-store"
-        }
+        "userAdded": false
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Options",
+      "type": "structure",
+      "children": [
+        {
+          "name": "MusicLevel",
+          "type": "number",
+          "value": 100
+        },
+        {
+          "name": "MuteGame",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "SoundLevel",
+          "type": "number",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "name": "ActiveScene",
+      "type": "string",
+      "value": "MainMenu"
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -105,7 +102,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/inn"
+      "referenceTo": "/layouts/firstscene"
     }
   ],
   "externalEvents": [
@@ -120,6 +117,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/cookingevents"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/soundevents"
     }
   ],
   "eventsFunctionsExtensions": [],

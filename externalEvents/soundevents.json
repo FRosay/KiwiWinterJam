@@ -126,10 +126,10 @@
             {
               "type": {
                 "inverted": false,
-                "value": "VarGlobalTxt"
+                "value": "StrEqual"
               },
               "parameters": [
-                "ActiveScene",
+                "CurrentSceneName()",
                 "=",
                 "\"MainMenu\""
               ],
