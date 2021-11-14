@@ -75,12 +75,12 @@
       "stringProperties": [],
       "initialVariables": [
         {
-          "name": "InitialText",
+          "name": "initialText",
           "type": "string",
           "value": "Nouvelle Partie"
         },
         {
-          "name": "Id",
+          "name": "id",
           "type": "string",
           "value": "MainMenuNewGame"
         }
@@ -102,12 +102,12 @@
       "stringProperties": [],
       "initialVariables": [
         {
-          "name": "InitialText",
+          "name": "initialText",
           "type": "string",
           "value": "Crédits"
         },
         {
-          "name": "Id",
+          "name": "id",
           "type": "string",
           "value": "MainMenuCredits"
         }
@@ -129,12 +129,12 @@
       "stringProperties": [],
       "initialVariables": [
         {
-          "name": "InitialText",
+          "name": "initialText",
           "type": "string",
           "value": "Options"
         },
         {
-          "name": "Id",
+          "name": "id",
           "type": "string",
           "value": "MainMenuOptions"
         }
@@ -228,12 +228,12 @@
       "type": "BBText::BBText",
       "variables": [
         {
-          "name": "InitialText",
+          "name": "initialText",
           "type": "string",
           "value": ""
         },
         {
-          "name": "Id",
+          "name": "id",
           "type": "string",
           "value": ""
         }
@@ -273,19 +273,98 @@
         {
           "type": {
             "inverted": false,
-            "value": "MettreXY"
+            "value": "SendAsyncRequest"
+          },
+          "parameters": [
+            "\"translations.json\"",
+            "\"\"",
+            "\"GET\"",
+            "\"\"",
+            "texts",
+            "error"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreX"
           },
           "parameters": [
             "MenuText",
             "=",
-            "VerticalBanner.CenterX()-MenuText.Width()",
-            "=",
-            "VerticalBanner.CenterY()-MenuText.Height()"
+            "VerticalBanner.CenterX()-MenuText.Width()"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"init\""
           ],
           "subInstructions": []
         }
       ],
       "events": []
+    },
+    {
+      "disabled": true,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Timer"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"init\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "JSONToVariableStructure"
+          },
+          "parameters": [
+            "VariableString(texts)",
+            "translations"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "MenuText",
+                "=",
+                "VariableString(translations[MenuText.VariableString(id)][GlobalVariableString(Options.CurrentLanguage)])"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
     }
   ],
   "layers": [

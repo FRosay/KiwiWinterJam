@@ -1,17 +1,17 @@
 {
-	"MainMenuNewGame": {
-		"en":"New Game",
-		"fr":"Nouvelle Partie",
-		"de":"Neue Spiele"
-	},
-	"MainMenuOptions": {
-		"en":"Options",
-		"fr":"Options",
-		"de":"Einstellungen"
-	},
-	"MainMenuCredits": {
-		"en":"Credits",
-		"fr":"Crédits",
-		"de":"Spiel Credits"
-	}
+   "MainMenuNewGame":{
+      "en":"New Game",
+      "fr":"Nouvelle Partie",
+      "de":"Neue Spiele"
+   },
+   "MainMenuOptions":{
+      "en":"Options",
+      "fr":"Options",
+      "de":"Einstellungen"
+   },
+   "MainMenuCredits":{
+      "en":"Credits",
+      "fr":"Crédits",
+      "de":"Spiel Credits"
+   }
 }

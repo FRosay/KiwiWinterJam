@@ -318,28 +318,33 @@
   "objectsGroups": [],
   "variables": [
     {
-      "name": "Options",
+      "name": "gOptions",
       "type": "structure",
       "children": [
         {
-          "name": "MusicLevel",
+          "name": "currentLanguage",
+          "type": "string",
+          "value": "fr"
+        },
+        {
+          "name": "musicLevel",
           "type": "number",
           "value": 100
         },
         {
-          "name": "MuteGame",
+          "name": "muteGame",
           "type": "boolean",
           "value": false
         },
         {
-          "name": "SoundLevel",
+          "name": "soundLevel",
           "type": "number",
           "value": 100
         }
       ]
     },
     {
-      "name": "ActiveScene",
+      "name": "gActiveScene",
       "type": "string",
       "value": "MainMenu"
     }

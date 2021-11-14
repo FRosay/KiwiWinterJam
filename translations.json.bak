@@ -1,27 +1,17 @@
 {
-	"homeFrenchButton": {
-		"en":"French",
-		"fr":"Français",
-		"de":"Französich"
+	"MainMenuNewGame": {
+		"en":"New Game",
+		"fr":"Nouvelle Partie",
+		"de":"Neue Spiele"
 	},
-	"homeEnglishButton": {
-		"en":"English",
-		"fr":"Anglais",
-		"de":"Englisch"
+	"MainMenuOptions": {
+		"en":"Options",
+		"fr":"Options",
+		"de":"Einstellungen"
 	},
-	"homeGermanButton": {
-		"en":"German",
-		"fr":"Allemand",
-		"de":"Deutsch"
+	"MainMenuCredits": {
+		"en":"Credits",
+		"fr":"Crédits",
+		"de":"Spiel Credits"
 	},
-	"homeWelcome": {
-		"en":"Welcome!",
-		"fr":"Bienvenue !",
-		"de":"Wilkommen!"
-	},
-	"homeMainText": {
-		"en":"This is a welcome text.",
-		"fr":"Ceci est un texte de bienvenue.",
-		"de":"Dies ist ein Willkommenstext."
-	}
 }
