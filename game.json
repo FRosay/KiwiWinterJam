@@ -1024,6 +1024,42 @@
         "name": "assets/sprites/octopus-cooked.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/crab.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/crab.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/stuned-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/stuned-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/stuned-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/stuned-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/stuned-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/stuned-2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1197,6 +1233,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/customers"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/externalevents"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/resourcesgain"
     }
   ],
   "eventsFunctionsExtensions": [
