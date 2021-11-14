@@ -902,6 +902,10 @@
         {
           "type": "string",
           "value": "cod-dried"
+        },
+        {
+          "type": "string",
+          "value": "seaweed"
         }
       ]
     },
