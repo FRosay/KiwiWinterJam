@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8199999999999998,
+    "zoomFactor": 0.7999999999999998,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -139,6 +139,38 @@
           "value": "MainMenuOptions"
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 200,
+      "layer": "Options",
+      "locked": false,
+      "name": "HorizontalBanner",
+      "persistentUuid": "9b0bb646-aedd-4c1c-8701-cdc90e07d4fe",
+      "width": 600,
+      "x": 119,
+      "y": 146,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 650,
+      "layer": "Fade",
+      "locked": true,
+      "name": "Fade",
+      "persistentUuid": "f7f530ac-4002-4b3b-9b26-f2275a27f878",
+      "width": 850,
+      "x": -25,
+      "y": -25,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -250,6 +282,57 @@
         "align": "center",
         "wordWrap": true
       }
+    },
+    {
+      "name": "HorizontalBanner",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\horizontal_banner.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": 32,
+      "name": "Fade",
+      "tags": "",
+      "texture": "assets\\images\\fade.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [
@@ -365,6 +448,48 @@
           "events": []
         }
       ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "MenuText",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        }
+      ]
     }
   ],
   "layers": [
@@ -388,6 +513,17 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 67108864,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 8020656,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Fade",
+      "visibility": false,
+      "cameras": [],
       "effects": []
     },
     {
