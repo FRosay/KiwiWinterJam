@@ -272,6 +272,118 @@
           "value": "1"
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Customers",
+      "persistentUuid": "5c4a4cac-37b0-42aa-8ef6-5793ccc98080",
+      "width": 0,
+      "x": 387,
+      "y": 507,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Customers",
+      "persistentUuid": "b29e4eb0-7da0-4ae6-a436-f32298786bed",
+      "width": 0,
+      "x": 532,
+      "y": 509,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Customers",
+      "persistentUuid": "f0a6ad05-195c-4b06-bb73-37585095bd71",
+      "width": 0,
+      "x": 229,
+      "y": 441,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Customers",
+      "persistentUuid": "105df063-1b71-4c74-a19d-4fd45b30df2f",
+      "width": 0,
+      "x": 71,
+      "y": 349,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Customers",
+      "persistentUuid": "970cdadb-b757-4e81-9265-b4f0042cc100",
+      "width": 0,
+      "x": 507,
+      "y": 131,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Customers",
+      "persistentUuid": "bbc77968-1ff2-40f8-b236-82eb41ba0ac0",
+      "width": 0,
+      "x": 693,
+      "y": 496,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Customers",
+      "persistentUuid": "c9c09b6c-68c1-4d14-a982-b66e140f3ce9",
+      "width": 0,
+      "x": 554,
+      "y": 311,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -842,6 +954,15 @@
         "includeConfig": 0
       },
       "target": "UiEvents"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Customers"
     },
     {
       "disabled": false,

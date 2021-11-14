@@ -11,12 +11,10 @@
         {
           "type": {
             "inverted": false,
-            "value": "Timer"
+            "value": "DepartScene"
           },
           "parameters": [
-            "",
-            "2",
-            "\"customersArrival\""
+            ""
           ],
           "subInstructions": []
         }
@@ -25,25 +23,23 @@
         {
           "type": {
             "inverted": false,
-            "value": "Create"
+            "value": "ResetTimer"
           },
           "parameters": [
             "",
-            "Customers",
-            "0",
-            "0",
-            ""
+            "\"customersChoice\""
           ],
           "subInstructions": []
         },
         {
           "type": {
             "inverted": false,
-            "value": "ResetObjectTimer"
+            "value": "ModVarScene"
           },
           "parameters": [
-            "Customers",
-            "\"customerWaitingTime\""
+            "lastUsedId",
+            "=",
+            "10"
           ],
           "subInstructions": []
         }
@@ -58,13 +54,208 @@
         {
           "type": {
             "inverted": false,
-            "value": "ObjectTimer"
+            "value": "Timer"
           },
           "parameters": [
-            "Customers",
-            "\"customerWaitingTime\"",
-            "2"
+            "",
+            "2",
+            "\"customersChoice\""
           ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AjoutHasard"
+              },
+              "parameters": [
+                "",
+                "Customers"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "Resources",
+                "Customers",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Resources",
+                    "Customers.CenterX()-(Resources.Width()/2)",
+                    "Customers.CenterY()-100",
+                    "\"\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"customersChoice\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "rng",
+                    "=",
+                    "RandomInRange(1,3)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "Resources",
+                        "Customers.CenterX()-(Resources.Width()/2)",
+                        "Customers.CenterY()-100",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "LinkedObjects::LinkObjects"
+                      },
+                      "parameters": [
+                        "",
+                        "Customers",
+                        "Resources"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "lastUsedId",
+                        "=",
+                        "Variable(lastUsedId)+1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Resources",
+                        "id",
+                        "=",
+                        "Variable(lastUsedId)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "Resources",
+                        "=",
+                        "Variable(rng)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "f"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Distance"
+          },
+          "parameters": [
+            "Player",
+            "Customers",
+            "64",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
           "subInstructions": []
         }
       ],
@@ -72,15 +263,152 @@
         {
           "type": {
             "inverted": false,
-            "value": "Cache"
+            "value": "SetSceneVariableAsBoolean"
           },
           "parameters": [
-            "Player"
+            "foundSpace",
+            "False"
           ],
           "subInstructions": []
         }
       ],
-      "events": []
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "Customers",
+                "Player.CenterX()",
+                "Player.CenterY()",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "Resources",
+                    "Customers",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                  "iterableVariableName": "playerInventory",
+                  "valueIteratorVariableName": "child",
+                  "keyIteratorVariableName": "childName",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "AnimationName"
+                          },
+                          "parameters": [
+                            "Resources",
+                            "VariableString(child)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "SceneVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "foundSpace",
+                            "False"
+                          ],
+                          "subInstructions": []
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "playerInventory[Variable(childName)]",
+                        "=",
+                        "\"empty\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetSceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "foundSpace",
+                        "True"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Resources",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Customers",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
