@@ -89,7 +89,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Orc Shaman_Idle_1.png",
+                  "image": "assets\\sprites\\orc_shaman\\idle\\Orc Shaman_Idle_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -106,7 +106,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Orc Shaman_Idle_2.png",
+                  "image": "assets\\sprites\\orc_shaman\\idle\\Orc Shaman_Idle_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -123,7 +123,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Orc Shaman_Idle_3.png",
+                  "image": "assets\\sprites\\orc_shaman\\idle\\Orc Shaman_Idle_3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -140,7 +140,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Orc Shaman_Idle_4.png",
+                  "image": "assets\\sprites\\orc_shaman\\idle\\Orc Shaman_Idle_4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -169,7 +169,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Orc Shaman_Run_1.png",
+                  "image": "assets\\sprites\\orc_shaman\\run\\Orc Shaman_Run_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -186,7 +186,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Orc Shaman_Run_2.png",
+                  "image": "assets\\sprites\\orc_shaman\\run\\Orc Shaman_Run_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -203,7 +203,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Orc Shaman_Run_3.png",
+                  "image": "assets\\sprites\\orc_shaman\\run\\Orc Shaman_Run_3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -220,7 +220,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Orc Shaman_Run_4.png",
+                  "image": "assets\\sprites\\orc_shaman\\run\\Orc Shaman_Run_4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -294,6 +294,17 @@
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": -2147483632,
+      "ambientLightColorG": 6023280,
+      "ambientLightColorR": 7102856,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Obstacles",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
     {
       "ambientLightColorB": 1869181810,
       "ambientLightColorG": 0,

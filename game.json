@@ -178,6 +178,87 @@
           "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Objects/Other Objects/Chair.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/orc_shaman/idle/Orc Shaman_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\orc_shaman\\idle\\Orc Shaman_Idle_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/orc_shaman/idle/Orc Shaman_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\orc_shaman\\idle\\Orc Shaman_Idle_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/orc_shaman/idle/Orc Shaman_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\orc_shaman\\idle\\Orc Shaman_Idle_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/orc_shaman/idle/Orc Shaman_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\orc_shaman\\idle\\Orc Shaman_Idle_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/orc_shaman/run/Orc Shaman_Run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\orc_shaman\\run\\Orc Shaman_Run_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/orc_shaman/run/Orc Shaman_Run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\orc_shaman\\run\\Orc Shaman_Run_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/orc_shaman/run/Orc Shaman_Run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\orc_shaman\\run\\Orc Shaman_Run_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/orc_shaman/run/Orc Shaman_Run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\orc_shaman\\run\\Orc Shaman_Run_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/Obstacle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\Obstacle.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
