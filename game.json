@@ -68,7 +68,20 @@
       "referenceTo": "/layouts/firstscene"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/uievents"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/maincharacterevents"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/cookingevents"
+    }
+  ],
   "eventsFunctionsExtensions": [],
   "externalLayouts": [],
   "externalSourceFiles": []
