@@ -7,6 +7,29 @@
       "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CentreCamera"
+          },
+          "parameters": [
+            "",
+            "Player",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
@@ -250,7 +273,7 @@
               "parameters": [
                 "Player",
                 "Market",
-                "64",
+                "GlobalVariable(gDistanceOfInteraction)",
                 ""
               ],
               "subInstructions": []
@@ -276,7 +299,7 @@
               "parameters": [
                 "rng",
                 "=",
-                "RandomInRange(0,2)"
+                "RandomInRange(0,3)"
               ],
               "subInstructions": []
             }
