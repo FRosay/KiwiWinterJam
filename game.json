@@ -388,30 +388,39 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sprites/horizontal_banner.png",
+        "file": "resources-empty-1.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\sprites\\horizontal_banner.png",
+        "name": "resources-empty-1.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "NewFile-1.png",
+        "file": "assets/Cereal2.png",
         "kind": "image",
         "metadata": "",
-        "name": "NewFile-1.png",
+        "name": "assets/Cereal2.png",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/images/fade.png",
+        "file": "assets/Cereal2-1.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\images\\fade.png",
+        "name": "assets/Cereal2-1.png",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Stone_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Stone_No Shadow.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

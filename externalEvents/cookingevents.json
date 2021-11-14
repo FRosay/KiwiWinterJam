@@ -10,40 +10,6 @@
       "conditions": [
         {
           "type": {
-            "inverted": false,
-            "value": "Distance"
-          },
-          "parameters": [
-            "Player",
-            "Interactive",
-            "128",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ChangeColor"
-          },
-          "parameters": [
-            "Interactive",
-            "\"245;166;35\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "inverted": true,
             "value": "Distance"
           },
@@ -60,11 +26,12 @@
         {
           "type": {
             "inverted": false,
-            "value": "ChangeColor"
+            "value": "ChangeAnimation"
           },
           "parameters": [
             "Interactive",
-            "\"200;200;200\""
+            "=",
+            "0"
           ],
           "subInstructions": []
         }
@@ -79,10 +46,70 @@
         {
           "type": {
             "inverted": false,
-            "value": "BuiltinCommonInstructions::And"
+            "value": "Distance"
           },
-          "parameters": [],
-          "subInstructions": [
+          "parameters": [
+            "Player",
+            "Interactive",
+            "128",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "Interactive",
+            "=",
+            "1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Oven",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Space"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
                 "inverted": false,
@@ -95,35 +122,24 @@
                 ""
               ],
               "subInstructions": []
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "inverted": false,
-                "value": "KeyPressed"
+                "value": "ShowLayer"
               },
               "parameters": [
                 "",
-                "Space"
+                "\"Oven\""
               ],
               "subInstructions": []
             }
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ShowLayer"
-          },
-          "parameters": [
-            "",
-            "\"Oven\""
           ],
-          "subInstructions": []
+          "events": []
         }
-      ],
-      "events": []
+      ]
     },
     {
       "disabled": false,
