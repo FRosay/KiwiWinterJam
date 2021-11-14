@@ -52,7 +52,7 @@
           "parameters": [
             "Player",
             "0",
-            "-124",
+            "-256",
             ""
           ],
           "subInstructions": []
@@ -96,7 +96,7 @@
           },
           "parameters": [
             "Player",
-            "-124",
+            "-256",
             "0",
             ""
           ],
@@ -142,7 +142,7 @@
           "parameters": [
             "Player",
             "0",
-            "124",
+            "256",
             ""
           ],
           "subInstructions": []
@@ -186,7 +186,7 @@
           },
           "parameters": [
             "Player",
-            "124",
+            "256",
             "0",
             ""
           ],
@@ -1125,7 +1125,7 @@
                       "parameters": [
                         "playerInventory[Variable(childName)]",
                         "=",
-                        "Varibale(txt)"
+                        "VariableString(txt)"
                       ],
                       "subInstructions": []
                     },

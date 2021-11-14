@@ -808,6 +808,222 @@
         "name": "NewObject-1-0.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/drying-rack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/drying-rack.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/drying-rack-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/drying-rack-outline.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/avocado-tree.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/avocado-tree.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/avocado-tree-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/avocado-tree-outline.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/banana.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/banana.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/banana-tree-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/banana-tree-outline.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/banana-tree.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/banana-tree.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/rum-merchant.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/rum-merchant.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/rum-merchant-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/rum-merchant-outline.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/spice-merchant.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/spice-merchant.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/spice-merchant-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/spice-merchant-outline.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/fishing-spot.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/fishing-spot.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/fishing-spot-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/fishing-spot-outline.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/potato-field.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/potato-field.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/potato-field-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/potato-field-outline.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/potato-cutted.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/potato-cutted.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/seaweed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/seaweed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/spice.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/spice.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/rum.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/rum.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/cod-dried.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/cod-dried.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/cod.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/cod.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/octopus.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/octopus.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/octopus-cutted.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/octopus-cutted.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/octopus-cooked.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/octopus-cooked.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -911,7 +1127,7 @@
         },
         {
           "type": "string",
-          "value": "octopus-cutted"
+          "value": "octopus-cooked"
         },
         {
           "type": "string",
