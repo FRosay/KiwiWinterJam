@@ -57,7 +57,34 @@
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Options",
+      "type": "structure",
+      "children": [
+        {
+          "name": "MusicLevel",
+          "type": "number",
+          "value": 100
+        },
+        {
+          "name": "MuteGame",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "SoundLevel",
+          "type": "number",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "name": "ActiveScene",
+      "type": "string",
+      "value": "MainMenu"
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -80,6 +107,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/cookingevents"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/soundevents"
     }
   ],
   "eventsFunctionsExtensions": [],
