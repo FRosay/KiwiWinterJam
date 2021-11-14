@@ -56,6 +56,17 @@
             ""
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "Player",
+            "\"top\""
+          ],
+          "subInstructions": []
         }
       ],
       "events": []
@@ -94,11 +105,11 @@
         {
           "type": {
             "inverted": false,
-            "value": "FlipX"
+            "value": "SetAnimationName"
           },
           "parameters": [
             "Player",
-            "yes"
+            "\"left\""
           ],
           "subInstructions": []
         }
@@ -133,6 +144,17 @@
             "0",
             "124",
             ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "Player",
+            "\"bot\""
           ],
           "subInstructions": []
         }
@@ -173,11 +195,11 @@
         {
           "type": {
             "inverted": false,
-            "value": "FlipX"
+            "value": "SetAnimationName"
           },
           "parameters": [
             "Player",
-            ""
+            "\"right\""
           ],
           "subInstructions": []
         }
