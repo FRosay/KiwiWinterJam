@@ -310,6 +310,81 @@
         "name": "holder-1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cereal2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cereal2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Pixel art items/Pixel Mart/Food/Cereal2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bar Frame_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bar Frame_No Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Interface/PX UI Basic/Bar Frame_No Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bar Frame_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bar Frame_Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Interface/PX UI Basic/Bar Frame_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/orc_shaman/avocado-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/orc_shaman/avocado-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "avocado-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "avocado-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "potato-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "potato-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "stew-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "stew-1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -342,6 +417,42 @@
       "name": "ActiveScene",
       "type": "string",
       "value": "MainMenu"
+    },
+    {
+      "name": "gPlayerInventory",
+      "type": "array",
+      "children": [
+        {
+          "type": "string",
+          "value": "empty"
+        },
+        {
+          "type": "string",
+          "value": "empty"
+        },
+        {
+          "type": "string",
+          "value": "empty"
+        }
+      ]
+    },
+    {
+      "name": "gPlayerResources",
+      "type": "array",
+      "children": [
+        {
+          "type": "string",
+          "value": "avocado"
+        },
+        {
+          "type": "string",
+          "value": "potato"
+        },
+        {
+          "type": "string",
+          "value": "stew"
+        }
+      ]
     }
   ],
   "layouts": [

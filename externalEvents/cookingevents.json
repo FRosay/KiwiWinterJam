@@ -64,7 +64,7 @@
           },
           "parameters": [
             "Interactive",
-            "\"256;256;256\""
+            "\"200;200;200\""
           ],
           "subInstructions": []
         }
