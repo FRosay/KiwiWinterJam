@@ -165,7 +165,7 @@
         {
           "name": "dish",
           "type": "string",
-          "value": "ajiaco"
+          "value": "potato"
         }
       ]
     },
@@ -187,7 +187,7 @@
         {
           "name": "dish",
           "type": "string",
-          "value": "seeweed"
+          "value": "stew"
         }
       ]
     },
@@ -559,7 +559,7 @@
       "height": 32,
       "name": "ButtonOven",
       "tags": "",
-      "texture": "holder-1.png",
+      "texture": "assets/sprites/button-oven-1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [
@@ -754,6 +754,46 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets/sprites/stew.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Customers",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/customers-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
