@@ -1,0 +1,27 @@
+{
+	"homeFrenchButton": {
+		"en":"French",
+		"fr":"Français",
+		"de":"Französich"
+	},
+	"homeEnglishButton": {
+		"en":"English",
+		"fr":"Anglais",
+		"de":"Englisch"
+	},
+	"homeGermanButton": {
+		"en":"German",
+		"fr":"Allemand",
+		"de":"Deutsch"
+	},
+	"homeWelcome": {
+		"en":"Welcome!",
+		"fr":"Bienvenue !",
+		"de":"Wilkommen!"
+	},
+	"homeMainText": {
+		"en":"This is a welcome text.",
+		"fr":"Ceci est un texte de bienvenue.",
+		"de":"Dies ist ein Willkommenstext."
+	}
+}

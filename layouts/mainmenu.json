@@ -21,15 +21,129 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1,
+    "zoomFactor": 0.8199999999999998,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 650,
+      "layer": "",
+      "locked": true,
+      "name": "MainBackground",
+      "persistentUuid": "9fed7e51-a136-42aa-bfb6-12635e6ad48b",
+      "width": 1100,
+      "x": -7,
+      "y": -32,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 429,
+      "layer": "",
+      "locked": false,
+      "name": "VerticalBanner",
+      "persistentUuid": "f951a06a-a5cb-4350-aee7-06528cadd5fd",
+      "width": 264,
+      "x": 29,
+      "y": 102,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "MenuText",
+      "persistentUuid": "638d24f5-abba-4d5b-946f-29787742bc7c",
+      "width": 0,
+      "x": 89,
+      "y": 217,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "InitialText",
+          "type": "string",
+          "value": "Nouvelle Partie"
+        },
+        {
+          "name": "Id",
+          "type": "string",
+          "value": "MainMenuNewGame"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "MenuText",
+      "persistentUuid": "41c2190a-7eb4-49d8-8e3a-4747ab50e704",
+      "width": 0,
+      "x": 87,
+      "y": 357,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "InitialText",
+          "type": "string",
+          "value": "Crédits"
+        },
+        {
+          "name": "Id",
+          "type": "string",
+          "value": "MainMenuCredits"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "MenuText",
+      "persistentUuid": "0d676990-0805-459b-8e92-c4693211f1de",
+      "width": 0,
+      "x": 90,
+      "y": 287,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "InitialText",
+          "type": "string",
+          "value": "Options"
+        },
+        {
+          "name": "Id",
+          "type": "string",
+          "value": "MainMenuOptions"
+        }
+      ]
+    }
+  ],
   "objects": [
     {
-      "name": "NewObject",
+      "name": "MainBackground",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -67,9 +181,113 @@
           ]
         }
       ]
+    },
+    {
+      "name": "VerticalBanner",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\short_vertical_banner.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MenuText",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [
+        {
+          "name": "InitialText",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "Id",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Lorem Ipsum",
+        "opacity": 255,
+        "fontSize": 30,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "assets\\fonts\\Spinstee.ttf",
+        "align": "center",
+        "wordWrap": true
+      }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "MenuText",
+            "=",
+            "VerticalBanner.CenterX()-MenuText.Width()",
+            "=",
+            "VerticalBanner.CenterY()-MenuText.Height()"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 1869181810,
@@ -91,6 +309,17 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 6952312,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 7295848,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Options",
+      "visibility": true,
+      "cameras": [],
       "effects": []
     }
   ],

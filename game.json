@@ -259,6 +259,22 @@
         "name": "assets\\images\\Obstacle.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/short_vertical_banner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\short_vertical_banner.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fonts/Spinstee.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\fonts\\Spinstee.ttf",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
