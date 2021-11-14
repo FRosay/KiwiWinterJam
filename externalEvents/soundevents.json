@@ -1,0 +1,145 @@
+{
+  "associatedLayout": "MainMenu",
+  "lastChangeTimeStamp": 0,
+  "name": "SoundEvents",
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "GroupExists"
+              },
+              "parameters": [
+                "\"Options\"",
+                "\"Sound\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "LireFichierExp"
+              },
+              "parameters": [
+                "\"Options\"",
+                "\"Sound\"",
+                "",
+                "Options.Sound"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Options.Sound",
+                "=",
+                "Variable(Options.Sound)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "StopMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "ActiveScene",
+                "=",
+                "\"MainMenu\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": []
+        }
+      ]
+    }
+  ]
+}

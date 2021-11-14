@@ -52,7 +52,47 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Orb_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Orb_No Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Fantasy Icons Pack v2/Icons/Orbs/Red Orb_No Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Orb_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Orb_Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Fantasy Icons Pack v2/Icons/Orbs/Red Orb_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chair.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chair.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Objects/Other Objects/Chair.png",
+          "name": "gdevelop-asset-store"
+        }
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
@@ -65,7 +105,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/firstscene"
+      "referenceTo": "/layouts/inn"
     }
   ],
   "externalEvents": [
