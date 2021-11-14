@@ -43,10 +43,10 @@
       "layer": "",
       "locked": false,
       "name": "Player",
-      "persistentUuid": "7fded11d-ed53-4770-b452-8b9aab871818",
+      "persistentUuid": "d75eeed8-69c3-4e6a-b424-31d64da8ab0a",
       "width": 0,
-      "x": 413,
-      "y": 128,
+      "x": 315,
+      "y": 118,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -59,10 +59,10 @@
       "layer": "",
       "locked": false,
       "name": "Chair",
-      "persistentUuid": "9f890231-ba94-47a8-8cd4-10381ff1d862",
+      "persistentUuid": "56505d69-7a9e-4ea3-9e5d-cfbf1e937419",
       "width": 0,
-      "x": 279,
-      "y": 92,
+      "x": 213,
+      "y": 203,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -80,16 +80,67 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "No Shadow",
+          "name": "Idle",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.02500000037252903,
+              "timeBetweenFrames": 0.125,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Red Orb_No Shadow.png",
+                  "image": "Orc Shaman_Idle_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Orc Shaman_Idle_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Orc Shaman_Idle_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Orc Shaman_Idle_4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -109,16 +160,67 @@
           ]
         },
         {
-          "name": "Shadow",
+          "name": "Run",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.02500000037252903,
+              "timeBetweenFrames": 0.125,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Red Orb_Shadow.png",
+                  "image": "Orc Shaman_Run_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Orc Shaman_Run_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Orc Shaman_Run_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Orc Shaman_Run_4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -189,22 +291,6 @@
         "includeConfig": 0
       },
       "target": "MainCharacterEvents"
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
     }
   ],
   "layers": [

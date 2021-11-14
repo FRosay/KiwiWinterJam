@@ -61,6 +61,123 @@
         "name": "assets\\images\\main_menu_temp_background.jpg",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc Shaman_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc Shaman_Idle_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Orc Shaman_Idle_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc Shaman_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc Shaman_Idle_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Orc Shaman_Idle_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc Shaman_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc Shaman_Idle_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Orc Shaman_Idle_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc Shaman_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc Shaman_Idle_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Orc Shaman_Idle_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc Shaman_Run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc Shaman_Run_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Orc Shaman_Run_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc Shaman_Run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc Shaman_Run_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Orc Shaman_Run_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc Shaman_Run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc Shaman_Run_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Orc Shaman_Run_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc Shaman_Run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc Shaman_Run_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Orc Shaman_Run_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chair.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chair.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Objects/Other Objects/Chair.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -102,7 +219,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/firstscene"
+      "referenceTo": "/layouts/inn"
     }
   ],
   "externalEvents": [
