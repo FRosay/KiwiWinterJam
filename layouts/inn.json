@@ -61,6 +61,17 @@
           "name": "Customers"
         }
       ]
+    },
+    {
+      "name": "Customers",
+      "objects": [
+        {
+          "name": "Customer_female"
+        },
+        {
+          "name": "Customer_male"
+        }
+      ]
     }
   ],
   "variables": [
@@ -108,8 +119,8 @@
       "name": "Player",
       "persistentUuid": "d75eeed8-69c3-4e6a-b424-31d64da8ab0a",
       "width": 64,
-      "x": 330,
-      "y": 183,
+      "x": 367,
+      "y": 321,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -156,8 +167,8 @@
       "name": "Market",
       "persistentUuid": "1f5352da-db6b-400a-af87-54336b672603",
       "width": 0,
-      "x": 287,
-      "y": 322,
+      "x": 257,
+      "y": 353,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -249,118 +260,6 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Customers",
-      "persistentUuid": "5c4a4cac-37b0-42aa-8ef6-5793ccc98080",
-      "width": 0,
-      "x": 387,
-      "y": 507,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Customers",
-      "persistentUuid": "b29e4eb0-7da0-4ae6-a436-f32298786bed",
-      "width": 0,
-      "x": 532,
-      "y": 509,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Customers",
-      "persistentUuid": "f0a6ad05-195c-4b06-bb73-37585095bd71",
-      "width": 0,
-      "x": 229,
-      "y": 441,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 67,
-      "layer": "",
-      "locked": false,
-      "name": "Customers",
-      "persistentUuid": "105df063-1b71-4c74-a19d-4fd45b30df2f",
-      "width": 71,
-      "x": 71,
-      "y": 346,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Customers",
-      "persistentUuid": "970cdadb-b757-4e81-9265-b4f0042cc100",
-      "width": 0,
-      "x": 507,
-      "y": 131,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Customers",
-      "persistentUuid": "bbc77968-1ff2-40f8-b236-82eb41ba0ac0",
-      "width": 0,
-      "x": 693,
-      "y": 496,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Customers",
-      "persistentUuid": "c9c09b6c-68c1-4d14-a982-b66e140f3ce9",
-      "width": 0,
-      "x": 554,
-      "y": 311,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
       "layer": "Ui",
       "locked": false,
       "name": "CookBook",
@@ -417,6 +316,102 @@
       "x": 692,
       "y": 229,
       "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Customer_female",
+      "persistentUuid": "2289f9f6-059f-4f60-9e76-691155c56705",
+      "width": 0,
+      "x": 615,
+      "y": 323,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Customer_male",
+      "persistentUuid": "97c6f669-4757-475c-8528-f4e22f1eef1a",
+      "width": 0,
+      "x": 414,
+      "y": 458,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Customer_male",
+      "persistentUuid": "033ec7a3-2f82-4f8a-b8b2-566cd2a8d113",
+      "width": 0,
+      "x": 76,
+      "y": 278,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Customer_female",
+      "persistentUuid": "73711dec-9abb-4a04-a402-87361c533415",
+      "width": 0,
+      "x": 202,
+      "y": 470,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Customer_male",
+      "persistentUuid": "a1c290b1-e51b-4473-99a5-23b1d2af29c0",
+      "width": 0,
+      "x": 546,
+      "y": 89,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Customer_female",
+      "persistentUuid": "af7910cc-ad95-4c45-badb-e12ffcef71bc",
+      "width": 0,
+      "x": 282,
+      "y": 66,
+      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -949,7 +944,7 @@
       ]
     },
     {
-      "name": "Customers",
+      "name": "Customer_female",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -958,7 +953,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "customers-0",
+          "name": "bot",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -967,7 +962,221 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\sprites\\customers-0.png",
+                  "image": "assets\\sprites\\NPCs\\NPC2\\plagistee1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "top",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\NPC2\\plagistee2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\NPC2\\plagistee3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\NPC2\\plagistee4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Customer_male",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "bot",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\NPC1\\plagiste1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "top",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\NPC1\\plagiste2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\NPC1\\plagiste3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\NPC1\\plagiste4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
