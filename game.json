@@ -682,6 +682,42 @@
         "name": "assets\\sprites\\player\\cuisinier4.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/pineapple-cutted.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/pineapple-cutted.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/trashcan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/trashcan.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/trashcan-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/trashcan-outline.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/customers-0-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/customers-0-outline.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -757,10 +793,6 @@
         },
         {
           "type": "string",
-          "value": "stew"
-        },
-        {
-          "type": "string",
           "value": "pineapple"
         },
         {
@@ -774,13 +806,39 @@
         {
           "type": "string",
           "value": "pineapple-cutted"
+        },
+        {
+          "type": "string",
+          "value": "spice"
+        },
+        {
+          "type": "string",
+          "value": "rum"
         }
       ]
     },
     {
       "name": "gDistanceOfInteraction",
       "type": "number",
-      "value": 64
+      "value": 96
+    },
+    {
+      "name": "gRecepies",
+      "type": "array",
+      "children": [
+        {
+          "type": "string",
+          "value": "ajiaco"
+        },
+        {
+          "type": "string",
+          "value": "feroce"
+        },
+        {
+          "type": "string",
+          "value": "sweetcake"
+        }
+      ]
     }
   ],
   "layouts": [
