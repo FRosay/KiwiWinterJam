@@ -475,6 +475,42 @@
         "name": "assets/sprites/oven-outline.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/resources-empty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/resources-empty.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/avocado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/avocado.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/potato.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/potato.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/stew.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/stew.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

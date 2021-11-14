@@ -642,81 +642,6 @@
       ]
     },
     {
-      "name": "PlayerInventoryBar",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "id",
-          "type": "string",
-          "value": ""
-        }
-      ],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.02500000037252903,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Bar Frame_No Shadow.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "avocado",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/orc_shaman/avocado-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Resources",
       "tags": "",
       "type": "Sprite",
@@ -741,7 +666,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "resources-empty-1.png",
+                  "image": "assets/sprites/resources-empty.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -770,7 +695,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "avocado-1.png",
+                  "image": "assets/sprites/avocado.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -799,7 +724,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "potato-1.png",
+                  "image": "assets/sprites/potato.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -828,7 +753,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "stew-1.png",
+                  "image": "assets/sprites/stew.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
