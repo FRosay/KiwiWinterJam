@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.9587999999999999,
+    "zoomFactor": 0.8739999999999997,
     "windowMask": false
   },
   "objectsGroups": [
@@ -42,6 +42,9 @@
         },
         {
           "name": "Customers"
+        },
+        {
+          "name": "Trashcan"
         }
       ]
     },
@@ -59,6 +62,9 @@
         },
         {
           "name": "Customers"
+        },
+        {
+          "name": "Trashcan"
         }
       ]
     },
@@ -940,6 +946,35 @@
               ]
             }
           ]
+        },
+        {
+          "name": "pineapple-cutted",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/pineapple-cutted.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1347,7 +1382,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewObject",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1356,7 +1391,36 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewObject-1.png",
+                  "image": "assets/sprites/trashcan.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/trashcan-outline.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

@@ -378,7 +378,7 @@
                   },
                   "parameters": [
                     "Player",
-                    "Trash",
+                    "Trashcan",
                     "GlobalVariable(gDistanceOfInteraction)",
                     ""
                   ],
