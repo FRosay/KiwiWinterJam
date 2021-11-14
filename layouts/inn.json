@@ -39,6 +39,9 @@
         },
         {
           "name": "CuttingBoard"
+        },
+        {
+          "name": "Customers"
         }
       ]
     },
@@ -53,6 +56,9 @@
         },
         {
           "name": "CuttingBoard"
+        },
+        {
+          "name": "Customers"
         }
       ]
     }
@@ -1383,7 +1389,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "CookBookRecepies",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     }

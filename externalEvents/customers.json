@@ -245,7 +245,7 @@
           "parameters": [
             "Player",
             "Customers",
-            "64",
+            "GlobalVariable(gDistanceOfInteraction)",
             ""
           ],
           "subInstructions": []
