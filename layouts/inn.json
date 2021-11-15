@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6679999999999998,
+    "zoomFactor": 0.828,
     "windowMask": false
   },
   "objectsGroups": [
@@ -775,14 +775,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 572,
+      "height": 601,
       "layer": "CuttingBoard",
       "locked": false,
       "name": "CuttingBoardBorder",
       "persistentUuid": "99d0a15c-4999-483b-a717-89ff343d6dc2",
-      "width": 153,
-      "x": -24,
-      "y": -29,
+      "width": 37,
+      "x": 762,
+      "y": -1,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -791,12 +791,12 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 117,
+      "height": 83,
       "layer": "CuttingBoard",
       "locked": false,
       "name": "CuttingBoardBorder",
       "persistentUuid": "665ace54-8949-4d45-b8fb-b2e853eec34a",
-      "width": 686,
+      "width": 602,
       "x": 197,
       "y": 517,
       "zOrder": 38,
@@ -807,14 +807,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 117,
+      "height": 17,
       "layer": "CuttingBoard",
       "locked": false,
       "name": "CuttingBoardBorder",
       "persistentUuid": "8cf1cba1-259d-4f82-83bd-8caad2ce5452",
-      "width": 686,
-      "x": 43,
-      "y": 348,
+      "width": 666,
+      "x": 127,
+      "y": 1,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -828,7 +828,7 @@
       "locked": false,
       "name": "CuttingBoardBorder",
       "persistentUuid": "870436e2-5e71-4c31-90cf-f28475961694",
-      "width": 686,
+      "width": 593,
       "x": 206,
       "y": 198,
       "zOrder": 38,
@@ -839,14 +839,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 195,
+      "height": 158,
       "layer": "CuttingBoard",
       "locked": false,
       "name": "CuttingBoardBorder",
       "persistentUuid": "75f81e29-d129-4274-a5aa-d8c47d64a6a7",
       "width": 103,
       "x": 132,
-      "y": -36,
+      "y": 1,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -855,14 +855,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 195,
+      "height": 190,
       "layer": "CuttingBoard",
       "locked": false,
       "name": "CuttingBoardBorder",
       "persistentUuid": "29a136d3-48f0-40bc-af48-89468a5c772d",
       "width": 103,
       "x": 292,
-      "y": 48,
+      "y": 53,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -871,14 +871,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 195,
+      "height": 167,
       "layer": "CuttingBoard",
       "locked": false,
       "name": "CuttingBoardBorder",
       "persistentUuid": "f3e2631e-0746-452e-9c5a-9222953edb53",
       "width": 103,
       "x": 449,
-      "y": -23,
+      "y": 1,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -909,9 +909,41 @@
       "name": "CuttingBoardFinish",
       "persistentUuid": "b4103da6-e963-4990-8911-33666d658230",
       "width": 101,
-      "x": 731,
-      "y": 93,
+      "x": 681,
+      "y": 118,
       "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 601,
+      "layer": "CuttingBoard",
+      "locked": false,
+      "name": "CuttingBoardBorder",
+      "persistentUuid": "4d49a440-06da-4380-a169-0e60be5d9702",
+      "width": 129,
+      "x": 0,
+      "y": 0,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 117,
+      "layer": "CuttingBoard",
+      "locked": false,
+      "name": "CuttingBoardBorder",
+      "persistentUuid": "0cd10107-51d7-48fb-be61-ab9e1a0497c8",
+      "width": 666,
+      "x": 43,
+      "y": 348,
+      "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3404,6 +3436,38 @@
         {
           "type": {
             "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TiledSpriteObject::SetOpacity"
+          },
+          "parameters": [
+            "Fade",
+            "=",
+            "120"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
             "value": "VarObjet"
           },
           "parameters": [
@@ -3572,22 +3636,6 @@
           "subInstructions": []
         }
       ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
       "events": []
     }
   ],

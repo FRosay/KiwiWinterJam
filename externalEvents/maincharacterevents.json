@@ -33,178 +33,199 @@
       "conditions": [
         {
           "type": {
-            "inverted": false,
-            "value": "KeyPressed"
+            "inverted": true,
+            "value": "LayerVisible"
           },
           "parameters": [
             "",
-            "z"
+            "\"Fade\""
           ],
           "subInstructions": []
         }
       ],
-      "actions": [
+      "actions": [],
+      "events": [
         {
-          "type": {
-            "inverted": false,
-            "value": "AddForceXY"
-          },
-          "parameters": [
-            "Player",
-            "0",
-            "-256",
-            ""
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "z"
+              ],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Player",
+                "0",
+                "-256",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"top\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         },
         {
-          "type": {
-            "inverted": false,
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "Player",
-            "\"top\""
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "q"
+              ],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "q"
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Player",
+                "-256",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"left\""
+              ],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "AddForceXY"
-          },
-          "parameters": [
-            "Player",
-            "-256",
-            "0",
-            ""
-          ],
-          "subInstructions": []
+          "events": []
         },
         {
-          "type": {
-            "inverted": false,
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "Player",
-            "\"left\""
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "s"
+              ],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "s"
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Player",
+                "0",
+                "256",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"bot\""
+              ],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "AddForceXY"
-          },
-          "parameters": [
-            "Player",
-            "0",
-            "256",
-            ""
-          ],
-          "subInstructions": []
+          "events": []
         },
         {
-          "type": {
-            "inverted": false,
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "Player",
-            "\"bot\""
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "d"
+              ],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Player",
+                "256",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"right\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "d"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "AddForceXY"
-          },
-          "parameters": [
-            "Player",
-            "256",
-            "0",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "Player",
-            "\"right\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
+      ]
     },
     {
       "disabled": false,
