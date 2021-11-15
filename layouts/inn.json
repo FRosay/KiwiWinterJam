@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7739999999999994,
+    "zoomFactor": 0.6679999999999998,
     "windowMask": false
   },
   "objectsGroups": [
@@ -66,6 +66,9 @@
         },
         {
           "name": "DryingRack"
+        },
+        {
+          "name": "Sign"
         }
       ]
     },
@@ -110,6 +113,9 @@
         },
         {
           "name": "Customer_female"
+        },
+        {
+          "name": "Sign"
         }
       ]
     },
@@ -223,8 +229,8 @@
       "name": "Market",
       "persistentUuid": "1f5352da-db6b-400a-af87-54336b672603",
       "width": 0,
-      "x": 471,
-      "y": 48,
+      "x": 567,
+      "y": 54,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -481,8 +487,8 @@
       "name": "DryingRack",
       "persistentUuid": "b0ff34c1-4edd-4338-bd50-8e290f087ed1",
       "width": 0,
-      "x": 38,
-      "y": 152,
+      "x": 441,
+      "y": 53,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -497,8 +503,8 @@
       "name": "AvocadoTree",
       "persistentUuid": "fee28e99-85b6-479f-95c8-91cbaa6d38f2",
       "width": 0,
-      "x": 63,
-      "y": 262,
+      "x": 48,
+      "y": 175,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -545,8 +551,8 @@
       "name": "SpiceMerchant",
       "persistentUuid": "0e86e8db-77a2-4851-b245-6cc2f2a1451c",
       "width": 0,
-      "x": 88,
-      "y": 525,
+      "x": 121,
+      "y": 548,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -711,6 +717,60 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "PotatoShovel",
+      "persistentUuid": "88d7d060-1482-43e1-9d13-b339e9a6c3b2",
+      "width": 0,
+      "x": 409,
+      "y": -171,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sign",
+      "persistentUuid": "6dc9aa23-6aab-4861-a217-bcf7b1802f91",
+      "width": 0,
+      "x": 641,
+      "y": 249,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "digging"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Gather",
+      "locked": false,
+      "name": "BananaBasket",
+      "persistentUuid": "3ce24e55-041c-4598-9c67-084cec2b567d",
+      "width": 0,
+      "x": 303,
+      "y": 535,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -846,6 +906,101 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Sign",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/sign.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/sign-outline.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "SignTxt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Sign Txt to explain the game",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     },
     {
       "name": "Chair",
@@ -2030,7 +2185,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "not-ready",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2086,6 +2241,35 @@
               ]
             }
           ]
+        },
+        {
+          "name": "ready",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/avocado-tree-ready.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2094,7 +2278,13 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "bananaPart",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -2370,12 +2560,18 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "diggingMeter",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "not-ready",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2414,6 +2610,35 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets/sprites/potato-field-outline.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ready",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/potato-field-ready.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2819,6 +3044,86 @@
           ]
         }
       ]
+    },
+    {
+      "name": "BananaBasket",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/basket.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BananaFall",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/banana.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -2884,6 +3189,33 @@
         "includeConfig": 0
       },
       "target": "Fishing"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Digging"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Gathering"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Cutting"
     },
     {
       "disabled": false,
@@ -3062,6 +3394,22 @@
         }
       ],
       "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
     }
   ],
   "layers": [
@@ -3150,6 +3498,17 @@
       "isLightingLayer": false,
       "name": "CookBookRecepies",
       "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 25,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 9717944,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Gather",
+      "visibility": true,
       "cameras": [],
       "effects": []
     }

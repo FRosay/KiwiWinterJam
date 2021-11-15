@@ -1087,6 +1087,78 @@
         "name": "assets/sprites/stuned-2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/shovel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/shovel.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/short_vertical_banner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/short_vertical_banner.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/potato-field-ready.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/potato-field-ready.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/sign.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/sign.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/sign-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/sign-outline.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/banana-falling-spot.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/banana-falling-spot.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/basket.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/basket.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/avocado-tree-ready.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/avocado-tree-ready.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1284,6 +1356,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/resourcesgain"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/digging"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/gathering"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/cutting"
     }
   ],
   "eventsFunctionsExtensions": [

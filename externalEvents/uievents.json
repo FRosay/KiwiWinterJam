@@ -40,29 +40,18 @@
           },
           "parameters": [
             "",
-            "\"Oven\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "HideLayer"
-          },
-          "parameters": [
-            "",
-            "\"CuttingBoard\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "HideLayer"
-          },
-          "parameters": [
-            "",
             "\"CookBookRecepies\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Gather\""
           ],
           "subInstructions": []
         }
