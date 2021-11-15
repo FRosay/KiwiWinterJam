@@ -1222,6 +1222,150 @@
         "name": "assets/sprites/crate-outline.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim-bot/cuisinier_walk-front1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim-bot/cuisinier_walk-front2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim-bot/cuisinier_walk-front3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim-bot/cuisinier_walk-front4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim-bot/cuisinier_walk-front5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim-bot/cuisinier_walk-front6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim-bot/cuisinier_walk-front7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim-bot/cuisinier_walk-front8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_top/cuisinier_walk-back1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_top\\cuisinier_walk-back1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_top/cuisinier_walk-back2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_top\\cuisinier_walk-back2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_top/cuisinier_walk-back3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_top\\cuisinier_walk-back3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_top/cuisinier_walk-back4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_top\\cuisinier_walk-back4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_top/cuisinier_walk-back5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_top\\cuisinier_walk-back5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_top/cuisinier_walk-back6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_top\\cuisinier_walk-back6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_top/cuisinier_walk-back7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_top\\cuisinier_walk-back7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_top/cuisinier_walk-back8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_top\\cuisinier_walk-back8.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1431,6 +1575,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/crate"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/cuttingboardgame"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/newexternalevents"
     }
   ],
   "eventsFunctionsExtensions": [

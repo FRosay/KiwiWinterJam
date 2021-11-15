@@ -43,6 +43,14 @@
             "\"bot\""
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
         }
       ],
       "actions": [],
@@ -61,6 +69,17 @@
               "parameters": [
                 "",
                 "\"Fishing\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Fade\""
               ],
               "subInstructions": []
             }
@@ -302,6 +321,17 @@
                   "parameters": [
                     "",
                     "\"Fishing\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fade\""
                   ],
                   "subInstructions": []
                 }
