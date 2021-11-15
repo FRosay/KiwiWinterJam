@@ -11,10 +11,11 @@
         {
           "type": {
             "inverted": false,
-            "value": "DepartScene"
+            "value": "AnimationName"
           },
           "parameters": [
-            ""
+            "DayTimeClock",
+            "\"preparation-end\""
           ],
           "subInstructions": []
         }
@@ -436,6 +437,18 @@
                       "parameters": [
                         "Customers",
                         ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "fame",
+                        "+",
+                        "1"
                       ],
                       "subInstructions": []
                     }
