@@ -1384,6 +1384,159 @@
         "name": "assets/sprites/item-selected.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/oven-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\oven-outline.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_right/cuisinier_walk-side1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_right\\cuisinier_walk-side1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_right/cuisinier_walk-side2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_right\\cuisinier_walk-side2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_right/cuisinier_walk-side3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_right\\cuisinier_walk-side3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_right/cuisinier_walk-side4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_right\\cuisinier_walk-side4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_right/cuisinier_walk-side5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_right\\cuisinier_walk-side5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_right/cuisinier_walk-side6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_right\\cuisinier_walk-side6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_right/cuisinier_walk-side7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_right\\cuisinier_walk-side7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_right/cuisinier_walk-side8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_right\\cuisinier_walk-side8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_left/cuisinier_walk-side1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_left\\cuisinier_walk-side1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_left/cuisinier_walk-side2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_left\\cuisinier_walk-side2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_left/cuisinier_walk-side3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_left\\cuisinier_walk-side3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_left/cuisinier_walk-side4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_left\\cuisinier_walk-side4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_left/cuisinier_walk-side5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_left\\cuisinier_walk-side5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_left/cuisinier_walk-side6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_left\\cuisinier_walk-side6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_left/cuisinier_walk-side7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_left\\cuisinier_walk-side7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/player/anim_left/cuisinier_walk-side8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\player\\anim_left\\cuisinier_walk-side8.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1605,7 +1758,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/newexternalevents"
+      "referenceTo": "/externalEvents/oven"
     }
   ],
   "eventsFunctionsExtensions": [

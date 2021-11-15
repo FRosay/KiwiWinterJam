@@ -1107,15 +1107,15 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "bot",
+          "name": "bot_idle",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
-              "timeBetweenFrames": 0.10000000149011612,
+              "looping": false,
+              "timeBetweenFrames": 0.15000000596046448,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front1.png",
                   "points": [],
                   "originPoint": {
@@ -1129,141 +1129,73 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front5.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front6.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front7.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front8.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 49.84375,
+                        "y": 80.48725128173828
+                      },
+                      {
+                        "x": 17.870065689086914,
+                        "y": 80.48725128173828
+                      },
+                      {
+                        "x": 3.7911183834075928,
+                        "y": 59.566200256347656
+                      },
+                      {
+                        "x": 2.080592155456543,
+                        "y": 45.881988525390625
+                      },
+                      {
+                        "x": 1.6858552694320679,
+                        "y": 27.724096298217773
+                      },
+                      {
+                        "x": 14.84375,
+                        "y": 10.224095344543457
+                      },
+                      {
+                        "x": 25.238487243652344,
+                        "y": 4.303042888641357
+                      },
+                      {
+                        "x": 35.63322448730469,
+                        "y": 4.303042888641357
+                      },
+                      {
+                        "x": 49.9753303527832,
+                        "y": 9.566200256347656
+                      },
+                      {
+                        "x": 64.44901275634766,
+                        "y": 28.513568878173828
+                      },
+                      {
+                        "x": 64.5805892944336,
+                        "y": 47.72409439086914
+                      },
+                      {
+                        "x": 62.738487243652344,
+                        "y": 61.539886474609375
+                      }
+                    ]
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "name": "top",
+          "name": "top_idle",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
-              "timeBetweenFrames": 0.10000000149011612,
+              "looping": false,
+              "timeBetweenFrames": 0.15000000596046448,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\player\\anim_top\\cuisinier_walk-back1.png",
                   "points": [],
                   "originPoint": {
@@ -1277,10 +1209,785 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 49.7121696472168,
+                        "y": 78.64514923095703
+                      },
+                      {
+                        "x": 18.396381378173828,
+                        "y": 78.64514923095703
+                      },
+                      {
+                        "x": 3.7911183834075928,
+                        "y": 60.355674743652344
+                      },
+                      {
+                        "x": 1.5542763471603394,
+                        "y": 49.8293571472168
+                      },
+                      {
+                        "x": 2.080592155456543,
+                        "y": 31.539884567260742
+                      },
+                      {
+                        "x": 19.185855865478516,
+                        "y": 16.013568878173828
+                      },
+                      {
+                        "x": 28.133224487304688,
+                        "y": 9.9609375
+                      },
+                      {
+                        "x": 37.60690689086914,
+                        "y": 10.355674743652344
+                      },
+                      {
+                        "x": 41.949012756347656,
+                        "y": 12.4609375
+                      },
+                      {
+                        "x": 64.31743621826172,
+                        "y": 32.19778060913086
+                      },
+                      {
+                        "x": 64.44901275634766,
+                        "y": 47.72409439086914
+                      },
+                      {
+                        "x": 62.60690689086914,
+                        "y": 58.381988525390625
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "left_idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.15000000596046448,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim_left\\cuisinier_walk-side1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 49.9753303527832,
+                        "y": 52.5925178527832
+                      },
+                      {
+                        "x": 42.34375,
+                        "y": 80.2240982055664
+                      },
+                      {
+                        "x": 19.97532844543457,
+                        "y": 80.2240982055664
+                      },
+                      {
+                        "x": 15.238487243652344,
+                        "y": 72.98725128173828
+                      },
+                      {
+                        "x": 13.396381378173828,
+                        "y": 28.250411987304688
+                      },
+                      {
+                        "x": 31.0279598236084,
+                        "y": 3.6451480388641357
+                      },
+                      {
+                        "x": 46.02796173095703,
+                        "y": 4.5662007331848145
+                      },
+                      {
+                        "x": 53.001644134521484,
+                        "y": 14.039884567260742
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "right_idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.15000000596046448,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim_right\\cuisinier_walk-side1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52.34375,
+                        "y": 27.724096298217773
+                      },
+                      {
+                        "x": 50.63322448730469,
+                        "y": 73.38198852539062
+                      },
+                      {
+                        "x": 46.422698974609375,
+                        "y": 80.48725128173828
+                      },
+                      {
+                        "x": 24.185855865478516,
+                        "y": 80.35567474365234
+                      },
+                      {
+                        "x": 15.633223533630371,
+                        "y": 50.618831634521484
+                      },
+                      {
+                        "x": 13.133223533630371,
+                        "y": 15.224095344543457
+                      },
+                      {
+                        "x": 19.185855865478516,
+                        "y": 5.224095344543457
+                      },
+                      {
+                        "x": 34.58059310913086,
+                        "y": 5.0925164222717285
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "bot",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.15000000596046448,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 64.95923614501953,
+                        "y": 47.32676696777344
+                      },
+                      {
+                        "x": 62.35054397583008,
+                        "y": 62.109375
+                      },
+                      {
+                        "x": 49.307064056396484,
+                        "y": 80.1528549194336
+                      },
+                      {
+                        "x": 17.738487243652344,
+                        "y": 80.35567474365234
+                      },
+                      {
+                        "x": 3.9226973056793213,
+                        "y": 60.355674743652344
+                      },
+                      {
+                        "x": 1.949013113975525,
+                        "y": 45.75041198730469
+                      },
+                      {
+                        "x": 1.8174341917037964,
+                        "y": 28.513568878173828
+                      },
+                      {
+                        "x": 17.567934036254883,
+                        "y": 14.065896987915039
+                      },
+                      {
+                        "x": 30.82880401611328,
+                        "y": 6.891983509063721
+                      },
+                      {
+                        "x": 44.74184799194336,
+                        "y": 12.109375
+                      },
+                      {
+                        "x": 64.7418441772461,
+                        "y": 27.544157028198242
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 64.95923614501953,
+                        "y": 47.32676696777344
+                      },
+                      {
+                        "x": 62.35054397583008,
+                        "y": 62.109375
+                      },
+                      {
+                        "x": 49.307064056396484,
+                        "y": 80.1528549194336
+                      },
+                      {
+                        "x": 17.738487243652344,
+                        "y": 80.35567474365234
+                      },
+                      {
+                        "x": 3.9226973056793213,
+                        "y": 60.355674743652344
+                      },
+                      {
+                        "x": 1.949013113975525,
+                        "y": 45.75041198730469
+                      },
+                      {
+                        "x": 1.8174341917037964,
+                        "y": 28.513568878173828
+                      },
+                      {
+                        "x": 17.567934036254883,
+                        "y": 14.065896987915039
+                      },
+                      {
+                        "x": 30.82880401611328,
+                        "y": 6.891983509063721
+                      },
+                      {
+                        "x": 44.74184799194336,
+                        "y": 12.109375
+                      },
+                      {
+                        "x": 64.7418441772461,
+                        "y": 27.544157028198242
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 64.95923614501953,
+                        "y": 47.32676696777344
+                      },
+                      {
+                        "x": 62.35054397583008,
+                        "y": 62.109375
+                      },
+                      {
+                        "x": 49.307064056396484,
+                        "y": 80.1528549194336
+                      },
+                      {
+                        "x": 17.738487243652344,
+                        "y": 80.35567474365234
+                      },
+                      {
+                        "x": 3.9226973056793213,
+                        "y": 60.355674743652344
+                      },
+                      {
+                        "x": 1.949013113975525,
+                        "y": 45.75041198730469
+                      },
+                      {
+                        "x": 1.8174341917037964,
+                        "y": 28.513568878173828
+                      },
+                      {
+                        "x": 17.567934036254883,
+                        "y": 14.065896987915039
+                      },
+                      {
+                        "x": 30.82880401611328,
+                        "y": 6.891983509063721
+                      },
+                      {
+                        "x": 44.74184799194336,
+                        "y": 12.109375
+                      },
+                      {
+                        "x": 64.7418441772461,
+                        "y": 27.544157028198242
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 64.95923614501953,
+                        "y": 47.32676696777344
+                      },
+                      {
+                        "x": 62.35054397583008,
+                        "y": 62.109375
+                      },
+                      {
+                        "x": 49.307064056396484,
+                        "y": 80.1528549194336
+                      },
+                      {
+                        "x": 17.738487243652344,
+                        "y": 80.35567474365234
+                      },
+                      {
+                        "x": 3.9226973056793213,
+                        "y": 60.355674743652344
+                      },
+                      {
+                        "x": 1.949013113975525,
+                        "y": 45.75041198730469
+                      },
+                      {
+                        "x": 1.8174341917037964,
+                        "y": 28.513568878173828
+                      },
+                      {
+                        "x": 17.567934036254883,
+                        "y": 14.065896987915039
+                      },
+                      {
+                        "x": 30.82880401611328,
+                        "y": 6.891983509063721
+                      },
+                      {
+                        "x": 44.74184799194336,
+                        "y": 12.109375
+                      },
+                      {
+                        "x": 64.7418441772461,
+                        "y": 27.544157028198242
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 64.95923614501953,
+                        "y": 47.32676696777344
+                      },
+                      {
+                        "x": 62.35054397583008,
+                        "y": 62.109375
+                      },
+                      {
+                        "x": 49.307064056396484,
+                        "y": 80.1528549194336
+                      },
+                      {
+                        "x": 17.738487243652344,
+                        "y": 80.35567474365234
+                      },
+                      {
+                        "x": 3.9226973056793213,
+                        "y": 60.355674743652344
+                      },
+                      {
+                        "x": 1.949013113975525,
+                        "y": 45.75041198730469
+                      },
+                      {
+                        "x": 1.8174341917037964,
+                        "y": 28.513568878173828
+                      },
+                      {
+                        "x": 17.567934036254883,
+                        "y": 14.065896987915039
+                      },
+                      {
+                        "x": 30.82880401611328,
+                        "y": 6.891983509063721
+                      },
+                      {
+                        "x": 44.74184799194336,
+                        "y": 12.109375
+                      },
+                      {
+                        "x": 64.7418441772461,
+                        "y": 27.544157028198242
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 64.95923614501953,
+                        "y": 47.32676696777344
+                      },
+                      {
+                        "x": 62.35054397583008,
+                        "y": 62.109375
+                      },
+                      {
+                        "x": 49.307064056396484,
+                        "y": 80.1528549194336
+                      },
+                      {
+                        "x": 17.738487243652344,
+                        "y": 80.35567474365234
+                      },
+                      {
+                        "x": 3.9226973056793213,
+                        "y": 60.355674743652344
+                      },
+                      {
+                        "x": 1.949013113975525,
+                        "y": 45.75041198730469
+                      },
+                      {
+                        "x": 1.8174341917037964,
+                        "y": 28.513568878173828
+                      },
+                      {
+                        "x": 17.567934036254883,
+                        "y": 14.065896987915039
+                      },
+                      {
+                        "x": 30.82880401611328,
+                        "y": 6.891983509063721
+                      },
+                      {
+                        "x": 44.74184799194336,
+                        "y": 12.109375
+                      },
+                      {
+                        "x": 64.7418441772461,
+                        "y": 27.544157028198242
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 64.95923614501953,
+                        "y": 47.32676696777344
+                      },
+                      {
+                        "x": 62.35054397583008,
+                        "y": 62.109375
+                      },
+                      {
+                        "x": 49.307064056396484,
+                        "y": 80.1528549194336
+                      },
+                      {
+                        "x": 17.738487243652344,
+                        "y": 80.35567474365234
+                      },
+                      {
+                        "x": 3.9226973056793213,
+                        "y": 60.355674743652344
+                      },
+                      {
+                        "x": 1.949013113975525,
+                        "y": 45.75041198730469
+                      },
+                      {
+                        "x": 1.8174341917037964,
+                        "y": 28.513568878173828
+                      },
+                      {
+                        "x": 17.567934036254883,
+                        "y": 14.065896987915039
+                      },
+                      {
+                        "x": 30.82880401611328,
+                        "y": 6.891983509063721
+                      },
+                      {
+                        "x": 44.74184799194336,
+                        "y": 12.109375
+                      },
+                      {
+                        "x": 64.7418441772461,
+                        "y": 27.544157028198242
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 64.95923614501953,
+                        "y": 47.32676696777344
+                      },
+                      {
+                        "x": 62.35054397583008,
+                        "y": 62.109375
+                      },
+                      {
+                        "x": 49.307064056396484,
+                        "y": 80.1528549194336
+                      },
+                      {
+                        "x": 17.738487243652344,
+                        "y": 80.35567474365234
+                      },
+                      {
+                        "x": 3.9226973056793213,
+                        "y": 60.355674743652344
+                      },
+                      {
+                        "x": 1.949013113975525,
+                        "y": 45.75041198730469
+                      },
+                      {
+                        "x": 1.8174341917037964,
+                        "y": 28.513568878173828
+                      },
+                      {
+                        "x": 17.567934036254883,
+                        "y": 14.065896987915039
+                      },
+                      {
+                        "x": 30.82880401611328,
+                        "y": 6.891983509063721
+                      },
+                      {
+                        "x": 44.74184799194336,
+                        "y": 12.109375
+                      },
+                      {
+                        "x": 64.7418441772461,
+                        "y": 27.544157028198242
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "top",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.15000000596046448,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim_top\\cuisinier_walk-back1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 64.15564727783203,
+                        "y": 47.481971740722656
+                      },
+                      {
+                        "x": 62.04026412963867,
+                        "y": 57.28966522216797
+                      },
+                      {
+                        "x": 49.307064056396484,
+                        "y": 77.54415893554688
+                      },
+                      {
+                        "x": 17.567934036254883,
+                        "y": 77.76155090332031
+                      },
+                      {
+                        "x": 3.963341236114502,
+                        "y": 59.21274185180664
+                      },
+                      {
+                        "x": 1.8479567766189575,
+                        "y": 49.597354888916016
+                      },
+                      {
+                        "x": 1.8479567766189575,
+                        "y": 32.28966522216797
+                      },
+                      {
+                        "x": 28.194110870361328,
+                        "y": 9.597355842590332
+                      },
+                      {
+                        "x": 38.963340759277344,
+                        "y": 10.17427921295166
+                      },
+                      {
+                        "x": 63.963340759277344,
+                        "y": 32.28966522216797
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\player\\anim_top\\cuisinier_walk-back2.png",
                   "points": [],
                   "originPoint": {
@@ -1294,10 +2001,53 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 64.15564727783203,
+                        "y": 47.481971740722656
+                      },
+                      {
+                        "x": 62.04026412963867,
+                        "y": 57.28966522216797
+                      },
+                      {
+                        "x": 49.307064056396484,
+                        "y": 77.54415893554688
+                      },
+                      {
+                        "x": 17.567934036254883,
+                        "y": 77.76155090332031
+                      },
+                      {
+                        "x": 3.963341236114502,
+                        "y": 59.21274185180664
+                      },
+                      {
+                        "x": 1.8479567766189575,
+                        "y": 49.597354888916016
+                      },
+                      {
+                        "x": 1.8479567766189575,
+                        "y": 32.28966522216797
+                      },
+                      {
+                        "x": 28.194110870361328,
+                        "y": 9.597355842590332
+                      },
+                      {
+                        "x": 38.963340759277344,
+                        "y": 10.17427921295166
+                      },
+                      {
+                        "x": 63.963340759277344,
+                        "y": 32.28966522216797
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\player\\anim_top\\cuisinier_walk-back3.png",
                   "points": [],
                   "originPoint": {
@@ -1311,10 +2061,53 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 64.15564727783203,
+                        "y": 47.481971740722656
+                      },
+                      {
+                        "x": 62.04026412963867,
+                        "y": 57.28966522216797
+                      },
+                      {
+                        "x": 49.307064056396484,
+                        "y": 77.54415893554688
+                      },
+                      {
+                        "x": 17.567934036254883,
+                        "y": 77.76155090332031
+                      },
+                      {
+                        "x": 3.963341236114502,
+                        "y": 59.21274185180664
+                      },
+                      {
+                        "x": 1.8479567766189575,
+                        "y": 49.597354888916016
+                      },
+                      {
+                        "x": 1.8479567766189575,
+                        "y": 32.28966522216797
+                      },
+                      {
+                        "x": 28.194110870361328,
+                        "y": 9.597355842590332
+                      },
+                      {
+                        "x": 38.963340759277344,
+                        "y": 10.17427921295166
+                      },
+                      {
+                        "x": 63.963340759277344,
+                        "y": 32.28966522216797
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\player\\anim_top\\cuisinier_walk-back4.png",
                   "points": [],
                   "originPoint": {
@@ -1328,10 +2121,53 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 64.15564727783203,
+                        "y": 47.481971740722656
+                      },
+                      {
+                        "x": 62.04026412963867,
+                        "y": 57.28966522216797
+                      },
+                      {
+                        "x": 49.307064056396484,
+                        "y": 77.54415893554688
+                      },
+                      {
+                        "x": 17.567934036254883,
+                        "y": 77.76155090332031
+                      },
+                      {
+                        "x": 3.963341236114502,
+                        "y": 59.21274185180664
+                      },
+                      {
+                        "x": 1.8479567766189575,
+                        "y": 49.597354888916016
+                      },
+                      {
+                        "x": 1.8479567766189575,
+                        "y": 32.28966522216797
+                      },
+                      {
+                        "x": 28.194110870361328,
+                        "y": 9.597355842590332
+                      },
+                      {
+                        "x": 38.963340759277344,
+                        "y": 10.17427921295166
+                      },
+                      {
+                        "x": 63.963340759277344,
+                        "y": 32.28966522216797
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\player\\anim_top\\cuisinier_walk-back5.png",
                   "points": [],
                   "originPoint": {
@@ -1345,10 +2181,53 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 64.15564727783203,
+                        "y": 47.481971740722656
+                      },
+                      {
+                        "x": 62.04026412963867,
+                        "y": 57.28966522216797
+                      },
+                      {
+                        "x": 49.307064056396484,
+                        "y": 77.54415893554688
+                      },
+                      {
+                        "x": 17.567934036254883,
+                        "y": 77.76155090332031
+                      },
+                      {
+                        "x": 3.963341236114502,
+                        "y": 59.21274185180664
+                      },
+                      {
+                        "x": 1.8479567766189575,
+                        "y": 49.597354888916016
+                      },
+                      {
+                        "x": 1.8479567766189575,
+                        "y": 32.28966522216797
+                      },
+                      {
+                        "x": 28.194110870361328,
+                        "y": 9.597355842590332
+                      },
+                      {
+                        "x": 38.963340759277344,
+                        "y": 10.17427921295166
+                      },
+                      {
+                        "x": 63.963340759277344,
+                        "y": 32.28966522216797
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\player\\anim_top\\cuisinier_walk-back6.png",
                   "points": [],
                   "originPoint": {
@@ -1362,10 +2241,53 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 64.15564727783203,
+                        "y": 47.481971740722656
+                      },
+                      {
+                        "x": 62.04026412963867,
+                        "y": 57.28966522216797
+                      },
+                      {
+                        "x": 49.307064056396484,
+                        "y": 77.54415893554688
+                      },
+                      {
+                        "x": 17.567934036254883,
+                        "y": 77.76155090332031
+                      },
+                      {
+                        "x": 3.963341236114502,
+                        "y": 59.21274185180664
+                      },
+                      {
+                        "x": 1.8479567766189575,
+                        "y": 49.597354888916016
+                      },
+                      {
+                        "x": 1.8479567766189575,
+                        "y": 32.28966522216797
+                      },
+                      {
+                        "x": 28.194110870361328,
+                        "y": 9.597355842590332
+                      },
+                      {
+                        "x": 38.963340759277344,
+                        "y": 10.17427921295166
+                      },
+                      {
+                        "x": 63.963340759277344,
+                        "y": 32.28966522216797
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\player\\anim_top\\cuisinier_walk-back7.png",
                   "points": [],
                   "originPoint": {
@@ -1379,10 +2301,53 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 64.15564727783203,
+                        "y": 47.481971740722656
+                      },
+                      {
+                        "x": 62.04026412963867,
+                        "y": 57.28966522216797
+                      },
+                      {
+                        "x": 49.307064056396484,
+                        "y": 77.54415893554688
+                      },
+                      {
+                        "x": 17.567934036254883,
+                        "y": 77.76155090332031
+                      },
+                      {
+                        "x": 3.963341236114502,
+                        "y": 59.21274185180664
+                      },
+                      {
+                        "x": 1.8479567766189575,
+                        "y": 49.597354888916016
+                      },
+                      {
+                        "x": 1.8479567766189575,
+                        "y": 32.28966522216797
+                      },
+                      {
+                        "x": 28.194110870361328,
+                        "y": 9.597355842590332
+                      },
+                      {
+                        "x": 38.963340759277344,
+                        "y": 10.17427921295166
+                      },
+                      {
+                        "x": 63.963340759277344,
+                        "y": 32.28966522216797
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\player\\anim_top\\cuisinier_walk-back8.png",
                   "points": [],
                   "originPoint": {
@@ -1396,7 +2361,50 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 64.15564727783203,
+                        "y": 47.481971740722656
+                      },
+                      {
+                        "x": 62.04026412963867,
+                        "y": 57.28966522216797
+                      },
+                      {
+                        "x": 49.307064056396484,
+                        "y": 77.54415893554688
+                      },
+                      {
+                        "x": 17.567934036254883,
+                        "y": 77.76155090332031
+                      },
+                      {
+                        "x": 3.963341236114502,
+                        "y": 59.21274185180664
+                      },
+                      {
+                        "x": 1.8479567766189575,
+                        "y": 49.597354888916016
+                      },
+                      {
+                        "x": 1.8479567766189575,
+                        "y": 32.28966522216797
+                      },
+                      {
+                        "x": 28.194110870361328,
+                        "y": 9.597355842590332
+                      },
+                      {
+                        "x": 38.963340759277344,
+                        "y": 10.17427921295166
+                      },
+                      {
+                        "x": 63.963340759277344,
+                        "y": 32.28966522216797
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1407,12 +2415,12 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
+              "looping": true,
+              "timeBetweenFrames": 0.15000000596046448,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\sprites\\player\\cuisinier3.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim_left\\cuisinier_walk-side1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1425,7 +2433,406 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 50.30949401855469,
+                        "y": 53.44350814819336
+                      },
+                      {
+                        "x": 42.04026412963867,
+                        "y": 79.40504455566406
+                      },
+                      {
+                        "x": 17.6171875,
+                        "y": 79.21273803710938
+                      },
+                      {
+                        "x": 13.96334171295166,
+                        "y": 53.63581848144531
+                      },
+                      {
+                        "x": 13.96334171295166,
+                        "y": 28.63581657409668
+                      },
+                      {
+                        "x": 31.271034240722656,
+                        "y": 7.674278736114502
+                      },
+                      {
+                        "x": 48.771034240722656,
+                        "y": 9.020432472229004
+                      },
+                      {
+                        "x": 52.80949401855469,
+                        "y": 23.63581657409668
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim_left\\cuisinier_walk-side2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 50.30949401855469,
+                        "y": 53.44350814819336
+                      },
+                      {
+                        "x": 42.04026412963867,
+                        "y": 79.40504455566406
+                      },
+                      {
+                        "x": 17.6171875,
+                        "y": 79.21273803710938
+                      },
+                      {
+                        "x": 13.96334171295166,
+                        "y": 53.63581848144531
+                      },
+                      {
+                        "x": 13.96334171295166,
+                        "y": 28.63581657409668
+                      },
+                      {
+                        "x": 31.271034240722656,
+                        "y": 7.674278736114502
+                      },
+                      {
+                        "x": 48.771034240722656,
+                        "y": 9.020432472229004
+                      },
+                      {
+                        "x": 52.80949401855469,
+                        "y": 23.63581657409668
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim_left\\cuisinier_walk-side3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 50.30949401855469,
+                        "y": 53.44350814819336
+                      },
+                      {
+                        "x": 42.04026412963867,
+                        "y": 79.40504455566406
+                      },
+                      {
+                        "x": 17.6171875,
+                        "y": 79.21273803710938
+                      },
+                      {
+                        "x": 13.96334171295166,
+                        "y": 53.63581848144531
+                      },
+                      {
+                        "x": 13.96334171295166,
+                        "y": 28.63581657409668
+                      },
+                      {
+                        "x": 31.271034240722656,
+                        "y": 7.674278736114502
+                      },
+                      {
+                        "x": 48.771034240722656,
+                        "y": 9.020432472229004
+                      },
+                      {
+                        "x": 52.80949401855469,
+                        "y": 23.63581657409668
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim_left\\cuisinier_walk-side4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 50.30949401855469,
+                        "y": 53.44350814819336
+                      },
+                      {
+                        "x": 42.04026412963867,
+                        "y": 79.40504455566406
+                      },
+                      {
+                        "x": 17.6171875,
+                        "y": 79.21273803710938
+                      },
+                      {
+                        "x": 13.96334171295166,
+                        "y": 53.63581848144531
+                      },
+                      {
+                        "x": 13.96334171295166,
+                        "y": 28.63581657409668
+                      },
+                      {
+                        "x": 31.271034240722656,
+                        "y": 7.674278736114502
+                      },
+                      {
+                        "x": 48.771034240722656,
+                        "y": 9.020432472229004
+                      },
+                      {
+                        "x": 52.80949401855469,
+                        "y": 23.63581657409668
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim_left\\cuisinier_walk-side5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 50.30949401855469,
+                        "y": 53.44350814819336
+                      },
+                      {
+                        "x": 42.04026412963867,
+                        "y": 79.40504455566406
+                      },
+                      {
+                        "x": 17.6171875,
+                        "y": 79.21273803710938
+                      },
+                      {
+                        "x": 13.96334171295166,
+                        "y": 53.63581848144531
+                      },
+                      {
+                        "x": 13.96334171295166,
+                        "y": 28.63581657409668
+                      },
+                      {
+                        "x": 31.271034240722656,
+                        "y": 7.674278736114502
+                      },
+                      {
+                        "x": 48.771034240722656,
+                        "y": 9.020432472229004
+                      },
+                      {
+                        "x": 52.80949401855469,
+                        "y": 23.63581657409668
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim_left\\cuisinier_walk-side6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 50.30949401855469,
+                        "y": 53.44350814819336
+                      },
+                      {
+                        "x": 42.04026412963867,
+                        "y": 79.40504455566406
+                      },
+                      {
+                        "x": 17.6171875,
+                        "y": 79.21273803710938
+                      },
+                      {
+                        "x": 13.96334171295166,
+                        "y": 53.63581848144531
+                      },
+                      {
+                        "x": 13.96334171295166,
+                        "y": 28.63581657409668
+                      },
+                      {
+                        "x": 31.271034240722656,
+                        "y": 7.674278736114502
+                      },
+                      {
+                        "x": 48.771034240722656,
+                        "y": 9.020432472229004
+                      },
+                      {
+                        "x": 52.80949401855469,
+                        "y": 23.63581657409668
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim_left\\cuisinier_walk-side7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 50.30949401855469,
+                        "y": 53.44350814819336
+                      },
+                      {
+                        "x": 42.04026412963867,
+                        "y": 79.40504455566406
+                      },
+                      {
+                        "x": 17.6171875,
+                        "y": 79.21273803710938
+                      },
+                      {
+                        "x": 13.96334171295166,
+                        "y": 53.63581848144531
+                      },
+                      {
+                        "x": 13.96334171295166,
+                        "y": 28.63581657409668
+                      },
+                      {
+                        "x": 31.271034240722656,
+                        "y": 7.674278736114502
+                      },
+                      {
+                        "x": 48.771034240722656,
+                        "y": 9.020432472229004
+                      },
+                      {
+                        "x": 52.80949401855469,
+                        "y": 23.63581657409668
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim_left\\cuisinier_walk-side8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 50.30949401855469,
+                        "y": 53.44350814819336
+                      },
+                      {
+                        "x": 42.04026412963867,
+                        "y": 79.40504455566406
+                      },
+                      {
+                        "x": 17.6171875,
+                        "y": 79.21273803710938
+                      },
+                      {
+                        "x": 13.96334171295166,
+                        "y": 53.63581848144531
+                      },
+                      {
+                        "x": 13.96334171295166,
+                        "y": 28.63581657409668
+                      },
+                      {
+                        "x": 31.271034240722656,
+                        "y": 7.674278736114502
+                      },
+                      {
+                        "x": 48.771034240722656,
+                        "y": 9.020432472229004
+                      },
+                      {
+                        "x": 52.80949401855469,
+                        "y": 23.63581657409668
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1436,12 +2843,12 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "timeBetweenFrames": 0.15000000596046448,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\sprites\\player\\cuisinier4.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim_right\\cuisinier_walk-side1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1454,7 +2861,406 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 38.771034240722656,
+                        "y": 11.712739944458008
+                      },
+                      {
+                        "x": 52.04026412963867,
+                        "y": 26.52043342590332
+                      },
+                      {
+                        "x": 51.65564727783203,
+                        "y": 53.828125
+                      },
+                      {
+                        "x": 48.19411087036133,
+                        "y": 79.59735870361328
+                      },
+                      {
+                        "x": 23.963340759277344,
+                        "y": 79.98197174072266
+                      },
+                      {
+                        "x": 15.694110870361328,
+                        "y": 53.44350814819336
+                      },
+                      {
+                        "x": 16.078725814819336,
+                        "y": 18.443510055541992
+                      },
+                      {
+                        "x": 21.847957611083984,
+                        "y": 9.020432472229004
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim_right\\cuisinier_walk-side2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 38.771034240722656,
+                        "y": 11.712739944458008
+                      },
+                      {
+                        "x": 52.04026412963867,
+                        "y": 26.52043342590332
+                      },
+                      {
+                        "x": 51.65564727783203,
+                        "y": 53.828125
+                      },
+                      {
+                        "x": 48.19411087036133,
+                        "y": 79.59735870361328
+                      },
+                      {
+                        "x": 23.963340759277344,
+                        "y": 79.98197174072266
+                      },
+                      {
+                        "x": 15.694110870361328,
+                        "y": 53.44350814819336
+                      },
+                      {
+                        "x": 16.078725814819336,
+                        "y": 18.443510055541992
+                      },
+                      {
+                        "x": 21.847957611083984,
+                        "y": 9.020432472229004
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim_right\\cuisinier_walk-side3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 38.771034240722656,
+                        "y": 11.712739944458008
+                      },
+                      {
+                        "x": 52.04026412963867,
+                        "y": 26.52043342590332
+                      },
+                      {
+                        "x": 51.65564727783203,
+                        "y": 53.828125
+                      },
+                      {
+                        "x": 48.19411087036133,
+                        "y": 79.59735870361328
+                      },
+                      {
+                        "x": 23.963340759277344,
+                        "y": 79.98197174072266
+                      },
+                      {
+                        "x": 15.694110870361328,
+                        "y": 53.44350814819336
+                      },
+                      {
+                        "x": 16.078725814819336,
+                        "y": 18.443510055541992
+                      },
+                      {
+                        "x": 21.847957611083984,
+                        "y": 9.020432472229004
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim_right\\cuisinier_walk-side4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 38.771034240722656,
+                        "y": 11.712739944458008
+                      },
+                      {
+                        "x": 52.04026412963867,
+                        "y": 26.52043342590332
+                      },
+                      {
+                        "x": 51.65564727783203,
+                        "y": 53.828125
+                      },
+                      {
+                        "x": 48.19411087036133,
+                        "y": 79.59735870361328
+                      },
+                      {
+                        "x": 23.963340759277344,
+                        "y": 79.98197174072266
+                      },
+                      {
+                        "x": 15.694110870361328,
+                        "y": 53.44350814819336
+                      },
+                      {
+                        "x": 16.078725814819336,
+                        "y": 18.443510055541992
+                      },
+                      {
+                        "x": 21.847957611083984,
+                        "y": 9.020432472229004
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim_right\\cuisinier_walk-side5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 38.771034240722656,
+                        "y": 11.712739944458008
+                      },
+                      {
+                        "x": 52.04026412963867,
+                        "y": 26.52043342590332
+                      },
+                      {
+                        "x": 51.65564727783203,
+                        "y": 53.828125
+                      },
+                      {
+                        "x": 48.19411087036133,
+                        "y": 79.59735870361328
+                      },
+                      {
+                        "x": 23.963340759277344,
+                        "y": 79.98197174072266
+                      },
+                      {
+                        "x": 15.694110870361328,
+                        "y": 53.44350814819336
+                      },
+                      {
+                        "x": 16.078725814819336,
+                        "y": 18.443510055541992
+                      },
+                      {
+                        "x": 21.847957611083984,
+                        "y": 9.020432472229004
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim_right\\cuisinier_walk-side6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 38.771034240722656,
+                        "y": 11.712739944458008
+                      },
+                      {
+                        "x": 52.04026412963867,
+                        "y": 26.52043342590332
+                      },
+                      {
+                        "x": 51.65564727783203,
+                        "y": 53.828125
+                      },
+                      {
+                        "x": 48.19411087036133,
+                        "y": 79.59735870361328
+                      },
+                      {
+                        "x": 23.963340759277344,
+                        "y": 79.98197174072266
+                      },
+                      {
+                        "x": 15.694110870361328,
+                        "y": 53.44350814819336
+                      },
+                      {
+                        "x": 16.078725814819336,
+                        "y": 18.443510055541992
+                      },
+                      {
+                        "x": 21.847957611083984,
+                        "y": 9.020432472229004
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim_right\\cuisinier_walk-side7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 38.771034240722656,
+                        "y": 11.712739944458008
+                      },
+                      {
+                        "x": 52.04026412963867,
+                        "y": 26.52043342590332
+                      },
+                      {
+                        "x": 51.65564727783203,
+                        "y": 53.828125
+                      },
+                      {
+                        "x": 48.19411087036133,
+                        "y": 79.59735870361328
+                      },
+                      {
+                        "x": 23.963340759277344,
+                        "y": 79.98197174072266
+                      },
+                      {
+                        "x": 15.694110870361328,
+                        "y": 53.44350814819336
+                      },
+                      {
+                        "x": 16.078725814819336,
+                        "y": 18.443510055541992
+                      },
+                      {
+                        "x": 21.847957611083984,
+                        "y": 9.020432472229004
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\player\\anim_right\\cuisinier_walk-side8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 38.771034240722656,
+                        "y": 11.712739944458008
+                      },
+                      {
+                        "x": 52.04026412963867,
+                        "y": 26.52043342590332
+                      },
+                      {
+                        "x": 51.65564727783203,
+                        "y": 53.828125
+                      },
+                      {
+                        "x": 48.19411087036133,
+                        "y": 79.59735870361328
+                      },
+                      {
+                        "x": 23.963340759277344,
+                        "y": 79.98197174072266
+                      },
+                      {
+                        "x": 15.694110870361328,
+                        "y": 53.44350814819336
+                      },
+                      {
+                        "x": 16.078725814819336,
+                        "y": 18.443510055541992
+                      },
+                      {
+                        "x": 21.847957611083984,
+                        "y": 9.020432472229004
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1602,7 +3408,13 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "contains",
+          "type": "string",
+          "value": "empty"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
