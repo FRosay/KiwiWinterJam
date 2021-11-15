@@ -1896,6 +1896,24 @@
         "name": "assets\\sprites\\NPCs\\NPC1\\anim_right\\plagiste_walk-side8.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/dresser.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/dresser.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/dresser-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/dresser-outline.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2118,6 +2136,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/oven"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/inplate"
     }
   ],
   "eventsFunctionsExtensions": [
