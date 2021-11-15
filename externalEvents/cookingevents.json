@@ -341,7 +341,7 @@
           "creationTime": 0,
           "disabled": false,
           "folded": false,
-          "name": "Cutting board",
+          "name": "Cutting Board",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -373,14 +373,21 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
-                        "value": "VarSceneTxt"
+                        "inverted": true,
+                        "value": "LayerVisible"
                       },
                       "parameters": [
-                        "playerInventory[Variable(itemSlot)]",
-                        "=",
-                        "\"potato\""
+                        "",
+                        "\"CuttingBoard\""
                       ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
                       "subInstructions": []
                     }
                   ],
@@ -388,46 +395,25 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarSceneTxt"
+                        "value": "ShowLayer"
                       },
                       "parameters": [
-                        "playerInventory[Variable(itemSlot)]",
-                        "=",
-                        "\"potato-cutted\""
+                        "",
+                        "\"CuttingBoard\""
                       ],
                       "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
+                    },
                     {
                       "type": {
                         "inverted": false,
-                        "value": "VarSceneTxt"
+                        "value": "Create"
                       },
                       "parameters": [
-                        "playerInventory[Variable(itemSlot)]",
-                        "=",
-                        "\"octopus\""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarSceneTxt"
-                      },
-                      "parameters": [
-                        "playerInventory[Variable(itemSlot)]",
-                        "=",
-                        "\"octopus-cutted\""
+                        "",
+                        "CuttingBoardPoint",
+                        "MouseX()",
+                        "MouseY()",
+                        ""
                       ],
                       "subInstructions": []
                     }
@@ -694,6 +680,301 @@
           "parameters": []
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Always true - - Mini Game",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Cutting Board",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"CuttingBoard\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "CuttingBoard",
+                "GlobalVariable(gDistanceOfInteraction)",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "CuttingBoardPoint",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"CuttingBoard\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"CuttingBoard\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "CuttingBoardPoint",
+                "=",
+                "MouseX()",
+                "=",
+                "MouseY()"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": true,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "CuttingBoardPoint",
+                "CuttingBoardBorder",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "CuttingBoardPoint",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"CuttingBoard\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "CuttingBoardPoint",
+                "CuttingBoardFinish",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "CuttingBoardPoint",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"CuttingBoard\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "playerInventory[Variable(itemSlot)]",
+                    "=",
+                    "\"potato\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "playerInventory[Variable(itemSlot)]",
+                    "=",
+                    "\"potato-cutted\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "playerInventory[Variable(itemSlot)]",
+                    "=",
+                    "\"octopus\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "playerInventory[Variable(itemSlot)]",
+                    "=",
+                    "\"octopus-cutted\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ],
+      "parameters": []
     }
   ]
 }

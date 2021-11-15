@@ -1159,6 +1159,33 @@
         "name": "assets/sprites/avocado-tree-ready.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/cutting-board-border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/cutting-board-border.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/cutting-board-point.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/cutting-board-point.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/cutting-board-finish.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/cutting-board-finish.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1364,10 +1391,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/gathering"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/cutting"
     }
   ],
   "eventsFunctionsExtensions": [
