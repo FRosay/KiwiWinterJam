@@ -137,7 +137,21 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "Customers",
+                    "state",
+                    "=",
+                    "\"ordering\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -222,6 +236,19 @@
                     "Resources",
                     "=",
                     "Variable(rng)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Customers",
+                    "state",
+                    "=",
+                    "\"waiting\""
                   ],
                   "subInstructions": []
                 }
@@ -465,7 +492,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Animations",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -473,167 +500,216 @@
         {
           "disabled": false,
           "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Customers",
+          "conditions": [],
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "inverted": false,
-                "value": "AngleOfDisplacement"
-              },
-              "parameters": [
-                "Customers",
-                "0",
-                "50"
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AngleOfDisplacement"
+                  },
+                  "parameters": [
+                    "Customers",
+                    "0",
+                    "50"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Customers",
+                    "\"right\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
             {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "Customers",
-                "\"right\""
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AngleOfDisplacement"
+                  },
+                  "parameters": [
+                    "Customers",
+                    "90",
+                    "50"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Customers",
+                    "\"bot\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
             {
-              "type": {
-                "inverted": false,
-                "value": "AngleOfDisplacement"
-              },
-              "parameters": [
-                "Customers",
-                "90",
-                "50"
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AngleOfDisplacement"
+                  },
+                  "parameters": [
+                    "Customers",
+                    "180",
+                    "50"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Customers",
+                    "\"left\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
             {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "Customers",
-                "\"bot\""
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AngleOfDisplacement"
+                  },
+                  "parameters": [
+                    "Customers",
+                    "270",
+                    "50"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Customers",
+                    "\"top\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
             {
-              "type": {
-                "inverted": false,
-                "value": "AngleOfDisplacement"
-              },
-              "parameters": [
-                "Customers",
-                "180",
-                "50"
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AngleOfDisplacement"
+                  },
+                  "parameters": [
+                    "Customers",
+                    "360",
+                    "50"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Customers",
+                    "\"right\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
             {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "Customers",
-                "\"left\""
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Arret"
+                  },
+                  "parameters": [
+                    "Customers"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AngleOfDisplacement"
-              },
-              "parameters": [
-                "Customers",
-                "270",
-                "50"
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Customers",
+                    "Customers.AnimationName()+\"_idle\""
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "events": []
             }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "Customers",
-                "\"top\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AngleOfDisplacement"
-              },
-              "parameters": [
-                "Customers",
-                "360",
-                "50"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "Customers",
-                "\"right\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
+          ]
         }
       ],
       "parameters": []
@@ -665,6 +741,26 @@
                 "\"customerArrival\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "customersTotalNumber",
+                "<",
+                "10"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -677,6 +773,54 @@
                 "rng",
                 "=",
                 "RandomInRange(0,1)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "customerXPos",
+                "=",
+                "RandomInRange(3400,3700)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "customerYPos",
+                "=",
+                "RandomInRange(-100,600)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "customerXDestination",
+                "=",
+                "RandomInRange(2400, 3100)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "customerYDestination",
+                "=",
+                "RandomInRange(240, 560)"
               ],
               "subInstructions": []
             }
@@ -709,8 +853,8 @@
                   "parameters": [
                     "",
                     "Customer_female",
-                    "400",
-                    "520",
+                    "Variable(customerXPos)",
+                    "Variable(customerYPos)",
                     "\"\""
                   ],
                   "subInstructions": []
@@ -721,7 +865,21 @@
                   "disabled": false,
                   "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "Customer_female",
+                        "Variable(customerXPos)",
+                        "Variable(customerYPos)",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
                   "actions": [
                     {
                       "type": {
@@ -744,6 +902,20 @@
                       "parameters": [
                         "Customer_female",
                         "\"customerIdleTime\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceVersPos"
+                      },
+                      "parameters": [
+                        "Customer_female",
+                        "Variable(customerXDestination)",
+                        "Variable(customerYDestination)",
+                        "30",
+                        "1"
                       ],
                       "subInstructions": []
                     }
@@ -779,8 +951,8 @@
                   "parameters": [
                     "",
                     "Customer_male",
-                    "400",
-                    "520",
+                    "Variable(customerXPos)",
+                    "Variable(customerYPos)",
                     "\"\""
                   ],
                   "subInstructions": []
@@ -791,7 +963,21 @@
                   "disabled": false,
                   "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "Customer_male",
+                        "Variable(customerXPos)",
+                        "Variable(customerYPos)",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
                   "actions": [
                     {
                       "type": {
@@ -816,6 +1002,20 @@
                         "\"customerIdleTime\""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceVersPos"
+                      },
+                      "parameters": [
+                        "Customer_male",
+                        "Variable(customerXDestination)",
+                        "Variable(customerYDestination)",
+                        "30",
+                        "1"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -828,6 +1028,18 @@
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "customersTotalNumber",
+                    "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -855,6 +1067,59 @@
               "events": []
             }
           ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
+              },
+              "parameters": [
+                "",
+                "Variable(customerArrivalRng)+2",
+                "\"customerArrival\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "customersTotalNumber",
+                ">=",
+                "10"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"customerArrival\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "parameters": []
@@ -873,9 +1138,81 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "Customers",
+                "state",
+                "=",
+                "\"just_arrived\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Customers",
+                "CustomerWaitingSpace",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "Customers",
+                "state",
+                "=",
+                "\"ordering\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Customers",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "Customers",
+                "state",
+                "=",
+                "\"waiting\""
+              ],
+              "subInstructions": []
+            }
+          ],
           "actions": [],
           "events": [
             {
@@ -900,6 +1237,17 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Customers",
+                    "\"customerIdleTime\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "ModVarObjet"
                   },
                   "parameters": [
@@ -907,17 +1255,6 @@
                     "customerIdleTime",
                     "=",
                     "RandomInRange(3,9)"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Customers",
-                    "\"customerIdleTime\""
                   ],
                   "subInstructions": []
                 }
@@ -954,13 +1291,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "AddForceVersPos"
+                    "value": "AddForceAL"
                   },
                   "parameters": [
                     "Customers",
-                    "RandomInRange(0,800)",
-                    "RandomInRange(0,600)",
-                    "35",
+                    "RandomInRange(0,360)",
+                    "RandomInRange(20,40)",
                     "1"
                   ],
                   "subInstructions": []

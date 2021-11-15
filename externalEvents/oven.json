@@ -22,6 +22,107 @@
             {
               "type": {
                 "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "p"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "foundSpace",
+                "False"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::ForEachChildVariable",
+              "iterableVariableName": "playerInventory",
+              "valueIteratorVariableName": "child",
+              "keyIteratorVariableName": "childName",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "foundSpace",
+                        "False"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "child",
+                        "=",
+                        "\"empty\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "playerInventory[Variable(childName)]",
+                    "=",
+                    "\"potato-cutted\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "foundSpace",
+                    "True"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "BuiltinCommonInstructions::And"
               },
               "parameters": [],
@@ -145,6 +246,17 @@
                         {
                           "type": {
                             "inverted": false,
+                            "value": "SetAnimationName"
+                          },
+                          "parameters": [
+                            "Timer",
+                            "\"start\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
                             "value": "UnPauseObjectTimer"
                           },
                           "parameters": [
@@ -218,7 +330,7 @@
                       "parameters": [
                         "Oven",
                         "\"ovenCookingTime\"",
-                        "2"
+                        "10"
                       ],
                       "subInstructions": []
                     }
@@ -331,6 +443,17 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Timer",
+                        "\"start\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "PauseObjectTimer"
                       },
                       "parameters": [
@@ -359,7 +482,7 @@
               "parameters": [
                 "Oven",
                 "\"ovenCookingTime\"",
-                "2"
+                "10"
               ],
               "subInstructions": []
             },
@@ -372,7 +495,19 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Timer",
+                "\"good\""
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
               "disabled": false,
@@ -461,7 +596,7 @@
               "parameters": [
                 "Oven",
                 "\"ovenCookingTime\"",
-                "5"
+                "16"
               ],
               "subInstructions": []
             },
@@ -474,7 +609,60 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Timer",
+                "\"warning\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "Oven",
+                "\"ovenCookingTime\"",
+                "20"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Timer",
+                "\"burnt\""
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
               "disabled": false,

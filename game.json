@@ -1537,6 +1537,365 @@
         "name": "assets\\sprites\\player\\anim_left\\cuisinier_walk-side8.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/burnt stuff.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\burnt stuff.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Timer_Drop-shadowed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Timer_Drop-shadowed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Mini FX, Items & UI/Mini UI/Timer_Drop-shadowed.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Timer_Outlined.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Timer_Outlined.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Mini FX, Items & UI/Mini UI/Timer_Outlined.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Outlined-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Outlined-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Outlined-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Outlined-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Outlined-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Outlined-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Outlined-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Outlined-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_bot/plagiste_walk-front1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_bot\\plagiste_walk-front1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_top/plagiste_walk-back1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_top\\plagiste_walk-back1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_right/plagiste_walk-side1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_right\\plagiste_walk-side1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_left/plagiste_walk-side1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_left\\plagiste_walk-side1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_left/plagiste_walk-side2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_left\\plagiste_walk-side2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_left/plagiste_walk-side3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_left\\plagiste_walk-side3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_left/plagiste_walk-side4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_left\\plagiste_walk-side4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_left/plagiste_walk-side5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_left\\plagiste_walk-side5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_left/plagiste_walk-side6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_left\\plagiste_walk-side6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_left/plagiste_walk-side7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_left\\plagiste_walk-side7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_left/plagiste_walk-side8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_left\\plagiste_walk-side8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_bot/plagiste_walk-front2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_bot\\plagiste_walk-front2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_bot/plagiste_walk-front3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_bot\\plagiste_walk-front3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_bot/plagiste_walk-front4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_bot\\plagiste_walk-front4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_bot/plagiste_walk-front5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_bot\\plagiste_walk-front5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_bot/plagiste_walk-front6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_bot\\plagiste_walk-front6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_bot/plagiste_walk-front7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_bot\\plagiste_walk-front7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_bot/plagiste_walk-front8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_bot\\plagiste_walk-front8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_top/plagiste_walk-back2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_top\\plagiste_walk-back2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_top/plagiste_walk-back3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_top\\plagiste_walk-back3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_top/plagiste_walk-back4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_top\\plagiste_walk-back4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_top/plagiste_walk-back5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_top\\plagiste_walk-back5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_top/plagiste_walk-back6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_top\\plagiste_walk-back6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_top/plagiste_walk-back7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_top\\plagiste_walk-back7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_top/plagiste_walk-back8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_top\\plagiste_walk-back8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_right/plagiste_walk-side2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_right\\plagiste_walk-side2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_right/plagiste_walk-side3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_right\\plagiste_walk-side3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_right/plagiste_walk-side4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_right\\plagiste_walk-side4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_right/plagiste_walk-side5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_right\\plagiste_walk-side5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_right/plagiste_walk-side6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_right\\plagiste_walk-side6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_right/plagiste_walk-side7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_right\\plagiste_walk-side7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/NPC1/anim_right/plagiste_walk-side8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\NPC1\\anim_right\\plagiste_walk-side8.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
