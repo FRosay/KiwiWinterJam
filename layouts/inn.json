@@ -72,6 +72,9 @@
         },
         {
           "name": "Crate"
+        },
+        {
+          "name": "Dresser"
         }
       ]
     },
@@ -122,6 +125,9 @@
         },
         {
           "name": "Crate"
+        },
+        {
+          "name": "Dresser"
         }
       ]
     },
@@ -235,8 +241,8 @@
       "name": "Market",
       "persistentUuid": "1f5352da-db6b-400a-af87-54336b672603",
       "width": 0,
-      "x": 567,
-      "y": 54,
+      "x": 758,
+      "y": 570,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -391,22 +397,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 68,
-      "layer": "",
-      "locked": false,
-      "name": "Chair",
-      "persistentUuid": "8149cc9d-46f6-47a0-8245-b8eb217e7c28",
-      "width": 42,
-      "x": 293,
-      "y": 532,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 627,
       "layer": "",
       "locked": false,
@@ -493,8 +483,8 @@
       "name": "DryingRack",
       "persistentUuid": "b0ff34c1-4edd-4338-bd50-8e290f087ed1",
       "width": 0,
-      "x": 403,
-      "y": -13,
+      "x": 411,
+      "y": 13,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -963,8 +953,8 @@
       "name": "Crate",
       "persistentUuid": "e9273e35-d44b-47fa-aa29-6dd720f582e5",
       "width": 0,
-      "x": 424,
-      "y": 164,
+      "x": 274,
+      "y": 537,
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
@@ -1137,6 +1127,22 @@
       "width": 619,
       "x": 2443,
       "y": 255,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Dresser",
+      "persistentUuid": "e3a738da-3e27-4d48-8c90-d28cdd9769d5",
+      "width": 0,
+      "x": 570,
+      "y": 448,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -6689,6 +6695,75 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Dresser",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/dresser.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/dresser-outline.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -6799,6 +6874,15 @@
         "includeConfig": 0
       },
       "target": "Oven"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "InPlate"
     },
     {
       "disabled": false,
@@ -7030,6 +7114,14 @@
           "subInstructions": []
         }
       ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
       "events": []
     }
   ],
