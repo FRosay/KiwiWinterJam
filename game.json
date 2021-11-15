@@ -2022,6 +2022,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/inplate"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/daytime"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/sign"
     }
   ],
   "eventsFunctionsExtensions": [
