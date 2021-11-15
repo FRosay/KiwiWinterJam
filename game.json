@@ -1230,6 +1230,15 @@
         "metadata": "",
         "name": "assets\\sprites\\player\\anim-bot\\cuisinier_walk-front1.png",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/crate-slot.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/crate-slot.png",
+        "smoothed": true,
         "userAdded": true
       },
       {
@@ -1366,6 +1375,15 @@
         "name": "assets\\sprites\\player\\anim_top\\cuisinier_walk-back8.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/item-selected.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/item-selected.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1519,6 +1537,11 @@
           "value": "sweetcake"
         }
       ]
+    },
+    {
+      "name": "gItemSelected",
+      "type": "number",
+      "value": 1
     }
   ],
   "layouts": [

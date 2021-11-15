@@ -187,7 +187,7 @@
       "name": "Player",
       "persistentUuid": "d75eeed8-69c3-4e6a-b424-31d64da8ab0a",
       "width": 64,
-      "x": 358,
+      "x": 347,
       "y": 154,
       "zOrder": 1,
       "numberProperties": [],
@@ -397,8 +397,8 @@
       "name": "Chair",
       "persistentUuid": "8149cc9d-46f6-47a0-8245-b8eb217e7c28",
       "width": 42,
-      "x": 371,
-      "y": 233,
+      "x": 293,
+      "y": 532,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -963,12 +963,131 @@
       "name": "Crate",
       "persistentUuid": "e9273e35-d44b-47fa-aa29-6dd720f582e5",
       "width": 0,
-      "x": 435,
-      "y": -13,
+      "x": 424,
+      "y": 164,
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Ui",
+      "locked": false,
+      "name": "ItemSelected",
+      "persistentUuid": "f8f4c907-60fb-49f6-a058-6df1f3a8a142",
+      "width": 0,
+      "x": 18,
+      "y": 5,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Crate",
+      "locked": false,
+      "name": "CrateSlot",
+      "persistentUuid": "cb8e22bd-1c40-4947-9b57-307afde86d80",
+      "width": 0,
+      "x": 621,
+      "y": 458,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "string",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Crate",
+      "locked": false,
+      "name": "CrateSlot",
+      "persistentUuid": "05793710-1574-451a-b913-6fc1e7c2bcb3",
+      "width": 0,
+      "x": 685,
+      "y": 458,
+      "zOrder": 42,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "string",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Crate",
+      "locked": false,
+      "name": "CrateSlot",
+      "persistentUuid": "1ebf9141-f14d-4a51-8051-0cd62d00647b",
+      "width": 0,
+      "x": 610,
+      "y": 517,
+      "zOrder": 42,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "string",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Crate",
+      "locked": false,
+      "name": "CrateSlot",
+      "persistentUuid": "2247aa1c-d915-43ed-bbc9-9dc84f472fed",
+      "width": 0,
+      "x": 670,
+      "y": 522,
+      "zOrder": 42,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "string",
+          "value": "3"
+        }
+      ]
     }
   ],
   "objects": [
@@ -3731,6 +3850,92 @@
           ]
         }
       ]
+    },
+    {
+      "name": "CrateSlot",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "id",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/crate-slot.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ItemSelected",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/item-selected.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -3823,6 +4028,15 @@
         "includeConfig": 0
       },
       "target": "CuttingBoardGame"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Crate"
     },
     {
       "disabled": false,
@@ -4120,7 +4334,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "CookBookRecepies",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     },
@@ -4142,6 +4356,17 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "CuttingBoard",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 7539376,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 10045896,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Crate",
       "visibility": true,
       "cameras": [],
       "effects": []
