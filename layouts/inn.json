@@ -21,8 +21,8 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.728,
-    "windowMask": false
+    "zoomFactor": 0.7700000000000004,
+    "windowMask": true
   },
   "objectsGroups": [
     {
@@ -113,12 +113,6 @@
         },
         {
           "name": "PotatoField"
-        },
-        {
-          "name": "Customer_male"
-        },
-        {
-          "name": "Customer_female"
         },
         {
           "name": "Sign"
@@ -531,8 +525,8 @@
       "name": "RumMerchant",
       "persistentUuid": "96114482-9785-4c4e-8bc7-4a722339935b",
       "width": 0,
-      "x": 726,
-      "y": 517,
+      "x": 711,
+      "y": 443,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -595,8 +589,8 @@
       "name": "Trashcan",
       "persistentUuid": "3b18cd18-fc5e-4e12-9166-9a009d29624e",
       "width": 0,
-      "x": 497,
-      "y": 538,
+      "x": 2544,
+      "y": 124,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -1141,9 +1135,25 @@
       "name": "Dresser",
       "persistentUuid": "e3a738da-3e27-4d48-8c90-d28cdd9769d5",
       "width": 0,
-      "x": 570,
-      "y": 448,
+      "x": 539,
+      "y": 410,
       "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Trashcan",
+      "persistentUuid": "29316306-7e97-4ee5-925d-e95baf3b1978",
+      "width": 0,
+      "x": 497,
+      "y": 538,
+      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3329,7 +3339,7 @@
     },
     {
       "name": "Sign",
-      "tags": "",
+      "tags": "interactive",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -3343,7 +3353,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "sign",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -3352,7 +3362,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/sign.png",
+                  "image": "assets\\sprites\\interactive_items\\sign.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3372,7 +3382,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "sign-outline",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -3381,7 +3391,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/sign-outline.png",
+                  "image": "assets\\sprites\\interactive_items\\sign_outline.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3464,7 +3474,7 @@
     },
     {
       "name": "Oven",
-      "tags": "",
+      "tags": "interactive, kitchen",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -3478,7 +3488,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "oven",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -3539,7 +3549,7 @@
     },
     {
       "name": "Market",
-      "tags": "",
+      "tags": "interactive, kitchen",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3547,7 +3557,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "market",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -3576,7 +3586,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "market-outline",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -3718,7 +3728,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/seaweed.png",
+                  "image": "assets\\sprites\\ingredients\\algae.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3950,7 +3960,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/octopus.png",
+                  "image": "assets\\sprites\\ingredients\\octopus.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4055,12 +4065,99 @@
               ]
             }
           ]
+        },
+        {
+          "name": "ajiaco",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\recipes\\ajiaco.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "feroce",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\recipes\\feroce.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sweetcake",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\recipes\\sweetcake.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
       "name": "Customer_female",
-      "tags": "",
+      "tags": "beach, npc",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -4203,7 +4300,7 @@
     },
     {
       "name": "Customer_male",
-      "tags": "",
+      "tags": "beach, npc",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -4938,7 +5035,7 @@
     },
     {
       "name": "CuttingBoard",
-      "tags": "",
+      "tags": "interactive, kitchen",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5007,7 +5104,7 @@
     },
     {
       "name": "CookBook",
-      "tags": "",
+      "tags": "interactive",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5025,6 +5122,35 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets/sprites/cookbook.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cookbook-outline",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\cookbook.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5078,7 +5204,7 @@
     },
     {
       "name": "Trashcan",
-      "tags": "",
+      "tags": "interactive",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5086,7 +5212,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "trashcan",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5115,7 +5241,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "trashcan-outline",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5147,7 +5273,7 @@
     },
     {
       "name": "RestaurantEntry",
-      "tags": "",
+      "tags": "invisible",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5187,7 +5313,7 @@
     },
     {
       "name": "DryingRack",
-      "tags": "",
+      "tags": "interactive, kitchen",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5195,7 +5321,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "empty",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5224,7 +5350,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "empty-outline",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5282,7 +5408,7 @@
           ]
         },
         {
-          "name": "fish-ready",
+          "name": "fish-outline",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5314,7 +5440,7 @@
     },
     {
       "name": "AvocadoTree",
-      "tags": "",
+      "tags": "interactive",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5412,7 +5538,7 @@
     },
     {
       "name": "BananaTree",
-      "tags": "",
+      "tags": "interactive",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -5426,7 +5552,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "banana",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5455,7 +5581,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "banana-outline",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5487,7 +5613,7 @@
     },
     {
       "name": "RumMerchant",
-      "tags": "",
+      "tags": "interactive",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5495,16 +5621,203 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "merchant",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07000000029802322,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/rum-merchant.png",
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand12.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5524,16 +5837,203 @@
           ]
         },
         {
-          "name": "",
+          "name": "merchant-outline",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07000000029802322,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/rum-merchant-outline.png",
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate12.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5556,7 +6056,7 @@
     },
     {
       "name": "SpiceMerchant",
-      "tags": "",
+      "tags": "interactive",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5564,7 +6064,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "spice",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5593,7 +6093,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "spice-outline",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5625,7 +6125,7 @@
     },
     {
       "name": "FishingSpot",
-      "tags": "",
+      "tags": "interactive",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5633,7 +6133,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "fishing",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5662,7 +6162,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "fishing-outline",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5694,7 +6194,7 @@
     },
     {
       "name": "PotatoField",
-      "tags": "",
+      "tags": "interactive",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -5935,7 +6435,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\images\\plage.jpg",
+                  "image": "assets\\images\\beach.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5958,7 +6458,7 @@
     },
     {
       "name": "CustomerArrivalSpace",
-      "tags": "",
+      "tags": "invisible",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5998,7 +6498,7 @@
     },
     {
       "name": "CustomerBouncingSpace",
-      "tags": "",
+      "tags": "invisible",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -6038,7 +6538,7 @@
     },
     {
       "name": "BeachEntry",
-      "tags": "",
+      "tags": "invisible",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -6212,7 +6712,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\sprites\\cod.png",
+                  "image": "assets\\sprites\\ingredients\\cod.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6241,7 +6741,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\sprites\\cod.png",
+                  "image": "assets\\sprites\\ingredients\\cod.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6264,7 +6764,7 @@
     },
     {
       "name": "BananaBasket",
-      "tags": "",
+      "tags": "minigame",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -6304,7 +6804,7 @@
     },
     {
       "name": "BananaFall",
-      "tags": "",
+      "tags": "minigame",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -6321,7 +6821,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/banana.png",
+                  "image": "assets\\sprites\\ingredients\\banana.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6345,7 +6845,7 @@
     {
       "height": 32,
       "name": "CuttingBoardBorder",
-      "tags": "",
+      "tags": "minigame",
       "texture": "assets/sprites/cutting-board-border.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -6356,7 +6856,7 @@
     {
       "height": 16,
       "name": "CuttingBoardPoint",
-      "tags": "",
+      "tags": "minigame",
       "texture": "assets/sprites/cutting-board-point.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
@@ -6378,7 +6878,7 @@
     {
       "height": 32,
       "name": "CuttingBoardFinish",
-      "tags": "",
+      "tags": "minigame",
       "texture": "assets/sprites/cutting-board-finish.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -6388,7 +6888,7 @@
     },
     {
       "name": "Crate",
-      "tags": "",
+      "tags": "interactive, kitchen",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -6424,7 +6924,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "crate",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -6453,7 +6953,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "crate-outline",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -6571,7 +7071,7 @@
     },
     {
       "name": "Timer",
-      "tags": "",
+      "tags": "kitchen",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -6698,7 +7198,7 @@
     },
     {
       "name": "Dresser",
-      "tags": "",
+      "tags": "interactive, kitchen",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -6706,7 +7206,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "dresser",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -6735,7 +7235,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "dresser-outline",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -7114,14 +7614,6 @@
           "subInstructions": []
         }
       ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
       "events": []
     }
   ],

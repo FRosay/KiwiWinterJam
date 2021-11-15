@@ -13,217 +13,308 @@
       "name": "Layout display",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "events": [
         {
-          "type": {
-            "inverted": false,
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "HideLayer"
-          },
-          "parameters": [
-            "",
-            "\"CookBookRecepies\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "HideLayer"
-          },
-          "parameters": [
-            "",
-            "\"Gather\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "HideLayer"
-          },
-          "parameters": [
-            "",
-            "\"CuttingBoard\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "HideLayer"
-          },
-          "parameters": [
-            "",
-            "\"Crate\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Or"
-          },
-          "parameters": [],
-          "subInstructions": [
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
                 "inverted": false,
-                "value": "KeyPressed"
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
               },
               "parameters": [
                 "",
-                "e"
+                "\"CookBookRecepies\""
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "BuiltinCommonInstructions::And"
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Gather\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"CuttingBoard\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Crate\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Fade\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Fishing\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Interactive",
+                "GlobalVariable(gDistanceOfInteraction)",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Interactive",
+                "Interactive.AnimationName()+\"-outline\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Interactive",
+                "GlobalVariable(gDistanceOfInteraction)",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Interactive",
+                "SubStr(Interactive.AnimationName(), 0, StrLength(Interactive.AnimationName())-8)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
               },
               "parameters": [],
               "subInstructions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "MouseButtonReleased"
+                    "value": "KeyPressed"
                   },
                   "parameters": [
                     "",
-                    "Left"
+                    "e"
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SourisSurObjet"
+                    "value": "BuiltinCommonInstructions::And"
                   },
-                  "parameters": [
-                    "CookBook",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "CookBook",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
                 }
               ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
-          ]
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ToggleSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "cookBookVisibility"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         },
         {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ToggleSceneVariableAsBoolean"
-          },
-          "parameters": [
-            "cookBookVisibility"
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "cookBookVisibility",
+                ""
+              ],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SceneVariableAsBoolean"
-          },
-          "parameters": [
-            "cookBookVisibility",
-            ""
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"CookBookRecepies\""
+              ],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
+          "events": []
+        },
         {
-          "type": {
-            "inverted": false,
-            "value": "HideLayer"
-          },
-          "parameters": [
-            "",
-            "\"CookBookRecepies\""
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "cookBookVisibility",
+                "True"
+              ],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"CookBookRecepies\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SceneVariableAsBoolean"
-          },
-          "parameters": [
-            "cookBookVisibility",
-            "True"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ShowLayer"
-          },
-          "parameters": [
-            "",
-            "\"CookBookRecepies\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
+      "parameters": []
     },
     {
       "colorB": 228,
@@ -235,110 +326,111 @@
       "name": "Resources display",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Resources",
+                "id",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Resources",
+                "GlobalVariableString(gPlayerInventory[0])"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Resources",
+                "id",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Resources",
+                "GlobalVariableString(gPlayerInventory[1])"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Resources",
+                "id",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Resources",
+                "GlobalVariableString(gPlayerInventory[2])"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
       "parameters": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "Resources",
-            "id",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "Resources",
-            "GlobalVariableString(gPlayerInventory[0])"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "Resources",
-            "id",
-            "=",
-            "1"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "Resources",
-            "GlobalVariableString(gPlayerInventory[1])"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "Resources",
-            "id",
-            "=",
-            "2"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "Resources",
-            "GlobalVariableString(gPlayerInventory[2])"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
     },
     {
       "colorB": 228,
@@ -350,212 +442,205 @@
       "name": "Change item selection",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Num1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Numpad1"
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "gItemSelected",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Num2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Numpad2"
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "gItemSelected",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Num3"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Numpad3"
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "gItemSelected",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Resources",
+                "id",
+                "=",
+                "GlobalVariable(gItemSelected)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "ItemSelected",
+                "=",
+                "Resources.CenterX()-(ItemSelected.Width()/2)",
+                "=",
+                "Resources.CenterY()-(ItemSelected.Width()/2)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
       "parameters": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Or"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Num1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Numpad1"
-              ],
-              "subInstructions": []
-            }
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "gItemSelected",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Or"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Num2"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Numpad2"
-              ],
-              "subInstructions": []
-            }
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "gItemSelected",
-            "=",
-            "1"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Or"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Num3"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Numpad3"
-              ],
-              "subInstructions": []
-            }
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "gItemSelected",
-            "=",
-            "2"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "Resources",
-            "id",
-            "=",
-            "GlobalVariable(gItemSelected)"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "ItemSelected",
-            "=",
-            "Resources.CenterX()-(ItemSelected.Width()/2)",
-            "=",
-            "Resources.CenterY()-(ItemSelected.Width()/2)"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
     }
   ]
 }

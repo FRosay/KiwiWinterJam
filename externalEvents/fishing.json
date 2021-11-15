@@ -35,17 +35,6 @@
         {
           "type": {
             "inverted": false,
-            "value": "AnimationName"
-          },
-          "parameters": [
-            "Player",
-            "\"bot\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": [],
@@ -303,39 +292,39 @@
                     }
                   ],
                   "events": []
-                }
-              ]
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "HideLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Fishing\""
-                  ],
-                  "subInstructions": []
                 },
                 {
-                  "type": {
-                    "inverted": false,
-                    "value": "HideLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Fade\""
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Fishing\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Fade\""
+                      ],
+                      "subInstructions": []
+                    }
                   ],
-                  "subInstructions": []
+                  "events": []
                 }
-              ],
-              "events": []
+              ]
             }
           ]
         }

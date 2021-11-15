@@ -1391,6 +1391,411 @@
         "name": "assets\\sprites\\interactive_items\\crate-outline.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/sign.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\interactive_items\\sign.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/sign_outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\interactive_items\\sign_outline.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/cookbook.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\cookbook.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/beach.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\beach.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/ingredients/octopus.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\ingredients\\octopus.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/honnete_marchand1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/honnete_marchand2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/honnete_marchand3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/honnete_marchand4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/honnete_marchand5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/honnete_marchand6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/honnete_marchand7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/honnete_marchand8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/honnete_marchand9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/honnete_marchand10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/honnete_marchand11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/honnete_marchand12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/recipes/ajiaco.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\recipes\\ajiaco.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/recipes/feroce.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\recipes\\feroce.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/recipes/sweetcake.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\recipes\\sweetcake.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/outline/honnete_pirate1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/outline/honnete_pirate2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/outline/honnete_pirate3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/outline/honnete_pirate4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/outline/honnete_pirate5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/outline/honnete_pirate6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/outline/honnete_pirate7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/outline/honnete_pirate8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/outline/honnete_pirate9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/outline/honnete_pirate10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/outline/honnete_pirate11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/rum_merchant/outline/honnete_pirate12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/ingredients/algae.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\ingredients\\algae.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
