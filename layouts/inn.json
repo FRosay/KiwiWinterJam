@@ -69,6 +69,9 @@
         },
         {
           "name": "Sign"
+        },
+        {
+          "name": "Crate"
         }
       ]
     },
@@ -116,6 +119,9 @@
         },
         {
           "name": "Sign"
+        },
+        {
+          "name": "Crate"
         }
       ]
     },
@@ -912,6 +918,22 @@
       "x": 731,
       "y": 93,
       "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Crate",
+      "persistentUuid": "e9273e35-d44b-47fa-aa29-6dd720f582e5",
+      "width": 0,
+      "x": 435,
+      "y": -13,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2121,7 +2143,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Salade = avocat tranché + fruits tranchés\nFrites = patates cuites",
+      "string": "Ajiaco = Poulpe (à couper et cuire) + Patate (à couper et cuire) + Algue\nFéroce = Avocat + Banane + Poisson (à sécher)\nGâteau = Patate (à couper et cuire) + Épice + Rhum",
       "font": "",
       "characterSize": 20,
       "color": {
@@ -2299,6 +2321,64 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets/sprites/drying-rack-outline.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fish",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/drying-rack-fish.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fish-ready",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/drying-rack-fish-outline.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3312,6 +3392,75 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "name": "Crate",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/crate.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/crate-outline.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -3676,7 +3825,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "CookBookRecepies",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     },
@@ -3687,7 +3836,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Gather",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     },
