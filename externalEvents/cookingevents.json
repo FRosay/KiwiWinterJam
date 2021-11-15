@@ -112,18 +112,6 @@
             }
           ],
           "actions": [],
-          "events": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": false,
-          "name": "Drying rack",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "disabled": false,
@@ -185,7 +173,7 @@
                           "parameters": [
                             "DryingRack",
                             "\"dryingTimer\"",
-                            "10"
+                            "4"
                           ],
                           "subInstructions": []
                         }
@@ -277,11 +265,51 @@
                 }
               ]
             }
-          ],
-          "parameters": []
+          ]
         }
       ],
       "parameters": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "c"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarSceneTxt"
+          },
+          "parameters": [
+            "playerInventory[0]",
+            "=",
+            "\"cod\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
     }
   ]
 }
