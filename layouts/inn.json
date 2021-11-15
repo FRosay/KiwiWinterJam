@@ -968,7 +968,13 @@
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "string",
+          "value": "0"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -995,8 +1001,8 @@
       "name": "CrateSlot",
       "persistentUuid": "cb8e22bd-1c40-4947-9b57-307afde86d80",
       "width": 0,
-      "x": 621,
-      "y": 458,
+      "x": 539,
+      "y": 407,
       "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
@@ -1017,8 +1023,8 @@
       "name": "CrateSlot",
       "persistentUuid": "05793710-1574-451a-b913-6fc1e7c2bcb3",
       "width": 0,
-      "x": 685,
-      "y": 458,
+      "x": 642,
+      "y": 412,
       "zOrder": 42,
       "numberProperties": [
         {
@@ -1044,8 +1050,8 @@
       "name": "CrateSlot",
       "persistentUuid": "1ebf9141-f14d-4a51-8051-0cd62d00647b",
       "width": 0,
-      "x": 610,
-      "y": 517,
+      "x": 550,
+      "y": 516,
       "zOrder": 42,
       "numberProperties": [
         {
@@ -1071,8 +1077,8 @@
       "name": "CrateSlot",
       "persistentUuid": "2247aa1c-d915-43ed-bbc9-9dc84f472fed",
       "width": 0,
-      "x": 670,
-      "y": 522,
+      "x": 642,
+      "y": 516,
       "zOrder": 42,
       "numberProperties": [
         {
@@ -1086,6 +1092,28 @@
           "name": "id",
           "type": "string",
           "value": "3"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Crate",
+      "persistentUuid": "9a50791d-6819-4d0d-9a6a-f9a5a3522f68",
+      "width": 0,
+      "x": 137,
+      "y": 244,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "string",
+          "value": "1"
         }
       ]
     }
@@ -3787,7 +3815,35 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "id",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "item",
+          "type": "array",
+          "children": [
+            {
+              "type": "string",
+              "value": "empty"
+            },
+            {
+              "type": "string",
+              "value": "empty"
+            },
+            {
+              "type": "string",
+              "value": "empty"
+            },
+            {
+              "type": "string",
+              "value": "empty"
+            }
+          ]
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -3861,6 +3917,11 @@
           "name": "id",
           "type": "string",
           "value": ""
+        },
+        {
+          "name": "item",
+          "type": "string",
+          "value": "empty"
         }
       ],
       "effects": [],
