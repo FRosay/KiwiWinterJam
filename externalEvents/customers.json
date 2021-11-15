@@ -1001,30 +1001,6 @@
                 "value": "ModVarScene"
               },
               "parameters": [
-                "customerXPos",
-                "=",
-                "RandomInRange(3400,3700)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "customerYPos",
-                "=",
-                "RandomInRange(-100,600)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
                 "customerXDestination",
                 "=",
                 "RandomInRange(2450, 3000)"
@@ -1072,8 +1048,8 @@
                   "parameters": [
                     "",
                     "Customer_female",
-                    "Variable(customerXPos)",
-                    "Variable(customerYPos)",
+                    "CustomerPopingSpace.CenterX()",
+                    "CustomerPopingSpace.CenterY()",
                     "\"\""
                   ],
                   "subInstructions": []
@@ -1170,8 +1146,8 @@
                   "parameters": [
                     "",
                     "Customer_male",
-                    "Variable(customerXPos)",
-                    "Variable(customerYPos)",
+                    "CustomerPopingSpace.CenterX()",
+                    "CustomerPopingSpace.CenterY()",
                     "\"\""
                   ],
                   "subInstructions": []
@@ -1646,7 +1622,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Obstacles",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

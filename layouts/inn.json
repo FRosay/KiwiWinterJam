@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.0500000000000003,
+    "zoomFactor": 0.7899999999999996,
     "windowMask": false
   },
   "objectsGroups": [
@@ -78,6 +78,9 @@
         },
         {
           "name": "Obstacle"
+        },
+        {
+          "name": "Obstacle2"
         }
       ]
     },
@@ -222,8 +225,8 @@
       "name": "Market",
       "persistentUuid": "1f5352da-db6b-400a-af87-54336b672603",
       "width": 0,
-      "x": 400,
-      "y": 420,
+      "x": 246,
+      "y": 313,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -313,15 +316,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 90,
       "layer": "Ui",
       "locked": false,
       "name": "CookBook",
       "persistentUuid": "43dbe87e-9336-45d7-a7c3-179f455dea61",
-      "width": 0,
-      "x": 6,
-      "y": 534,
+      "width": 88,
+      "x": 1,
+      "y": 505,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -347,7 +350,7 @@
       "angle": 0,
       "customSize": true,
       "height": 18,
-      "layer": "",
+      "layer": "Obstacles",
       "locked": false,
       "name": "RestaurantEntry",
       "persistentUuid": "95963457-0e13-4c64-9f8e-4f2c74d67138",
@@ -409,15 +412,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 69,
       "layer": "",
       "locked": false,
       "name": "RumMerchant",
       "persistentUuid": "96114482-9785-4c4e-8bc7-4a722339935b",
-      "width": 0,
-      "x": 595,
-      "y": 162,
+      "width": 63,
+      "x": 2901,
+      "y": 126,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -480,8 +483,8 @@
       "name": "Trashcan",
       "persistentUuid": "3b18cd18-fc5e-4e12-9166-9a009d29624e",
       "width": 0,
-      "x": 2544,
-      "y": 124,
+      "x": 103,
+      "y": 395,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -496,8 +499,8 @@
       "name": "Crab",
       "persistentUuid": "90490443-a354-46b5-9aff-d17c8bcbd50a",
       "width": 0,
-      "x": 3425,
-      "y": 599,
+      "x": 3398,
+      "y": 608,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -587,13 +590,13 @@
       "angle": 0,
       "customSize": true,
       "height": 45,
-      "layer": "",
+      "layer": "Obstacles",
       "locked": false,
       "name": "BeachEntry",
       "persistentUuid": "a207bc54-94bc-46a7-901c-45f40a054175",
       "width": 37,
-      "x": 2681,
-      "y": 156,
+      "x": 2682,
+      "y": 151,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -831,15 +834,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 68,
       "layer": "",
       "locked": false,
       "name": "Crate",
       "persistentUuid": "e9273e35-d44b-47fa-aa29-6dd720f582e5",
-      "width": 0,
-      "x": 537,
-      "y": 416,
+      "width": 81,
+      "x": 2056,
+      "y": 239,
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
@@ -876,8 +879,8 @@
       "name": "Crate",
       "persistentUuid": "9a50791d-6819-4d0d-9a6a-f9a5a3522f68",
       "width": 0,
-      "x": 241,
-      "y": 306,
+      "x": 590,
+      "y": 155,
       "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
@@ -994,8 +997,8 @@
       "name": "Dresser",
       "persistentUuid": "e3a738da-3e27-4d48-8c90-d28cdd9769d5",
       "width": 0,
-      "x": 662,
-      "y": 414,
+      "x": 658,
+      "y": 429,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -1021,7 +1024,7 @@
       "angle": 343.6098327636719,
       "customSize": true,
       "height": 241.25526428222656,
-      "layer": "",
+      "layer": "Obstacles",
       "locked": false,
       "name": "Obstacle",
       "persistentUuid": "5f34f354-89ce-490c-bc1a-8f90b0205fe8",
@@ -1034,16 +1037,16 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 13.342874526977539,
       "customSize": true,
-      "height": 6,
-      "layer": "",
+      "height": 131.23060607910156,
+      "layer": "Obstacles",
       "locked": false,
       "name": "Obstacle",
       "persistentUuid": "76b5e116-0c7d-44c8-851f-7a876ddff1a4",
-      "width": 490,
-      "x": 166,
-      "y": 203,
+      "width": 4.801119327545166,
+      "x": 162.35696411132812,
+      "y": 322.7828063964844,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -1053,7 +1056,7 @@
       "angle": 0,
       "customSize": true,
       "height": 36,
-      "layer": "",
+      "layer": "Obstacles",
       "locked": false,
       "name": "Obstacle",
       "persistentUuid": "ee265742-9aa8-42dd-8955-4db12348f61c",
@@ -1069,7 +1072,7 @@
       "angle": 12.175641059875488,
       "customSize": true,
       "height": 270.19036865234375,
-      "layer": "",
+      "layer": "Obstacles",
       "locked": false,
       "name": "Obstacle",
       "persistentUuid": "203c5391-8a34-4259-a492-9ba5f65f628d",
@@ -1084,14 +1087,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 47,
-      "layer": "",
+      "height": 59,
+      "layer": "Obstacles",
       "locked": false,
       "name": "Obstacle",
       "persistentUuid": "39ebf53c-60a3-4059-9965-868a91443a9d",
       "width": 8,
-      "x": 3064,
-      "y": 618,
+      "x": 2951,
+      "y": 607,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -1101,13 +1104,13 @@
       "angle": 0,
       "customSize": true,
       "height": 47,
-      "layer": "",
+      "layer": "Obstacles",
       "locked": false,
       "name": "Obstacle",
       "persistentUuid": "86164ef1-0369-4226-9bae-eb06ea615867",
       "width": 8,
-      "x": 3700,
-      "y": 603,
+      "x": 3535,
+      "y": 614,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -1133,7 +1136,7 @@
       "angle": 0,
       "customSize": true,
       "height": 6,
-      "layer": "",
+      "layer": "Obstacles",
       "locked": false,
       "name": "Obstacle",
       "persistentUuid": "3a3836f7-b59a-4802-99f6-cb12019d17a4",
@@ -1149,7 +1152,7 @@
       "angle": 0,
       "customSize": true,
       "height": 18,
-      "layer": "",
+      "layer": "Obstacles",
       "locked": false,
       "name": "Obstacle",
       "persistentUuid": "d11701d1-2879-41c7-9633-dc9f659e5f5d",
@@ -1157,6 +1160,566 @@
       "x": 231,
       "y": 323,
       "zOrder": 100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "CustomerPopingSpace",
+      "persistentUuid": "fe97594c-2d34-43a9-8fac-d28a7035500c",
+      "width": 0,
+      "x": 3330,
+      "y": 234,
+      "zOrder": 101,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Trashcan",
+      "persistentUuid": "e2befec0-26b1-4548-a4df-4f989ec3df56",
+      "width": 0,
+      "x": 2544,
+      "y": 124,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 6,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "d2a1028f-8904-4470-b305-4b87bccf64ff",
+      "width": 490,
+      "x": 166,
+      "y": 203,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 351.4584655761719,
+      "customSize": true,
+      "height": 80.96098327636719,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "c61e62c6-637d-4a6b-baf7-a8dbb663d40c",
+      "width": 198.141357421875,
+      "x": 1975.945068359375,
+      "y": 113.26560974121094,
+      "zOrder": 102,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 38,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "f5dcffc9-646f-4c1f-9504-92e0646778e0",
+      "width": 93,
+      "x": 1860,
+      "y": 401,
+      "zOrder": 102,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 600,
+      "layer": "",
+      "locked": true,
+      "name": "IndoorsBackgroundLight",
+      "persistentUuid": "63bb913b-efd0-407d-b2f3-b28b86f8ea8d",
+      "width": 750,
+      "x": 20,
+      "y": 0,
+      "zOrder": 103,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 353.8397521972656,
+      "customSize": true,
+      "height": 46.3231086730957,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "21fd4f63-f342-4999-8c10-d3d699c75ef9",
+      "width": 174.3928680419922,
+      "x": 1977.6251220703125,
+      "y": 61.45362091064453,
+      "zOrder": 104,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 111.72901916503906,
+      "customSize": true,
+      "height": 22,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "426a1e3a-cd84-4dab-8bd5-2989536e0921",
+      "width": 64,
+      "x": 1934.9346923828125,
+      "y": 113.20136260986328,
+      "zOrder": 105,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 47.41416549682617,
+      "customSize": true,
+      "height": 22,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "9a684111-17c7-432d-a989-b5eae03e2317",
+      "width": 64,
+      "x": 2148.246826171875,
+      "y": 88.00409698486328,
+      "zOrder": 105,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 123,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "070b7129-4b71-4917-b9fa-a7c7493a003b",
+      "width": 69,
+      "x": 1953,
+      "y": 483,
+      "zOrder": 106,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 140.13491821289062,
+      "customSize": true,
+      "height": 258,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "da39fcbf-a8a0-4356-ad3c-d44ad93313cf",
+      "width": 16,
+      "x": 3438.1728515625,
+      "y": 66.85742950439453,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 329.8001708984375,
+      "customSize": true,
+      "height": 258,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "7220bdca-1365-4da2-9104-9a343ee84233",
+      "width": 16,
+      "x": 3393.803466796875,
+      "y": 360.5157775878906,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 42.314369201660156,
+      "customSize": true,
+      "height": 258,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "0f1b4d8c-59ff-42e1-ba81-b08f319f06fd",
+      "width": 16,
+      "x": 3420.24169921875,
+      "y": 162.77621459960938,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 70.30156707763672,
+      "customSize": true,
+      "height": 258,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "6a2c85ae-b68f-47a1-8c87-70a6480aaf03",
+      "width": 16,
+      "x": 3353.8525390625,
+      "y": 28.013805389404297,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 75.62616729736328,
+      "customSize": true,
+      "height": 17.950326919555664,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "50069656-b059-437f-82fc-28d88a61b831",
+      "width": 356.24493408203125,
+      "x": 3028.96484375,
+      "y": 63.79953384399414,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1108,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "e4d3d451-f25c-46c7-b97f-a316fa58d020",
+      "width": 14,
+      "x": 1794,
+      "y": -169,
+      "zOrder": 109,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 8,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "8a274ab0-64f0-4bad-9101-69f341a9ea62",
+      "width": 284,
+      "x": 1791,
+      "y": 689,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 15,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "20911a07-be1e-4617-a1b8-0a907b3b0d00",
+      "width": 1412,
+      "x": 2218,
+      "y": 665,
+      "zOrder": 109,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 15,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "1f6ae6ff-3843-4628-9b3c-d0affbb66981",
+      "width": 1980,
+      "x": 1803,
+      "y": -176,
+      "zOrder": 109,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 13,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "18119d41-a4e5-4745-926f-17f4dadb4a6a",
+      "width": 117,
+      "x": 2091,
+      "y": 716,
+      "zOrder": 106,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "4339eacb-c2c4-43c6-8e3c-ea379b209796",
+      "width": 18,
+      "x": 2021,
+      "y": 513,
+      "zOrder": 106,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "b994e6ba-9c4f-4c05-8de4-2afccc82ba93",
+      "width": 23,
+      "x": 2021,
+      "y": 578,
+      "zOrder": 106,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "6a2c4092-e3cc-47b2-adb8-850d806a64c6",
+      "width": 23,
+      "x": 2058,
+      "y": 562,
+      "zOrder": 106,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "77391a36-7afa-4da8-9312-39efa9c543b1",
+      "width": 23,
+      "x": 2070,
+      "y": 678,
+      "zOrder": 106,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "55114307-b06e-4dfa-af9d-c2529ba66c95",
+      "width": 23,
+      "x": 2201,
+      "y": 677,
+      "zOrder": 106,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "817429f7-1991-4638-87b1-f381a6b64ba2",
+      "width": 23,
+      "x": 2201,
+      "y": 565,
+      "zOrder": 106,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": true,
+      "name": "BeachStall",
+      "persistentUuid": "9019ac47-a50d-4b31-81d1-f5b5bf315349",
+      "width": 0,
+      "x": 1652,
+      "y": 47,
+      "zOrder": 111,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": true,
+      "name": "BeachSun",
+      "persistentUuid": "614a48be-cc1a-4217-b03b-decabf6774f4",
+      "width": 0,
+      "x": 2553,
+      "y": 175,
+      "zOrder": 112,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 56,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "064c167d-0309-40a7-a82a-140a7c0b1553",
+      "width": 53,
+      "x": 2067,
+      "y": 277,
+      "zOrder": 106,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 91,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle2",
+      "persistentUuid": "c14aaacc-b3b4-4b33-99af-0f8619a5222a",
+      "width": 102,
+      "x": 2625,
+      "y": 351,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 91,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle2",
+      "persistentUuid": "370e77b6-e835-45ac-9f01-966353eae65c",
+      "width": 102,
+      "x": 2865,
+      "y": 267,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": true,
+      "name": "BeachRestaurantTop",
+      "persistentUuid": "920276cc-c083-4d31-ae68-9b0f8cd3394a",
+      "width": 0,
+      "x": 2520,
+      "y": -139,
+      "zOrder": 114,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 57,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle2",
+      "persistentUuid": "8b8a542c-cabf-4fde-a588-ed5d9608037f",
+      "width": 54,
+      "x": 2836,
+      "y": 96,
+      "zOrder": 115,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 57,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle2",
+      "persistentUuid": "f6c2177b-ee2a-4439-b253-9333a4b59653",
+      "width": 54,
+      "x": 2625,
+      "y": 98,
+      "zOrder": 115,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "fb781143-e14c-4571-b2d2-cfe2977e42f9",
+      "width": 210,
+      "x": 2658,
+      "y": 105,
+      "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3364,7 +3927,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\interactive_items\\sign.png",
                   "points": [],
                   "originPoint": {
@@ -3378,7 +3941,34 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.70000076293945,
+                        "y": 2.6500000953674316
+                      },
+                      {
+                        "x": 35.900001525878906,
+                        "y": 20.049999237060547
+                      },
+                      {
+                        "x": 25.200000762939453,
+                        "y": 40.54999923706055
+                      },
+                      {
+                        "x": 12.800000190734863,
+                        "y": 40.45000076293945
+                      },
+                      {
+                        "x": 2.0999999046325684,
+                        "y": 19.850000381469727
+                      },
+                      {
+                        "x": 3.5999999046325684,
+                        "y": 2.8499999046325684
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -3393,7 +3983,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\interactive_items\\sign_outline.png",
                   "points": [],
                   "originPoint": {
@@ -3407,7 +3997,34 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.70000076293945,
+                        "y": 2.6500000953674316
+                      },
+                      {
+                        "x": 35.900001525878906,
+                        "y": 20.049999237060547
+                      },
+                      {
+                        "x": 25.200000762939453,
+                        "y": 40.54999923706055
+                      },
+                      {
+                        "x": 12.800000190734863,
+                        "y": 40.45000076293945
+                      },
+                      {
+                        "x": 2.0999999046325684,
+                        "y": 19.850000381469727
+                      },
+                      {
+                        "x": 3.5999999046325684,
+                        "y": 2.8499999046325684
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -5124,7 +5741,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/cookbook.png",
+                  "image": "assets\\sprites\\interactive_items\\cookbook.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5153,7 +5770,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\sprites\\cookbook.png",
+                  "image": "assets\\sprites\\interactive_items\\cookbook-outline.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5293,7 +5910,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewObject-2.png",
+                  "image": "assets\\images\\Teleportation.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5628,11 +6245,11 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "timeBetweenFrames": 0.07000000029802322,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand1.png",
                   "points": [],
                   "originPoint": {
@@ -5646,10 +6263,45 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand2.png",
                   "points": [],
                   "originPoint": {
@@ -5663,10 +6315,45 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand3.png",
                   "points": [],
                   "originPoint": {
@@ -5680,10 +6367,45 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand4.png",
                   "points": [],
                   "originPoint": {
@@ -5697,10 +6419,45 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand5.png",
                   "points": [],
                   "originPoint": {
@@ -5714,10 +6471,45 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand6.png",
                   "points": [],
                   "originPoint": {
@@ -5731,10 +6523,45 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand7.png",
                   "points": [],
                   "originPoint": {
@@ -5748,10 +6575,45 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand8.png",
                   "points": [],
                   "originPoint": {
@@ -5765,10 +6627,45 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand9.png",
                   "points": [],
                   "originPoint": {
@@ -5782,10 +6679,45 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand10.png",
                   "points": [],
                   "originPoint": {
@@ -5799,10 +6731,45 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand11.png",
                   "points": [],
                   "originPoint": {
@@ -5816,10 +6783,45 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\honnete_marchand12.png",
                   "points": [],
                   "originPoint": {
@@ -5833,7 +6835,42 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -5844,11 +6881,11 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "timeBetweenFrames": 0.07000000029802322,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate1.png",
                   "points": [],
                   "originPoint": {
@@ -5862,10 +6899,45 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate2.png",
                   "points": [],
                   "originPoint": {
@@ -5879,10 +6951,45 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate3.png",
                   "points": [],
                   "originPoint": {
@@ -5896,10 +7003,45 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate4.png",
                   "points": [],
                   "originPoint": {
@@ -5913,10 +7055,45 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate5.png",
                   "points": [],
                   "originPoint": {
@@ -5930,10 +7107,45 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate6.png",
                   "points": [],
                   "originPoint": {
@@ -5947,10 +7159,45 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate7.png",
                   "points": [],
                   "originPoint": {
@@ -5964,10 +7211,45 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate8.png",
                   "points": [],
                   "originPoint": {
@@ -5981,10 +7263,45 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate9.png",
                   "points": [],
                   "originPoint": {
@@ -5998,10 +7315,45 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate10.png",
                   "points": [],
                   "originPoint": {
@@ -6015,10 +7367,45 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate11.png",
                   "points": [],
                   "originPoint": {
@@ -6032,10 +7419,45 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\NPCs\\rum_merchant\\outline\\honnete_pirate12.png",
                   "points": [],
                   "originPoint": {
@@ -6049,7 +7471,42 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43.71428680419922,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 49.71428680419922,
+                        "y": 28.785715103149414
+                      },
+                      {
+                        "x": 44.14285659790039,
+                        "y": 56
+                      },
+                      {
+                        "x": 13.428571701049805,
+                        "y": 56
+                      },
+                      {
+                        "x": 7.857142925262451,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 5.857142925262451,
+                        "y": 16.071428298950195
+                      },
+                      {
+                        "x": 21.85714340209961,
+                        "y": 2.357142925262451
+                      },
+                      {
+                        "x": 29.714284896850586,
+                        "y": 2.5
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -6460,6 +7917,46 @@
       ]
     },
     {
+      "name": "CustomerPopingSpace",
+      "tags": "invisible",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\Invisible.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "CustomerArrivalSpace",
       "tags": "invisible",
       "type": "Sprite",
@@ -6478,7 +7975,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewObject-1-0.png",
+                  "image": "assets\\images\\Invisible.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6518,7 +8015,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewObject-1-0.png",
+                  "image": "assets\\images\\Invisible.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6532,6 +8029,117 @@
                     "y": 0
                   },
                   "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Obstacle2",
+      "tags": "invisible",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "obstacle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\images\\Obstacle2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 59.89514923095703,
+                        "y": 49.8293571472168
+                      },
+                      {
+                        "x": 49.23725509643555,
+                        "y": 59.9609375
+                      },
+                      {
+                        "x": 38.316200256347656,
+                        "y": 64
+                      },
+                      {
+                        "x": 25.816200256347656,
+                        "y": 64
+                      },
+                      {
+                        "x": 14.895148277282715,
+                        "y": 60.22409439086914
+                      },
+                      {
+                        "x": 7.526727199554443,
+                        "y": 54.039886474609375
+                      },
+                      {
+                        "x": 2.92146372795105,
+                        "y": 47.5925178527832
+                      },
+                      {
+                        "x": 0,
+                        "y": 37.855674743652344
+                      },
+                      {
+                        "x": 0,
+                        "y": 25.881990432739258
+                      },
+                      {
+                        "x": 3.974095344543457,
+                        "y": 14.3030424118042
+                      },
+                      {
+                        "x": 15.421463966369629,
+                        "y": 3.9083058834075928
+                      },
+                      {
+                        "x": 25.684621810913086,
+                        "y": 0
+                      },
+                      {
+                        "x": 39.105674743652344,
+                        "y": 0
+                      },
+                      {
+                        "x": 48.7109375,
+                        "y": 3.6451480388641357
+                      },
+                      {
+                        "x": 57.789886474609375,
+                        "y": 11.408306121826172
+                      },
+                      {
+                        "x": 64,
+                        "y": 26.1451473236084
+                      },
+                      {
+                        "x": 64,
+                        "y": 37.855674743652344
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -6558,7 +8166,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewObject-1.png",
+                  "image": "assets\\images\\Obstacle.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6598,7 +8206,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewObject-2.png",
+                  "image": "assets\\images\\Teleportation.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7131,7 +8739,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Outlined-1.png",
+                  "image": "assets\\sprites\\non_interactive_items\\clock\\Outlined-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7160,7 +8768,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Outlined-2.png",
+                  "image": "assets\\sprites\\non_interactive_items\\clock\\Outlined-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7189,7 +8797,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Outlined-3.png",
+                  "image": "assets\\sprites\\non_interactive_items\\clock\\Outlined-3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7218,7 +8826,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Outlined-4.png",
+                  "image": "assets\\sprites\\non_interactive_items\\clock\\Outlined-4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7258,7 +8866,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/dresser.png",
+                  "image": "assets\\sprites\\interactive_items\\plates.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7287,7 +8895,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/dresser-outline.png",
+                  "image": "assets\\sprites\\interactive_items\\plates-outline.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7349,6 +8957,46 @@
       ]
     },
     {
+      "name": "IndoorsBackgroundLight",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\indoors_light.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "IndoorsBackgroundTabletops",
       "tags": "",
       "type": "Sprite",
@@ -7368,6 +9016,126 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\images\\indoors_tops.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BeachRestaurantTop",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\beach_restaurant_top.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BeachSun",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\beach_sunshield.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BeachStall",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\beach_stall.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7574,6 +9342,16 @@
             "value": "Cache"
           },
           "parameters": [
+            "Obstacle2"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
             "BeachEntry"
           ],
           "subInstructions": []
@@ -7745,6 +9523,18 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "gActiveScene",
+                "=",
+                "\"Beach\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "MettreXY"
               },
               "parameters": [
@@ -7875,6 +9665,18 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "gActiveScene",
+                "=",
+                "\"Restaurant\""
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
@@ -8125,17 +9927,6 @@
   ],
   "layers": [
     {
-      "ambientLightColorB": -2147483632,
-      "ambientLightColorG": 6023280,
-      "ambientLightColorR": 7102856,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "name": "Obstacles",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
-    {
       "ambientLightColorB": 1869181810,
       "ambientLightColorG": 0,
       "ambientLightColorR": 0,
@@ -8155,6 +9946,17 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": -2147483632,
+      "ambientLightColorG": 6023280,
+      "ambientLightColorR": 7102856,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Obstacles",
+      "visibility": true,
+      "cameras": [],
       "effects": []
     },
     {

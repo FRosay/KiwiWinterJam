@@ -52,6 +52,20 @@
             {
               "type": {
                 "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\sounds\\fishing_rod_cast.mp3",
+                "",
+                "100",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "ShowLayer"
               },
               "parameters": [
@@ -287,6 +301,20 @@
                       "parameters": [
                         "foundSpace",
                         "True"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\sounds\\fishing_net_splash.mp3",
+                        "",
+                        "100",
+                        "1"
                       ],
                       "subInstructions": []
                     }

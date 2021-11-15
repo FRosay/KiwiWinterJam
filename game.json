@@ -11,13 +11,13 @@
     "folderProject": true,
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "pixelsRounding": false,
+    "pixelsRounding": true,
     "projectUuid": "90789492-171d-44a8-b2a4-f228bd1b1d78",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "Project",
+    "name": "Project Carribean",
     "author": "Kiwi Productions",
     "windowWidth": 800,
     "windowHeight": 600,
@@ -116,15 +116,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sprites/potato.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/potato.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/images/fade.png",
         "kind": "image",
         "metadata": "",
@@ -170,28 +161,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sprites/trashcan.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/trashcan.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/sprites/NPCs/NPC2/plagistee3.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\sprites\\NPCs\\NPC2\\plagistee3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/trashcan-outline.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/trashcan-outline.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -233,24 +206,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sprites/drying-rack.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/drying-rack.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/drying-rack-outline.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/drying-rack-outline.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/sprites/avocado-tree.png",
         "kind": "image",
         "metadata": "",
@@ -282,24 +237,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/sprites/banana-tree.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/rum-merchant.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/rum-merchant.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/rum-merchant-outline.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/rum-merchant-outline.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -368,37 +305,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sprites/seaweed.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/seaweed.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/spice.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/spice.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/sprites/rum.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/sprites/rum.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/octopus.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/octopus.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -417,15 +327,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/sprites/octopus-cooked.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/images/plage.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\images\\plage.jpg",
         "smoothed": true,
         "userAdded": true
       },
@@ -485,24 +386,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sprites/sign.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/sign.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/sign-outline.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/sign-outline.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/sprites/basket.png",
         "kind": "image",
         "metadata": "",
@@ -543,42 +426,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/sprites/cutting-board-finish.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/drying-rack-fish.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/drying-rack-fish.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/drying-rack-fish-outline.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/drying-rack-fish-outline.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/crate.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/crate.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/crate-outline.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/crate-outline.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -896,42 +743,6 @@
         "name": "assets\\sprites\\burnt stuff.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Outlined-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Outlined-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Outlined-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Outlined-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Outlined-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Outlined-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Outlined-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Outlined-4.png",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -1430,114 +1241,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand5.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand6.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand7.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand8.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand9.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand10.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand11.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/NPCs/rhum_merchant/honnete_marchand12.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\NPCs\\rhum_merchant\\honnete_marchand12.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/sprites/NPCs/rum_merchant/honnete_marchand1.png",
         "kind": "image",
         "metadata": "",
@@ -1848,6 +1551,222 @@
         "kind": "image",
         "metadata": "",
         "name": "NewObject-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/non_interactive_items/clock/Outlined-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\non_interactive_items\\clock\\Outlined-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/non_interactive_items/clock/Outlined-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\non_interactive_items\\clock\\Outlined-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/non_interactive_items/clock/Outlined-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\non_interactive_items\\clock\\Outlined-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/non_interactive_items/clock/Outlined-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\non_interactive_items\\clock\\Outlined-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/musics/kitchen.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\musics\\kitchen.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/musics/beach.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\musics\\beach.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/fishing_rod_cast.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\fishing_rod_cast.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/fishing_net_splash.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\fishing_net_splash.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/cookbook.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\interactive_items\\cookbook.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/cookbook-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\interactive_items\\cookbook-outline.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/indoors_light.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\indoors_light.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/indoors_light_2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\indoors_light_2.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/beach_stall.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\beach_stall.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/musics/kitchen_moresounds.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\musics\\kitchen_moresounds.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/beach_sunshield.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\beach_sunshield.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1 - Copie.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1 - Copie.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "obstacle-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "obstacle-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/Obstacle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\Obstacle2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/Teleportation.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\Teleportation.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/Obstacle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\Obstacle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/Invisible.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\Invisible.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/plates.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\interactive_items\\plates.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/plates-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\interactive_items\\plates-outline.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/beach_restaurant_top.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\beach_restaurant_top.jpg",
         "smoothed": true,
         "userAdded": true
       }
