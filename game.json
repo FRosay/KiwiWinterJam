@@ -64,204 +64,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Orc Shaman_Idle_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Orc Shaman_Idle_1.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Orc Shaman_Idle_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Orc Shaman_Idle_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Orc Shaman_Idle_2.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Orc Shaman_Idle_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Orc Shaman_Idle_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Orc Shaman_Idle_3.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Orc Shaman_Idle_3.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Orc Shaman_Idle_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Orc Shaman_Idle_4.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Orc Shaman_Idle_4.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Orc Shaman_Run_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Orc Shaman_Run_1.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Orc Shaman_Run_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Orc Shaman_Run_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Orc Shaman_Run_2.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Orc Shaman_Run_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Orc Shaman_Run_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Orc Shaman_Run_3.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Orc Shaman_Run_3.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Orc Shaman_Run_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Orc Shaman_Run_4.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Characters/Orc Shaman_Run_4.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Chair.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Chair.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Objects/Other Objects/Chair.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/orc_shaman/idle/Orc Shaman_Idle_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\orc_shaman\\idle\\Orc Shaman_Idle_1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/orc_shaman/idle/Orc Shaman_Idle_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\orc_shaman\\idle\\Orc Shaman_Idle_2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/orc_shaman/idle/Orc Shaman_Idle_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\orc_shaman\\idle\\Orc Shaman_Idle_3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/orc_shaman/idle/Orc Shaman_Idle_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\orc_shaman\\idle\\Orc Shaman_Idle_4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/orc_shaman/run/Orc Shaman_Run_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\orc_shaman\\run\\Orc Shaman_Run_1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/orc_shaman/run/Orc Shaman_Run_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\orc_shaman\\run\\Orc Shaman_Run_2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/orc_shaman/run/Orc Shaman_Run_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\orc_shaman\\run\\Orc Shaman_Run_3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/orc_shaman/run/Orc Shaman_Run_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\orc_shaman\\run\\Orc Shaman_Run_4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/images/Obstacle.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\images\\Obstacle.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/sprites/short_vertical_banner.png",
         "kind": "image",
         "metadata": "",
@@ -275,152 +77,6 @@
         "metadata": "",
         "name": "assets\\fonts\\Spinstee.ttf",
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Stone_No Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Stone_No Shadow.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Fantasy Icons Pack v2/Icons/Resources/Stone_No Shadow.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Stone_Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Stone_Shadow.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Fantasy Icons Pack v2/Icons/Resources/Stone_Shadow.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "holder-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "holder-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Cereal2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Cereal2.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Pixel art items/Pixel Mart/Food/Cereal2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Bar Frame_No Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Bar Frame_No Shadow.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Interface/PX UI Basic/Bar Frame_No Shadow.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Bar Frame_Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Bar Frame_Shadow.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Interface/PX UI Basic/Bar Frame_Shadow.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/orc_shaman/avocado-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/orc_shaman/avocado-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "avocado-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "avocado-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "potato-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "potato-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "stew-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stew-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "resources-empty-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "resources-empty-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Cereal2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Cereal2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Cereal2-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Cereal2-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Stone_No Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Stone_No Shadow.png",
-        "smoothed": true,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -451,33 +107,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sprites/oven.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/oven.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/Stone_NoShadow-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/Stone_NoShadow-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/oven-outline.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/oven-outline.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/sprites/resources-empty.png",
         "kind": "image",
         "metadata": "",
@@ -487,91 +116,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sprites/avocado.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/avocado.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/sprites/potato.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/sprites/potato.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/stew.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/stew.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/customers-0-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/customers-0-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/customers-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/customers-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/button-oven-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/button-oven-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/cutting-board.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/cutting-board.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/cutting-board-outline.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/cutting-board-outline.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/button-cutting-board.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/button-cutting-board.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/pineapple.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/pineapple.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -592,15 +140,6 @@
         "name": "assets\\sprites\\horizontal_banner.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/avocado-cutted.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/avocado-cutted.png",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -631,109 +170,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/customers-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\customers-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/player/cuisinier1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\player\\cuisinier1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/player/cuisinier2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\player\\cuisinier2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/player/cuisinier3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\player\\cuisinier3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/player/cuisinier4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\player\\cuisinier4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/NPCs/NPC1/plagiste1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\NPCs\\NPC1\\plagiste1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/pineapple-cutted.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/pineapple-cutted.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/NPCs/NPC1/plagiste2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\NPCs\\NPC1\\plagiste2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/sprites/trashcan.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/sprites/trashcan.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/NPCs/NPC1/plagiste3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\NPCs\\NPC1\\plagiste3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/NPCs/NPC1/plagiste4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\NPCs\\NPC1\\plagiste4.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -781,15 +221,6 @@
         "name": "assets\\sprites\\NPCs\\NPC2\\plagistee4.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/customers-0-outline.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/customers-0-outline.png",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "file": "assets/musics/ambient_music.mp3",
@@ -842,15 +273,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/sprites/avocado-tree-outline.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/banana.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/banana.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -982,24 +404,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sprites/cod-dried.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/cod-dried.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/cod.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/cod.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/sprites/octopus.png",
         "kind": "image",
         "metadata": "",
@@ -1045,15 +449,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sprites/cod.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\cod.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/sprites/stuned-0.png",
         "kind": "image",
         "metadata": "",
@@ -1090,24 +485,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sprites/shovel.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/shovel.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/short_vertical_banner.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/short_vertical_banner.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/sprites/potato-field-ready.png",
         "kind": "image",
         "metadata": "",
@@ -1130,15 +507,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/sprites/sign-outline.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/banana-falling-spot.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/banana-falling-spot.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -1387,15 +755,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sprites/oven-outline.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\oven-outline.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/sprites/player/anim_right/cuisinier_walk-side1.png",
         "kind": "image",
         "metadata": "",
@@ -1546,32 +905,6 @@
         "name": "assets\\sprites\\burnt stuff.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Timer_Drop-shadowed.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Timer_Drop-shadowed.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Mini FX, Items & UI/Mini UI/Timer_Drop-shadowed.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Timer_Outlined.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Timer_Outlined.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Mini FX, Items & UI/Mini UI/Timer_Outlined.png",
-          "name": "gdevelop-asset-store"
-        }
       },
       {
         "alwaysLoaded": false,
@@ -1914,6 +1247,150 @@
         "name": "assets/sprites/dresser-outline.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/ingredients/banana.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\ingredients\\banana.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/ingredients/avocado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\ingredients\\avocado.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/ingredients/cod-dried.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\ingredients\\cod-dried.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/ingredients/cod.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\ingredients\\cod.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/oven.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\interactive_items\\oven.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/oven-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\interactive_items\\oven-outline.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/cutting-board.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\interactive_items\\cutting-board.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/cutting-board-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\interactive_items\\cutting-board-outline.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/drying-rack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\interactive_items\\drying-rack.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/drying-rack-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\interactive_items\\drying-rack-outline.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/drying-rack-fish.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\interactive_items\\drying-rack-fish.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/drying-rack-fish-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\interactive_items\\drying-rack-fish-outline.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/trashcan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\interactive_items\\trashcan.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/trashcan-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\interactive_items\\trashcan-outline.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/crate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\interactive_items\\crate.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/crate-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\interactive_items\\crate-outline.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.48799999999999977,
+    "zoomFactor": 0.728,
     "windowMask": false
   },
   "objectsGroups": [
@@ -3487,7 +3487,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/oven.png",
+                  "image": "assets\\sprites\\interactive_items\\oven.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3516,7 +3516,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/oven-outline.png",
+                  "image": "assets\\sprites\\interactive_items\\oven-outline.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3660,7 +3660,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/avocado.png",
+                  "image": "assets\\sprites\\ingredients\\avocado.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3689,7 +3689,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/banana.png",
+                  "image": "assets\\sprites\\ingredients\\banana.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3892,7 +3892,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/cod.png",
+                  "image": "assets\\sprites\\ingredients\\cod.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3921,7 +3921,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/cod-dried.png",
+                  "image": "assets\\sprites\\ingredients\\cod-dried.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4955,7 +4955,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/cutting-board.png",
+                  "image": "assets\\sprites\\interactive_items\\cutting-board.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4984,7 +4984,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/cutting-board-outline.png",
+                  "image": "assets\\sprites\\interactive_items\\cutting-board-outline.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5095,7 +5095,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/trashcan.png",
+                  "image": "assets\\sprites\\interactive_items\\trashcan.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5124,7 +5124,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/trashcan-outline.png",
+                  "image": "assets\\sprites\\interactive_items\\trashcan-outline.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5204,7 +5204,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/drying-rack.png",
+                  "image": "assets\\sprites\\interactive_items\\drying-rack.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5233,7 +5233,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/drying-rack-outline.png",
+                  "image": "assets\\sprites\\interactive_items\\drying-rack-outline.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5262,7 +5262,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/drying-rack-fish.png",
+                  "image": "assets\\sprites\\interactive_items\\drying-rack-fish.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5291,7 +5291,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/drying-rack-fish-outline.png",
+                  "image": "assets\\sprites\\interactive_items\\drying-rack-fish-outline.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6433,7 +6433,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/crate.png",
+                  "image": "assets\\sprites\\interactive_items\\crate.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6462,7 +6462,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/crate-outline.png",
+                  "image": "assets\\sprites\\interactive_items\\crate-outline.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
