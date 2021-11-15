@@ -22,13 +22,12 @@
         {
           "type": {
             "inverted": false,
-            "value": "CollisionNP"
+            "value": "Distance"
           },
           "parameters": [
             "Player",
             "FishingSpot",
-            "",
-            "",
+            "GlobalVariable(gDistanceOfInteraction)",
             ""
           ],
           "subInstructions": []
@@ -115,11 +114,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "MouseButtonPressed"
+                "value": "KeyPressed"
               },
               "parameters": [
                 "",
-                "Left"
+                "Space"
               ],
               "subInstructions": []
             },

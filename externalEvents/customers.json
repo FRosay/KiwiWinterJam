@@ -501,7 +501,7 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Customers",
+          "object": "Customer_male",
           "conditions": [],
           "actions": [],
           "events": [
@@ -513,175 +513,10 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "AngleOfDisplacement"
-                  },
-                  "parameters": [
-                    "Customers",
-                    "0",
-                    "50"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Customers",
-                    "\"right\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AngleOfDisplacement"
-                  },
-                  "parameters": [
-                    "Customers",
-                    "90",
-                    "50"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Customers",
-                    "\"bot\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AngleOfDisplacement"
-                  },
-                  "parameters": [
-                    "Customers",
-                    "180",
-                    "50"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Customers",
-                    "\"left\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AngleOfDisplacement"
-                  },
-                  "parameters": [
-                    "Customers",
-                    "270",
-                    "50"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Customers",
-                    "\"top\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AngleOfDisplacement"
-                  },
-                  "parameters": [
-                    "Customers",
-                    "360",
-                    "50"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Customers",
-                    "\"right\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "Arret"
                   },
                   "parameters": [
-                    "Customers"
+                    "Customer_male"
                   ],
                   "subInstructions": []
                 },
@@ -701,13 +536,384 @@
                     "value": "SetAnimationName"
                   },
                   "parameters": [
-                    "Customers",
+                    "Customer_male",
                     "Customers.AnimationName()+\"_idle\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Customer_male",
+                    "test",
+                    "=",
+                    "Customers.AnimationName()"
                   ],
                   "subInstructions": []
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Arret"
+                  },
+                  "parameters": [
+                    "Customer_male"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "Customer_male",
+                        ">=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "Customer_male",
+                        "<",
+                        "50"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Customer_male",
+                        "\"right\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Customer_male",
+                        "test",
+                        "=",
+                        "Customers.AnimationName()"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "Customer_male",
+                        ">=",
+                        "50"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "Customer_male",
+                        "<",
+                        "130"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Customer_male",
+                        "\"bot\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Customer_male",
+                        "test",
+                        "=",
+                        "Customers.AnimationName()"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "Customer_male",
+                        ">=",
+                        "130"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "Customer_male",
+                        "<",
+                        "220"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Customer_male",
+                        "\"left\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Customer_male",
+                        "test",
+                        "=",
+                        "Customers.AnimationName()"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "Customer_male",
+                        ">=",
+                        "220"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "Customer_male",
+                        "<",
+                        "310"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Customer_male",
+                        "\"top\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Customer_male",
+                        "test",
+                        "=",
+                        "Customers.AnimationName()"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "Customer_male",
+                        ">=",
+                        "310"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "Customer_male",
+                        "<",
+                        "360"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Customer_male",
+                        "\"right\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Customer_male",
+                        "test",
+                        "=",
+                        "Customers.AnimationName()"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             }
           ]
         }
@@ -808,7 +1014,7 @@
               "parameters": [
                 "customerXDestination",
                 "=",
-                "RandomInRange(2400, 3100)"
+                "RandomInRange(2450, 3000)"
               ],
               "subInstructions": []
             },
@@ -820,7 +1026,7 @@
               "parameters": [
                 "customerYDestination",
                 "=",
-                "RandomInRange(240, 560)"
+                "RandomInRange(300, 500)"
               ],
               "subInstructions": []
             }
@@ -914,7 +1120,7 @@
                         "Customer_female",
                         "Variable(customerXDestination)",
                         "Variable(customerYDestination)",
-                        "30",
+                        "40",
                         "1"
                       ],
                       "subInstructions": []
@@ -1012,7 +1218,7 @@
                         "Customer_male",
                         "Variable(customerXDestination)",
                         "Variable(customerYDestination)",
-                        "30",
+                        "40",
                         "1"
                       ],
                       "subInstructions": []
@@ -1160,7 +1366,7 @@
               },
               "parameters": [
                 "Customers",
-                "CustomerWaitingSpace",
+                "CustomerArrivalSpace",
                 "",
                 "",
                 ""
@@ -1195,6 +1401,78 @@
         },
         {
           "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "Customers",
+                "state",
+                "=",
+                "\"ordering\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Bounce::Bounce::BounceOff"
+              },
+              "parameters": [
+                "Customers",
+                "Bounce",
+                "CustomerBouncingSpace",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "Customers",
+                "state",
+                "=",
+                "\"waiting\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Bounce::Bounce::BounceOff"
+              },
+              "parameters": [
+                "Customers",
+                "Bounce",
+                "CustomerBouncingSpace",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Customers",

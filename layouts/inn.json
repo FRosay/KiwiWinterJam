@@ -621,8 +621,8 @@
       "name": "Crab",
       "persistentUuid": "90490443-a354-46b5-9aff-d17c8bcbd50a",
       "width": 0,
-      "x": 3319,
-      "y": 482,
+      "x": 3409,
+      "y": 564,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -1039,8 +1039,8 @@
       "name": "Chair",
       "persistentUuid": "75407d31-ce7d-4969-a4c0-9efb7002d664",
       "width": 0,
-      "x": 3687,
-      "y": 479,
+      "x": 3689,
+      "y": 575,
       "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
@@ -1055,8 +1055,8 @@
       "name": "Chair",
       "persistentUuid": "89ccac26-c8a3-4cba-851f-a1f64ffdf28a",
       "width": 0,
-      "x": 3120,
-      "y": 472,
+      "x": 3064,
+      "y": 567,
       "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
@@ -1065,15 +1065,79 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 377,
+      "height": 425,
       "layer": "",
       "locked": false,
-      "name": "CustomerWaitingSpace",
+      "name": "CustomerBouncingSpace",
       "persistentUuid": "3e28d004-3d33-45d8-b28e-c722b35eec0f",
-      "width": 732,
-      "x": 2377,
-      "y": 216,
+      "width": 18,
+      "x": 3112,
+      "y": 200,
       "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 17,
+      "layer": "",
+      "locked": false,
+      "name": "CustomerBouncingSpace",
+      "persistentUuid": "75a16c99-6de9-4429-8375-4b79952a2d68",
+      "width": 756,
+      "x": 2356,
+      "y": 610,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 426,
+      "layer": "",
+      "locked": false,
+      "name": "CustomerBouncingSpace",
+      "persistentUuid": "0ae4c42f-0ca9-46b6-a36a-07877ec376d5",
+      "width": 18,
+      "x": 2343,
+      "y": 192,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 17,
+      "layer": "",
+      "locked": false,
+      "name": "CustomerBouncingSpace",
+      "persistentUuid": "09aea5e6-78fa-4dc4-b84e-12ff4979ee38",
+      "width": 767,
+      "x": 2361,
+      "y": 188,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 294,
+      "layer": "",
+      "locked": false,
+      "name": "CustomerArrivalSpace",
+      "persistentUuid": "7a93b13c-49ef-49c8-bd64-224a2df939d9",
+      "width": 619,
+      "x": 2443,
+      "y": 255,
+      "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4001,7 +4065,17 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Bounce",
+          "type": "Bounce::Bounce",
+          "OldX": 0,
+          "OldY": 0,
+          "OldForceAngle": 0,
+          "OldForceLength": 0,
+          "NormalAngle": 0
+        }
+      ],
       "animations": [
         {
           "name": "bot",
@@ -4134,7 +4208,17 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Bounce",
+          "type": "Bounce::Bounce",
+          "OldX": 0,
+          "OldY": 0,
+          "OldForceAngle": 0,
+          "OldForceLength": 0,
+          "NormalAngle": 0
+        }
+      ],
       "animations": [
         {
           "name": "bot_idle",
@@ -5867,7 +5951,47 @@
       ]
     },
     {
-      "name": "CustomerWaitingSpace",
+      "name": "CustomerArrivalSpace",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CustomerBouncingSpace",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -7036,6 +7160,10 @@
     {
       "name": "AnimatedBackAndForthMirroredMovement",
       "type": "AnimatedBackAndForthMovement::AnimatedBackAndForthMirroredMovement"
+    },
+    {
+      "name": "Bounce",
+      "type": "Bounce::Bounce"
     }
   ]
 }
