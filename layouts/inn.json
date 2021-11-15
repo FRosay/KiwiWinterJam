@@ -771,6 +771,150 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 572,
+      "layer": "CuttingBoard",
+      "locked": false,
+      "name": "CuttingBoardBorder",
+      "persistentUuid": "99d0a15c-4999-483b-a717-89ff343d6dc2",
+      "width": 153,
+      "x": -24,
+      "y": -29,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 117,
+      "layer": "CuttingBoard",
+      "locked": false,
+      "name": "CuttingBoardBorder",
+      "persistentUuid": "665ace54-8949-4d45-b8fb-b2e853eec34a",
+      "width": 686,
+      "x": 197,
+      "y": 517,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 117,
+      "layer": "CuttingBoard",
+      "locked": false,
+      "name": "CuttingBoardBorder",
+      "persistentUuid": "8cf1cba1-259d-4f82-83bd-8caad2ce5452",
+      "width": 686,
+      "x": 43,
+      "y": 348,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 117,
+      "layer": "CuttingBoard",
+      "locked": false,
+      "name": "CuttingBoardBorder",
+      "persistentUuid": "870436e2-5e71-4c31-90cf-f28475961694",
+      "width": 686,
+      "x": 206,
+      "y": 198,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 195,
+      "layer": "CuttingBoard",
+      "locked": false,
+      "name": "CuttingBoardBorder",
+      "persistentUuid": "75f81e29-d129-4274-a5aa-d8c47d64a6a7",
+      "width": 103,
+      "x": 132,
+      "y": -36,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 195,
+      "layer": "CuttingBoard",
+      "locked": false,
+      "name": "CuttingBoardBorder",
+      "persistentUuid": "29a136d3-48f0-40bc-af48-89468a5c772d",
+      "width": 103,
+      "x": 292,
+      "y": 48,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 195,
+      "layer": "CuttingBoard",
+      "locked": false,
+      "name": "CuttingBoardBorder",
+      "persistentUuid": "f3e2631e-0746-452e-9c5a-9222953edb53",
+      "width": 103,
+      "x": 449,
+      "y": -23,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 195,
+      "layer": "CuttingBoard",
+      "locked": false,
+      "name": "CuttingBoardBorder",
+      "persistentUuid": "ffcffb31-1849-4e96-9b3a-ff0c472ea1c7",
+      "width": 103,
+      "x": 610,
+      "y": 46,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 83,
+      "layer": "CuttingBoard",
+      "locked": false,
+      "name": "CuttingBoardFinish",
+      "persistentUuid": "b4103da6-e963-4990-8911-33666d658230",
+      "width": 101,
+      "x": 731,
+      "y": 93,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -3124,6 +3268,50 @@
           ]
         }
       ]
+    },
+    {
+      "height": 32,
+      "name": "CuttingBoardBorder",
+      "tags": "",
+      "texture": "assets/sprites/cutting-board-border.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "height": 16,
+      "name": "CuttingBoardPoint",
+      "tags": "",
+      "texture": "assets/sprites/cutting-board-point.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 16,
+      "variables": [
+        {
+          "name": "heightToMouse",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "widthToMouse",
+          "type": "string",
+          "value": "0"
+        }
+      ],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "height": 32,
+      "name": "CuttingBoardFinish",
+      "tags": "",
+      "texture": "assets/sprites/cutting-board-finish.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [
@@ -3207,15 +3395,6 @@
         "includeConfig": 0
       },
       "target": "Gathering"
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "Cutting"
     },
     {
       "disabled": false,
@@ -3508,6 +3687,17 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Gather",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 7869840,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 9896568,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "CuttingBoard",
       "visibility": true,
       "cameras": [],
       "effects": []
