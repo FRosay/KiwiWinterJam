@@ -1186,6 +1186,42 @@
         "name": "assets/sprites/cutting-board-finish.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/drying-rack-fish.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/drying-rack-fish.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/drying-rack-fish-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/drying-rack-fish-outline.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/crate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/crate.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/crate-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/crate-outline.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1391,6 +1427,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/gathering"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/crate"
     }
   ],
   "eventsFunctionsExtensions": [
