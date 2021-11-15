@@ -451,6 +451,18 @@
                         "1"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "FameDisplay",
+                        "=",
+                        "\"Notoriété : \"+VariableString(fame)"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []

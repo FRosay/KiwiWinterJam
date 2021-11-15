@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.0500000000000003,
+    "zoomFactor": 0.6471999999999997,
     "windowMask": false
   },
   "objectsGroups": [
@@ -178,6 +178,11 @@
       "name": "txt",
       "type": "string",
       "value": ""
+    },
+    {
+      "name": "fame",
+      "type": "string",
+      "value": "3"
     }
   ],
   "instances": [
@@ -330,14 +335,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 584,
+      "height": 95,
       "layer": "CookBookRecepies",
       "locked": false,
       "name": "CookBookRecepies",
       "persistentUuid": "077a695d-9ac6-466f-8bdb-18fee679360f",
-      "width": 777,
-      "x": 10,
-      "y": 6,
+      "width": 561,
+      "x": 108,
+      "y": 127,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -416,8 +421,8 @@
       "name": "RumMerchant",
       "persistentUuid": "96114482-9785-4c4e-8bc7-4a722339935b",
       "width": 0,
-      "x": 595,
-      "y": 162,
+      "x": 1983,
+      "y": 389,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -614,28 +619,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Sign",
-      "persistentUuid": "6dc9aa23-6aab-4861-a217-bcf7b1802f91",
-      "width": 0,
-      "x": 537,
-      "y": 312,
-      "zOrder": 33,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "name",
-          "type": "string",
-          "value": "digging"
-        }
-      ]
     },
     {
       "angle": 0,
@@ -1160,6 +1143,350 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Ui",
+      "locked": false,
+      "name": "FameDisplay",
+      "persistentUuid": "c252417f-5448-4d43-86a8-ae884cda81da",
+      "width": 0,
+      "x": 656,
+      "y": 27,
+      "zOrder": 101,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Ui",
+      "locked": false,
+      "name": "DayTimeClock",
+      "persistentUuid": "53f004c3-28e5-4bab-b629-c6f8613184e8",
+      "width": 0,
+      "x": 754,
+      "y": 6,
+      "zOrder": 102,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 196,
+      "layer": "CookBookRecepies",
+      "locked": false,
+      "name": "NewObject",
+      "persistentUuid": "90001227-470f-458b-94c9-f5eca5af5463",
+      "width": 710.1448974609375,
+      "x": 39,
+      "y": 62,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "CookBookRecepies",
+      "locked": false,
+      "name": "SignDisplayButton",
+      "persistentUuid": "c8633337-0c29-43d4-a46b-4aa6d0ee1e20",
+      "width": 0,
+      "x": 626,
+      "y": 179,
+      "zOrder": 103,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sign",
+      "persistentUuid": "cb2cc7df-5c91-42d2-b706-378ffa898c91",
+      "width": 0,
+      "x": 2393,
+      "y": 511,
+      "zOrder": 104,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "potato-digging"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sign",
+      "persistentUuid": "8cd0e7d5-fe76-4bee-91e9-e738dfdfcf3e",
+      "width": 0,
+      "x": 2378,
+      "y": 387,
+      "zOrder": 105,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "spice"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sign",
+      "persistentUuid": "c8455258-59c9-4b30-aa24-881b9c5428f7",
+      "width": 0,
+      "x": 2382,
+      "y": 278,
+      "zOrder": 106,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "banana"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sign",
+      "persistentUuid": "a054ec93-c87a-4f60-8f71-827abca30aaa",
+      "width": 0,
+      "x": 2371,
+      "y": 175,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "avocado"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sign",
+      "persistentUuid": "68442d2f-4f77-4fc4-8664-2a7a1b7416c8",
+      "width": 0,
+      "x": 2501,
+      "y": 135,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "trashcan"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sign",
+      "persistentUuid": "5be3a409-5c3e-4281-85eb-f7153e2b063c",
+      "width": 0,
+      "x": 2269,
+      "y": 54,
+      "zOrder": 109,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "drying-rack"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sign",
+      "persistentUuid": "4a2494a8-3a83-4dc6-b3fc-bde728671491",
+      "width": 0,
+      "x": 133,
+      "y": 253,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "oven"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sign",
+      "persistentUuid": "56805714-a6ea-408e-b615-1fe0e7223811",
+      "width": 0,
+      "x": 611,
+      "y": 224,
+      "zOrder": 111,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "cutting-board"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sign",
+      "persistentUuid": "2c45a416-3432-41c5-a2e9-7fc6e4eaf45c",
+      "width": 0,
+      "x": 658,
+      "y": 366,
+      "zOrder": 112,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "dresser"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sign",
+      "persistentUuid": "e4777121-d640-4296-904f-c0acc54f7870",
+      "width": 0,
+      "x": 2026,
+      "y": 358,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "rum"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sign",
+      "persistentUuid": "dbef4775-e755-41f8-a9a3-0ec1c00c73c0",
+      "width": 0,
+      "x": 2884,
+      "y": 179,
+      "zOrder": 114,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "crate"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Crate",
+      "persistentUuid": "ff3de977-18f3-4388-8b6e-411cee46aaa8",
+      "width": 0,
+      "x": 2945,
+      "y": 175,
+      "zOrder": 115,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sign",
+      "persistentUuid": "a2e4f8a7-43e3-4c91-8ecc-35b077b4f9bd",
+      "width": 0,
+      "x": 2184,
+      "y": 428,
+      "zOrder": 116,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "fishing"
+        }
+      ]
     }
   ],
   "objects": [
@@ -7258,7 +7585,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/dresser.png",
+                  "image": "assets/sprites/interactive_items/dresser.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7287,7 +7614,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/dresser-outline.png",
+                  "image": "assets/sprites/interactive_items/dresser-outline.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7368,6 +7695,164 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\images\\indoors_tops.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "FameDisplay",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Notoriété : 3",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "name": "DayTimeClock",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "free-time",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/Outlined-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "preparation-end",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/Outlined-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "day-end",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/Outlined-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SignDisplayButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/interactive_items/sign_outline.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7506,6 +7991,24 @@
         "includeConfig": 0
       },
       "target": "InPlate"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "DayTime"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Sign"
     },
     {
       "disabled": false,
@@ -8191,28 +8694,6 @@
       "effects": []
     },
     {
-      "ambientLightColorB": 150995059,
-      "ambientLightColorG": 6024160,
-      "ambientLightColorR": 7820288,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "name": "Ui",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
-    {
-      "ambientLightColorB": 7745072,
-      "ambientLightColorG": 6024160,
-      "ambientLightColorR": 7864952,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "name": "CookBookRecepies",
-      "visibility": false,
-      "cameras": [],
-      "effects": []
-    },
-    {
       "ambientLightColorB": 25,
       "ambientLightColorG": 6024160,
       "ambientLightColorR": 9717944,
@@ -8241,7 +8722,29 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Crate",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 150995059,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 7820288,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Ui",
       "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 7745072,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 7864952,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "CookBookRecepies",
+      "visibility": false,
       "cameras": [],
       "effects": []
     }

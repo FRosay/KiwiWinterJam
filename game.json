@@ -1850,6 +1850,60 @@
         "name": "NewObject-2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Outlined-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Outlined-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Outlined-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Outlined-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Outlined-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Outlined-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/sign_outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/interactive_items/sign_outline.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/dresser.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/interactive_items/dresser.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/dresser-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/interactive_items/dresser-outline.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
