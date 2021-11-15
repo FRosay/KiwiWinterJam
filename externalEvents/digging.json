@@ -118,20 +118,7 @@
               "subInstructions": []
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "PotatoField",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
+          "actions": [],
           "events": [
             {
               "disabled": false,

@@ -233,15 +233,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-1-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/sprites/drying-rack.png",
         "kind": "image",
         "metadata": "",
@@ -1794,6 +1785,69 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\sprites\\ingredients\\algae.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/ingredients/potatoes.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\ingredients\\potatoes.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/indoors.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\indoors.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/ingredients/spices.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\ingredients\\spices.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/indoors_tops.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\indoors_tops.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-2.png",
         "smoothed": true,
         "userAdded": true
       }

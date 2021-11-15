@@ -129,20 +129,7 @@
                   "subInstructions": []
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "AvocadoTree",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
+              "actions": [],
               "events": [
                 {
                   "disabled": false,

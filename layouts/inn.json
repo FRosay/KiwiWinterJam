@@ -21,8 +21,8 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7700000000000004,
-    "windowMask": true
+    "zoomFactor": 1.0500000000000003,
+    "windowMask": false
   },
   "objectsGroups": [
     {
@@ -75,6 +75,9 @@
         },
         {
           "name": "Dresser"
+        },
+        {
+          "name": "Obstacle"
         }
       ]
     },
@@ -181,31 +184,15 @@
     {
       "angle": 0,
       "customSize": false,
-      "height": 64,
+      "height": 168,
       "layer": "",
       "locked": false,
       "name": "Player",
       "persistentUuid": "d75eeed8-69c3-4e6a-b424-31d64da8ab0a",
-      "width": 64,
-      "x": 3056,
-      "y": 165,
+      "width": 132,
+      "x": 286,
+      "y": 366,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 34,
-      "layer": "",
-      "locked": false,
-      "name": "Chair",
-      "persistentUuid": "56505d69-7a9e-4ea3-9e5d-cfbf1e937419",
-      "width": 394,
-      "x": 460,
-      "y": 613,
-      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -219,9 +206,9 @@
       "name": "Oven",
       "persistentUuid": "430b98e0-fd62-41b1-b643-29b2f838754b",
       "width": 0,
-      "x": 61,
-      "y": 45,
-      "zOrder": 3,
+      "x": 232,
+      "y": 184,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -235,8 +222,8 @@
       "name": "Market",
       "persistentUuid": "1f5352da-db6b-400a-af87-54336b672603",
       "width": 0,
-      "x": 758,
-      "y": 570,
+      "x": 400,
+      "y": 420,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -273,9 +260,9 @@
       "name": "CuttingBoard",
       "persistentUuid": "3026470f-6d38-4558-b121-26d43d13b20c",
       "width": 0,
-      "x": 235,
-      "y": 31,
-      "zOrder": 14,
+      "x": 428,
+      "y": 179,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -359,110 +346,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 618,
-      "layer": "",
-      "locked": true,
-      "name": "WoodenFloor",
-      "persistentUuid": "1dff7298-0f95-45a1-9461-d0780b9d28da",
-      "width": 821,
-      "x": -9,
-      "y": -6,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Trashcan",
-      "persistentUuid": "1b10da79-c144-475b-b17f-6d22c5b09218",
-      "width": 0,
-      "x": 664,
-      "y": 36,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 627,
-      "layer": "",
-      "locked": false,
-      "name": "Chair",
-      "persistentUuid": "e14aa330-1c91-48e5-adbd-7ee4a9a25e2a",
-      "width": 42,
-      "x": -51,
-      "y": -11,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 627,
-      "layer": "",
-      "locked": false,
-      "name": "Chair",
-      "persistentUuid": "ca8e1dc4-69f5-4dfe-b816-377662067ffa",
-      "width": 42,
-      "x": 811,
-      "y": -7,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 34,
-      "layer": "",
-      "locked": false,
-      "name": "Chair",
-      "persistentUuid": "1dfcda6d-0190-476e-9e86-011e2f67d22a",
-      "width": 871,
-      "x": -50,
-      "y": -39,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 34,
-      "layer": "",
-      "locked": false,
-      "name": "Chair",
-      "persistentUuid": "6b1fa221-f57e-4454-8d2e-47727b182a77",
-      "width": 409,
-      "x": -51,
-      "y": 613,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 40,
+      "height": 18,
       "layer": "",
       "locked": false,
       "name": "RestaurantEntry",
       "persistentUuid": "95963457-0e13-4c64-9f8e-4f2c74d67138",
-      "width": 174,
-      "x": 315,
-      "y": 620,
+      "width": 277,
+      "x": 116,
+      "y": 459,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -477,8 +368,8 @@
       "name": "DryingRack",
       "persistentUuid": "b0ff34c1-4edd-4338-bd50-8e290f087ed1",
       "width": 0,
-      "x": 411,
-      "y": 13,
+      "x": 2328,
+      "y": -8,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -493,8 +384,8 @@
       "name": "AvocadoTree",
       "persistentUuid": "fee28e99-85b6-479f-95c8-91cbaa6d38f2",
       "width": 0,
-      "x": 48,
-      "y": 175,
+      "x": 2317,
+      "y": 187,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -509,8 +400,8 @@
       "name": "BananaTree",
       "persistentUuid": "8d35b777-7946-49d0-b060-c38eb27fc07c",
       "width": 0,
-      "x": 39,
-      "y": 384,
+      "x": 2322,
+      "y": 286,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -525,8 +416,8 @@
       "name": "RumMerchant",
       "persistentUuid": "96114482-9785-4c4e-8bc7-4a722339935b",
       "width": 0,
-      "x": 711,
-      "y": 443,
+      "x": 595,
+      "y": 162,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -541,8 +432,8 @@
       "name": "SpiceMerchant",
       "persistentUuid": "0e86e8db-77a2-4851-b245-6cc2f2a1451c",
       "width": 0,
-      "x": 121,
-      "y": 548,
+      "x": 2328,
+      "y": 391,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -573,8 +464,8 @@
       "name": "PotatoField",
       "persistentUuid": "0a4894da-e011-4269-9d14-9eab18011a5d",
       "width": 0,
-      "x": 721,
-      "y": 260,
+      "x": 2337,
+      "y": 518,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -605,8 +496,8 @@
       "name": "Crab",
       "persistentUuid": "90490443-a354-46b5-9aff-d17c8bcbd50a",
       "width": 0,
-      "x": 3409,
-      "y": 564,
+      "x": 3425,
+      "y": 599,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -733,8 +624,8 @@
       "name": "Sign",
       "persistentUuid": "6dc9aa23-6aab-4861-a217-bcf7b1802f91",
       "width": 0,
-      "x": 641,
-      "y": 249,
+      "x": 537,
+      "y": 312,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -947,8 +838,8 @@
       "name": "Crate",
       "persistentUuid": "e9273e35-d44b-47fa-aa29-6dd720f582e5",
       "width": 0,
-      "x": 274,
-      "y": 537,
+      "x": 537,
+      "y": 416,
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
@@ -985,8 +876,8 @@
       "name": "Crate",
       "persistentUuid": "9a50791d-6819-4d0d-9a6a-f9a5a3522f68",
       "width": 0,
-      "x": 137,
-      "y": 244,
+      "x": 241,
+      "y": 306,
       "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
@@ -1007,41 +898,9 @@
       "name": "Timer",
       "persistentUuid": "c7b02d87-fd31-4037-9ed1-770dd8d1c42f",
       "width": 20,
-      "x": 102,
-      "y": 19,
-      "zOrder": 44,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Chair",
-      "persistentUuid": "75407d31-ce7d-4969-a4c0-9efb7002d664",
-      "width": 0,
-      "x": 3689,
-      "y": 575,
-      "zOrder": 45,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Chair",
-      "persistentUuid": "89ccac26-c8a3-4cba-851f-a1f64ffdf28a",
-      "width": 0,
-      "x": 3064,
-      "y": 567,
-      "zOrder": 46,
+      "x": 279,
+      "y": 147,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1135,8 +994,8 @@
       "name": "Dresser",
       "persistentUuid": "e3a738da-3e27-4d48-8c90-d28cdd9769d5",
       "width": 0,
-      "x": 539,
-      "y": 410,
+      "x": 662,
+      "y": 414,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -1144,16 +1003,160 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 600,
+      "layer": "",
+      "locked": true,
+      "name": "RestaurantBackground",
+      "persistentUuid": "f490926f-858a-4ee8-a931-d481319c2fd4",
+      "width": 750,
+      "x": 20,
+      "y": 0,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 343.6098327636719,
+      "customSize": true,
+      "height": 241.25526428222656,
       "layer": "",
       "locked": false,
-      "name": "Trashcan",
-      "persistentUuid": "29316306-7e97-4ee5-925d-e95baf3b1978",
-      "width": 0,
-      "x": 497,
-      "y": 538,
-      "zOrder": 25,
+      "name": "Obstacle",
+      "persistentUuid": "5f34f354-89ce-490c-bc1a-8f90b0205fe8",
+      "width": 5.48861837387085,
+      "x": 685.9268188476562,
+      "y": 196.8723602294922,
+      "zOrder": 100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 6,
+      "layer": "",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "76b5e116-0c7d-44c8-851f-7a876ddff1a4",
+      "width": 490,
+      "x": 166,
+      "y": 203,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 36,
+      "layer": "",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "ee265742-9aa8-42dd-8955-4db12348f61c",
+      "width": 322,
+      "x": 393,
+      "y": 435,
+      "zOrder": 100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 12.175641059875488,
+      "customSize": true,
+      "height": 270.19036865234375,
+      "layer": "",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "203c5391-8a34-4259-a492-9ba5f65f628d",
+      "width": 5.903319358825684,
+      "x": 135.67025756835938,
+      "y": 206.58364868164062,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 47,
+      "layer": "",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "39ebf53c-60a3-4059-9965-868a91443a9d",
+      "width": 8,
+      "x": 3064,
+      "y": 618,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 47,
+      "layer": "",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "86164ef1-0369-4226-9bae-eb06ea615867",
+      "width": 8,
+      "x": 3700,
+      "y": 603,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 600,
+      "layer": "",
+      "locked": true,
+      "name": "IndoorsBackgroundTabletops",
+      "persistentUuid": "58a6bab8-03cc-4504-bf6a-33d4b22b1aa9",
+      "width": 750,
+      "x": 20,
+      "y": 0,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 6,
+      "layer": "",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "3a3836f7-b59a-4802-99f6-cb12019d17a4",
+      "width": 290,
+      "x": 115,
+      "y": 471,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 18,
+      "layer": "",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "d11701d1-2879-41c7-9633-dc9f659e5f5d",
+      "width": 352,
+      "x": 231,
+      "y": 323,
+      "zOrder": 100,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3757,7 +3760,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/potato.png",
+                  "image": "assets\\sprites\\ingredients\\potatoes.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3844,7 +3847,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/spice.png",
+                  "image": "assets\\sprites\\ingredients\\spices.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5290,7 +5293,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewObject-1-0.png",
+                  "image": "NewObject-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6537,6 +6540,46 @@
       ]
     },
     {
+      "name": "Obstacle",
+      "tags": "invisible",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "obstacle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "BeachEntry",
       "tags": "invisible",
       "type": "Sprite",
@@ -6555,7 +6598,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewObject-1-0.png",
+                  "image": "NewObject-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7264,6 +7307,86 @@
           ]
         }
       ]
+    },
+    {
+      "name": "RestaurantBackground",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\indoors.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IndoorsBackgroundTabletops",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\indoors_tops.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -7434,6 +7557,36 @@
             "\"ovenCookingTime\""
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "Obstacle"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "BeachEntry"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "RestaurantEntry"
+          ],
+          "subInstructions": []
         }
       ],
       "events": []
@@ -7560,23 +7713,118 @@
           "subInstructions": []
         }
       ],
-      "actions": [
+      "actions": [],
+      "events": [
         {
-          "type": {
-            "inverted": false,
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "Player",
-            "=",
-            "2700",
-            "=",
-            "260"
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TiledSpriteObject::Opacity"
+              },
+              "parameters": [
+                "Fade",
+                ">=",
+                "200"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "BeachEntry.CenterX()",
+                "=",
+                "BeachEntry.CenterY()+Player.Height()-30"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "fadeState",
+                "=",
+                "\"fade-in\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "fadeState",
+                "=",
+                "\"fade-out\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TiledSpriteObject::SetOpacity"
+              },
+              "parameters": [
+                "Fade",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Fade\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
-      ],
-      "events": []
+      ]
     },
     {
       "disabled": false,
@@ -7598,18 +7846,276 @@
           "subInstructions": []
         }
       ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TiledSpriteObject::Opacity"
+              },
+              "parameters": [
+                "Fade",
+                ">=",
+                "200"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "RestaurantEntry.CenterX()",
+                "=",
+                "RestaurantEntry.CenterY()-Player.Height()-20"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "fadeState",
+                "=",
+                "\"fade-in\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "fadeState",
+                "=",
+                "\"fade-out\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TiledSpriteObject::SetOpacity"
+              },
+              "parameters": [
+                "Fade",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Fade\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TiledSpriteObject::Opacity"
+          },
+          "parameters": [
+            "Fade",
+            "<=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
       "actions": [
         {
           "type": {
             "inverted": false,
-            "value": "MettreXY"
+            "value": "ModVarSceneTxt"
           },
           "parameters": [
-            "Player",
+            "fadeState",
             "=",
-            "400",
+            "\"default\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarSceneTxt"
+          },
+          "parameters": [
+            "fadeState",
             "=",
-            "500"
+            "\"default\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Fade\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TiledSpriteObject::SetOpacity"
+          },
+          "parameters": [
+            "Fade",
+            "=",
+            "120"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarSceneTxt"
+          },
+          "parameters": [
+            "fadeState",
+            "=",
+            "\"fade-in\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TiledSpriteObject::SetOpacity"
+          },
+          "parameters": [
+            "Fade",
+            "-",
+            "TimeDelta()+7"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarSceneTxt"
+          },
+          "parameters": [
+            "fadeState",
+            "=",
+            "\"fade-out\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TiledSpriteObject::SetOpacity"
+          },
+          "parameters": [
+            "Fade",
+            "+",
+            "TimeDelta()+6"
           ],
           "subInstructions": []
         }
