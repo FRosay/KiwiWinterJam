@@ -103,17 +103,32 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "CookBook",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
                 "inverted": false,
-                "value": "Distance"
+                "value": "SourisSurObjet"
               },
               "parameters": [
-                "Player",
-                "Interactive",
-                "GlobalVariable(gDistanceOfInteraction)",
+                "CookBook",
+                "",
+                "",
                 ""
               ],
               "subInstructions": []
@@ -126,8 +141,8 @@
                 "value": "SetAnimationName"
               },
               "parameters": [
-                "Interactive",
-                "Interactive.AnimationName()+\"-outline\""
+                "CookBook",
+                "\"cookbook-outline\""
               ],
               "subInstructions": []
             }
@@ -142,12 +157,12 @@
             {
               "type": {
                 "inverted": true,
-                "value": "Distance"
+                "value": "SourisSurObjet"
               },
               "parameters": [
-                "Player",
-                "Interactive",
-                "GlobalVariable(gDistanceOfInteraction)",
+                "CookBook",
+                "",
+                "",
                 ""
               ],
               "subInstructions": []
@@ -160,8 +175,8 @@
                 "value": "SetAnimationName"
               },
               "parameters": [
-                "Interactive",
-                "SubStr(Interactive.AnimationName(), 0, StrLength(Interactive.AnimationName())-8)"
+                "CookBook",
+                "\"cookbook\""
               ],
               "subInstructions": []
             }
@@ -187,7 +202,7 @@
                   },
                   "parameters": [
                     "",
-                    "e"
+                    "r"
                   ],
                   "subInstructions": []
                 },
@@ -335,6 +350,134 @@
             {
               "type": {
                 "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Resources",
+                    "SceneWindowWidth()/2-Resources.Width()/2-ItemFrame.Width()-16",
+                    "SceneWindowHeight()-ItemFrame.Height()",
+                    "\"Ui\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Resources",
+                    "id",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Resources",
+                    "SceneWindowWidth()/2-Resources.Width()/2",
+                    "SceneWindowHeight()-ItemFrame.Height()",
+                    "\"Ui\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Resources",
+                    "id",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Resources",
+                    "SceneWindowWidth()/2-Resources.Width()/2+ItemFrame.Width()+16",
+                    "SceneWindowHeight()-ItemFrame.Height()",
+                    "\"Ui\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Resources",
+                    "id",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "VarObjet"
               },
               "parameters": [
@@ -354,7 +497,7 @@
               },
               "parameters": [
                 "Resources",
-                "GlobalVariableString(gPlayerInventory[0])"
+                "VariableString(playerInventory[0])"
               ],
               "subInstructions": []
             }
@@ -388,7 +531,7 @@
               },
               "parameters": [
                 "Resources",
-                "GlobalVariableString(gPlayerInventory[1])"
+                "VariableString(playerInventory[1])"
               ],
               "subInstructions": []
             }
@@ -422,7 +565,7 @@
               },
               "parameters": [
                 "Resources",
-                "GlobalVariableString(gPlayerInventory[2])"
+                "VariableString(playerInventory[2])"
               ],
               "subInstructions": []
             }
@@ -443,6 +586,14 @@
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
         {
           "disabled": false,
           "folded": false,
@@ -484,10 +635,10 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarGlobal"
+                "value": "ModVarScene"
               },
               "parameters": [
-                "gItemSelected",
+                "itemSlot",
                 "=",
                 "0"
               ],
@@ -537,10 +688,10 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarGlobal"
+                "value": "ModVarScene"
               },
               "parameters": [
-                "gItemSelected",
+                "itemSlot",
                 "=",
                 "1"
               ],
@@ -590,10 +741,10 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarGlobal"
+                "value": "ModVarScene"
               },
               "parameters": [
-                "gItemSelected",
+                "itemSlot",
                 "=",
                 "2"
               ],
@@ -616,7 +767,7 @@
                 "Resources",
                 "id",
                 "=",
-                "GlobalVariable(gItemSelected)"
+                "Variable(itemSlot)"
               ],
               "subInstructions": []
             }
@@ -628,11 +779,11 @@
                 "value": "MettreXY"
               },
               "parameters": [
-                "ItemSelected",
+                "ItemFrame",
                 "=",
-                "Resources.CenterX()-(ItemSelected.Width()/2)",
+                "Resources.CenterX() - (ItemFrame.Width() / 2)",
                 "=",
-                "Resources.CenterY()-(ItemSelected.Width()/2)"
+                "Resources.CenterY() - (ItemFrame.Width() / 2)"
               ],
               "subInstructions": []
             }

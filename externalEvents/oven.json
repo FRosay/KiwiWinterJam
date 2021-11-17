@@ -203,7 +203,7 @@
                             "value": "VarSceneTxt"
                           },
                           "parameters": [
-                            "playerInventory[GlobalVariable(gItemSelected)]",
+                            "playerInventory[Variable(itemSlot)]",
                             "=",
                             "\"potato-cutted\""
                           ],
@@ -215,7 +215,7 @@
                             "value": "VarSceneTxt"
                           },
                           "parameters": [
-                            "playerInventory[GlobalVariable(gItemSelected)]",
+                            "playerInventory[Variable(itemSlot)]",
                             "=",
                             "\"octopus-cutted\""
                           ],
@@ -274,7 +274,7 @@
                             "Oven",
                             "contains",
                             "=",
-                            "VariableString(playerInventory[GlobalVariable(gItemSelected)])"
+                            "VariableString(playerInventory[Variable(itemSlot)])"
                           ],
                           "subInstructions": []
                         },
@@ -284,7 +284,7 @@
                             "value": "ModVarSceneTxt"
                           },
                           "parameters": [
-                            "playerInventory[GlobalVariable(gItemSelected)]",
+                            "playerInventory[Variable(itemSlot)]",
                             "=",
                             "\"empty\""
                           ],

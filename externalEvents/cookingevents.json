@@ -67,7 +67,7 @@
                     "value": "ModVarSceneTxt"
                   },
                   "parameters": [
-                    "playerInventory[GlobalVariable(gItemSelected)]",
+                    "playerInventory[Variable(itemSlot)]",
                     "=",
                     "\"empty\""
                   ],
@@ -156,56 +156,46 @@
                         "\"empty\""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ObjectTimer"
+                      },
+                      "parameters": [
+                        "DryingRack",
+                        "\"dryingTimer\"",
+                        "4"
+                      ],
+                      "subInstructions": []
                     }
                   ],
-                  "actions": [],
-                  "events": [
+                  "actions": [
                     {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ObjectTimer"
-                          },
-                          "parameters": [
-                            "DryingRack",
-                            "\"dryingTimer\"",
-                            "4"
-                          ],
-                          "subInstructions": []
-                        }
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "playerInventory[Variable(itemSlot)]",
+                        "=",
+                        "\"cod-dried\""
                       ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarSceneTxt"
-                          },
-                          "parameters": [
-                            "playerInventory[Variable(itemSlot)]",
-                            "=",
-                            "\"cod-dried\""
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "RemoveObjectTimer"
-                          },
-                          "parameters": [
-                            "DryingRack",
-                            "\"dryingTimer\""
-                          ],
-                          "subInstructions": []
-                        }
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "DryingRack",
+                        "\"dryingTimer\""
                       ],
-                      "events": []
+                      "subInstructions": []
                     }
-                  ]
+                  ],
+                  "events": []
                 },
                 {
                   "disabled": false,
@@ -256,7 +246,7 @@
                       },
                       "parameters": [
                         "DryingRack",
-                        "\"fish\""
+                        "\"cod\""
                       ],
                       "subInstructions": []
                     }
@@ -269,39 +259,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "c"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarSceneTxt"
-          },
-          "parameters": [
-            "playerInventory[0]",
-            "=",
-            "\"cod\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
     }
   ]
 }

@@ -239,28 +239,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "height": 26,
-      "layer": "Ui",
-      "locked": false,
-      "name": "Resources",
-      "persistentUuid": "0a0a640a-9ac4-4d83-be61-10b9723a035b",
-      "width": 31,
-      "x": 34,
-      "y": 27,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "id",
-          "type": "string",
-          "value": "0"
-        }
-      ]
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -274,50 +252,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 26,
-      "layer": "Ui",
-      "locked": false,
-      "name": "Resources",
-      "persistentUuid": "65d1386f-5e7b-4bd6-8fff-31aef58f823f",
-      "width": 31,
-      "x": 172,
-      "y": 21,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "id",
-          "type": "string",
-          "value": "2"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 26,
-      "layer": "Ui",
-      "locked": false,
-      "name": "Resources",
-      "persistentUuid": "b3cc27dc-ba66-4ce2-9824-abbb46efb711",
-      "width": 31,
-      "x": 99,
-      "y": 30,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "id",
-          "type": "string",
-          "value": "1"
-        }
-      ]
     },
     {
       "angle": 0,
@@ -843,11 +777,11 @@
       "height": 0,
       "layer": "Ui",
       "locked": false,
-      "name": "ItemSelected",
+      "name": "ItemFrame",
       "persistentUuid": "f8f4c907-60fb-49f6-a058-6df1f3a8a142",
       "width": 0,
-      "x": 18,
-      "y": 5,
+      "x": -101,
+      "y": -10,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -4820,7 +4754,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/rum.png",
+                  "image": "assets/sprites/ingredients/rum.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6326,7 +6260,7 @@
           ]
         },
         {
-          "name": "fish",
+          "name": "cod",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -6355,7 +6289,7 @@
           ]
         },
         {
-          "name": "fish-outline",
+          "name": "cod-outline",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -9039,7 +8973,7 @@
       ]
     },
     {
-      "name": "ItemSelected",
+      "name": "ItemFrame",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -9047,6 +8981,35 @@
       "effects": [],
       "behaviors": [],
       "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/item-frame.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
         {
           "name": "",
           "useMultipleDirections": false,
@@ -9753,108 +9716,6 @@
         {
           "type": {
             "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "Resources",
-            "id",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "Resources",
-            "VariableString(playerInventory[0])"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "Resources",
-            "id",
-            "=",
-            "1"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "Resources",
-            "VariableString(playerInventory[1])"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "Resources",
-            "id",
-            "=",
-            "2"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "Resources",
-            "VariableString(playerInventory[2])"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
             "value": "CollisionNP"
           },
           "parameters": [
@@ -9961,18 +9822,6 @@
                 "fadeState",
                 "=",
                 "\"fade-out\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TiledSpriteObject::SetOpacity"
-              },
-              "parameters": [
-                "Fade",
-                "=",
-                "1"
               ],
               "subInstructions": []
             },
@@ -10106,18 +9955,6 @@
                 "fadeState",
                 "=",
                 "\"fade-out\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TiledSpriteObject::SetOpacity"
-              },
-              "parameters": [
-                "Fade",
-                "=",
-                "1"
               ],
               "subInstructions": []
             },
@@ -10298,7 +10135,38 @@
           "subInstructions": []
         }
       ],
-      "events": []
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TiledSpriteObject::SetOpacity"
+              },
+              "parameters": [
+                "Fade",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
     }
   ],
   "layers": [

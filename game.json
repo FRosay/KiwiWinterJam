@@ -1679,6 +1679,24 @@
         "name": "assets\\sprites\\NPCs\\crab.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/ingredients/rum.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/ingredients/rum.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/item-frame.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/item-frame.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1832,11 +1850,6 @@
           "value": "sweetcake"
         }
       ]
-    },
-    {
-      "name": "gItemSelected",
-      "type": "number",
-      "value": 1
     }
   ],
   "layouts": [
