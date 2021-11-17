@@ -497,15 +497,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 150,
       "layer": "",
       "locked": false,
       "name": "Crab",
       "persistentUuid": "90490443-a354-46b5-9aff-d17c8bcbd50a",
-      "width": 0,
-      "x": 3398,
-      "y": 608,
+      "width": 150,
+      "x": 3326,
+      "y": 540,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -973,15 +973,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 35,
       "layer": "",
       "locked": false,
       "name": "Dresser",
       "persistentUuid": "e3a738da-3e27-4d48-8c90-d28cdd9769d5",
-      "width": 0,
-      "x": 658,
-      "y": 429,
+      "width": 76,
+      "x": 443,
+      "y": 430,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -1092,7 +1092,7 @@
       "name": "Obstacle",
       "persistentUuid": "86164ef1-0369-4226-9bae-eb06ea615867",
       "width": 8,
-      "x": 3535,
+      "x": 3472,
       "y": 614,
       "zOrder": 50,
       "numberProperties": [],
@@ -1491,7 +1491,7 @@
         }
       ]
     },
-	{
+    {
       "angle": 0,
       "customSize": false,
       "height": 0,
@@ -8107,8 +8107,8 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/crab.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\NPCs\\crab.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8121,7 +8121,38 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 219.09091186523438,
+                        "y": 197.9545440673828
+                      },
+                      {
+                        "x": 122.2727279663086,
+                        "y": 208.40908813476562
+                      },
+                      {
+                        "x": 35.45454406738281,
+                        "y": 200.68182373046875
+                      },
+                      {
+                        "x": 12.272727012634277,
+                        "y": 162.9545440673828
+                      },
+                      {
+                        "x": 25,
+                        "y": 126.13636016845703
+                      },
+                      {
+                        "x": 170,
+                        "y": 120.2272720336914
+                      },
+                      {
+                        "x": 225.4545440673828,
+                        "y": 152.9545440673828
+                      }
+                    ]
+                  ]
                 }
               ]
             }

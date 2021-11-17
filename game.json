@@ -143,15 +143,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sprites/cookbook.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/cookbook.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/sprites/wooden_floor.png",
         "kind": "image",
         "metadata": "",
@@ -1034,24 +1025,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sprites/dresser.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/dresser.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/dresser-outline.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/dresser-outline.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/sprites/ingredients/banana.png",
         "kind": "image",
         "metadata": "",
@@ -1209,15 +1182,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\sprites\\interactive_items\\sign_outline.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/cookbook.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\cookbook.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -1511,15 +1475,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/sprites/ingredients/spices.png",
         "kind": "image",
         "metadata": "",
@@ -1533,24 +1488,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\images\\indoors_tops.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-1-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-2.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -1588,15 +1525,6 @@
         "metadata": "",
         "name": "assets\\sprites\\non_interactive_items\\clock\\Outlined-4.png",
         "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "file": "assets/musics/kitchen.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\musics\\kitchen.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -1655,15 +1583,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/images/indoors_light_2.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\images\\indoors_light_2.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/images/beach_stall.jpg",
         "kind": "image",
         "metadata": "",
@@ -1688,24 +1607,6 @@
         "name": "assets\\images\\beach_sunshield.jpg",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject-1 - Copie.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-1 - Copie.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "obstacle-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "obstacle-1.png",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -1745,64 +1646,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sprites/interactive_items/plates.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\interactive_items\\plates.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/interactive_items/plates-outline.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\sprites\\interactive_items\\plates-outline.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/images/beach_restaurant_top.jpg",
         "kind": "image",
         "metadata": "",
         "name": "assets\\images\\beach_restaurant_top.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Outlined-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Outlined-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Outlined-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Outlined-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Outlined-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Outlined-4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sprites/interactive_items/sign_outline.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/interactive_items/sign_outline.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -1821,6 +1668,15 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/sprites/interactive_items/dresser-outline.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/NPCs/crab.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\NPCs\\crab.png",
         "smoothed": true,
         "userAdded": false
       }
