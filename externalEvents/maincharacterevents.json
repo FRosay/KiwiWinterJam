@@ -379,6 +379,19 @@
       "events": []
     },
     {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Outline",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
       "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
@@ -401,12 +414,11 @@
         {
           "type": {
             "inverted": false,
-            "value": "ChangeAnimation"
+            "value": "SetAnimationName"
           },
           "parameters": [
             "Interactive",
-            "=",
-            "0"
+            "SubStr(Interactive.AnimationName(), 0, StrLength(Interactive.AnimationName())-8)"
           ],
           "subInstructions": []
         }
@@ -421,32 +433,54 @@
         {
           "type": {
             "inverted": false,
-            "value": "Distance"
+            "value": "PickNearest"
           },
           "parameters": [
-            "Player",
             "Interactive",
-            "GlobalVariable(gDistanceOfInteraction)",
+            "Player.X()",
+            "Player.Y()",
             ""
           ],
           "subInstructions": []
         }
       ],
-      "actions": [
+      "actions": [],
+      "events": [
         {
-          "type": {
-            "inverted": false,
-            "value": "ChangeAnimation"
-          },
-          "parameters": [
-            "Interactive",
-            "=",
-            "1"
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Interactive",
+                "GlobalVariable(gDistanceOfInteraction)",
+                ""
+              ],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Interactive",
+                "Interactive.AnimationName()+\"-outline\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
-      ],
-      "events": []
+      ]
     },
     {
       "colorB": 228,

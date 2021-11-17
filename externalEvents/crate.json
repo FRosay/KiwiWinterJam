@@ -718,7 +718,7 @@
                         "value": "VarSceneTxt"
                       },
                       "parameters": [
-                        "playerInventory[GlobalVariable(gItemSelected)]",
+                        "playerInventory[Variable(itemSlot)]",
                         "=",
                         "\"empty\""
                       ],
@@ -745,7 +745,7 @@
                         "value": "ModVarSceneTxt"
                       },
                       "parameters": [
-                        "playerInventory[GlobalVariable(gItemSelected)]",
+                        "playerInventory[Variable(itemSlot)]",
                         "=",
                         "Crate.VariableString(item[CrateSlot.Variable(id)])"
                       ],
@@ -823,7 +823,7 @@
                         "value": "VarSceneTxt"
                       },
                       "parameters": [
-                        "playerInventory[GlobalVariable(gItemSelected)]",
+                        "playerInventory[Variable(itemSlot)]",
                         "=",
                         "\"empty\""
                       ],
@@ -853,7 +853,7 @@
                         "Crate",
                         "item[CrateSlot.Variable(id)]",
                         "=",
-                        "VariableString(playerInventory[GlobalVariable(gItemSelected)])"
+                        "VariableString(playerInventory[Variable(itemSlot)])"
                       ],
                       "subInstructions": []
                     },
@@ -863,7 +863,7 @@
                         "value": "ModVarSceneTxt"
                       },
                       "parameters": [
-                        "playerInventory[GlobalVariable(gItemSelected)]",
+                        "playerInventory[Variable(itemSlot)]",
                         "=",
                         "\"empty\""
                       ],
