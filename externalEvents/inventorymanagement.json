@@ -1,0 +1,173 @@
+{
+  "associatedLayout": "InnTest",
+  "lastChangeTimeStamp": 0,
+  "name": "InventoryManagement",
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarSceneTxt"
+          },
+          "parameters": [
+            "playerInventory[0]",
+            "=",
+            "GlobalVariableString(gPlayerInventory[0])"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarSceneTxt"
+          },
+          "parameters": [
+            "playerInventory[1]",
+            "=",
+            "GlobalVariableString(gPlayerInventory[1])"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarSceneTxt"
+          },
+          "parameters": [
+            "playerInventory[2]",
+            "=",
+            "GlobalVariableString(gPlayerInventory[2])"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "j"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Inventory::Add"
+          },
+          "parameters": [
+            "",
+            "\"PlayerInventory\"",
+            "\"avocado\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Inventory::Add"
+          },
+          "parameters": [
+            "",
+            "\"PlayerInventory\"",
+            "\"banana\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Inventory::Add"
+          },
+          "parameters": [
+            "",
+            "\"PlayerInventory\"",
+            "\"seaweed\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Inventory::Add"
+          },
+          "parameters": [
+            "",
+            "\"PlayerInventory\"",
+            "\"seaweed\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Inventory::SerializeToVariable"
+              },
+              "parameters": [
+                "",
+                "\"PlayerInventory\"",
+                "inventoryTest"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    }
+  ]
+}

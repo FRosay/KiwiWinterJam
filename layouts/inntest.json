@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.0699999999999998,
+    "zoomFactor": 0.9499999999999997,
     "windowMask": false
   },
   "objectsGroups": [
@@ -2376,7 +2376,7 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "Teleportations"
+      "target": "SceneChange"
     },
     {
       "disabled": false,
@@ -2385,7 +2385,7 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "InventoryTest"
+      "target": "InventoryManagement"
     },
     {
       "disabled": false,

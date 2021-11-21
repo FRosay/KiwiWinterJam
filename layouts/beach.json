@@ -3570,7 +3570,7 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "InventoryTest"
+      "target": "InventoryManagement"
     },
     {
       "disabled": false,
@@ -3579,7 +3579,7 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "Teleportations"
+      "target": "SceneChange"
     },
     {
       "disabled": false,
