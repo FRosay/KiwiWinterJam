@@ -18,8 +18,22 @@
             "",
             "Player",
             "",
+            "\"\"",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "CentreCamera"
+          },
+          "parameters": [
             "",
-            ""
+            "Player",
+            "",
+            "\"Obstacles\"",
+            "0"
           ],
           "subInstructions": []
         }
@@ -27,23 +41,15 @@
       "events": []
     },
     {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
       "disabled": false,
       "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "LayerVisible"
-          },
-          "parameters": [
-            "",
-            "\"Fade\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [],
+      "name": "Movement & Animation",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "disabled": false,
@@ -52,31 +58,17 @@
           "conditions": [
             {
               "type": {
-                "inverted": false,
-                "value": "KeyPressed"
+                "inverted": true,
+                "value": "LayerVisible"
               },
               "parameters": [
                 "",
-                "z"
+                "\"Fade\""
               ],
               "subInstructions": []
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "Player",
-                "0",
-                "-256",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
+          "actions": [],
           "events": [
             {
               "disabled": false,
@@ -86,9 +78,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
+                    "value": "KeyPressed"
                   },
-                  "parameters": [],
+                  "parameters": [
+                    "",
+                    "z"
+                  ],
                   "subInstructions": []
                 }
               ],
@@ -96,232 +91,299 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetAnimationName"
+                    "value": "AddForceXY"
                   },
                   "parameters": [
                     "Player",
-                    "\"top\""
+                    "0",
+                    "-256",
+                    ""
                   ],
                   "subInstructions": []
                 }
               ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "q"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "Player",
-                "-256",
-                "0",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "events": [
                 {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Player",
-                    "\"left\""
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
                   ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "s"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "Player",
-                "0",
-                "256",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Player",
-                    "\"bot\""
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "\"top\""
+                      ],
+                      "subInstructions": []
+                    }
                   ],
-                  "subInstructions": []
+                  "events": []
                 }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "d"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "Player",
-                "256",
-                "0",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Player",
-                    "\"right\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Arret"
-              },
-              "parameters": [
-                "Player"
-              ],
-              "subInstructions": []
+              ]
             },
             {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "q"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "-256",
+                    "0",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "\"left\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "s"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "0",
+                    "256",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "\"bot\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "d"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "256",
+                    "0",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "\"right\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Arret"
+                  },
+                  "parameters": [
+                    "Player"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Player.AnimationName()+\"_idle\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
               "type": {
                 "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
+                "value": "CollisionNP"
               },
-              "parameters": [],
+              "parameters": [
+                "Player",
+                "Bloc",
+                "",
+                "",
+                ""
+              ],
               "subInstructions": []
             }
           ],
@@ -329,54 +391,20 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SetAnimationName"
+                "value": "SeparateFromObjects"
               },
               "parameters": [
                 "Player",
-                "Player.AnimationName()+\"_idle\""
+                "Bloc",
+                ""
               ],
               "subInstructions": []
             }
           ],
           "events": []
         }
-      ]
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Player",
-            "Bloc",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        }
       ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "Player",
-            "Bloc",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
+      "parameters": []
     },
     {
       "colorB": 228,
@@ -388,63 +416,6 @@
       "name": "Outline",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "Distance"
-          },
-          "parameters": [
-            "Player",
-            "Interactive",
-            "GlobalVariable(gDistanceOfInteraction)",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "Interactive",
-            "SubStr(Interactive.AnimationName(), 0, StrLength(Interactive.AnimationName())-8)"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "PickNearest"
-          },
-          "parameters": [
-            "Interactive",
-            "Player.X()",
-            "Player.Y()",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [],
       "events": [
         {
           "disabled": false,
@@ -453,7 +424,7 @@
           "conditions": [
             {
               "type": {
-                "inverted": false,
+                "inverted": true,
                 "value": "Distance"
               },
               "parameters": [
@@ -473,14 +444,72 @@
               },
               "parameters": [
                 "Interactive",
-                "Interactive.AnimationName()+\"-outline\""
+                "SubStr(Interactive.AnimationName(), 0, StrLength(Interactive.AnimationName())-8)"
               ],
               "subInstructions": []
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "Interactive",
+                "Player.X()",
+                "Player.Y()",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Interactive",
+                    "GlobalVariable(gDistanceOfInteraction)",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Interactive",
+                    "Interactive.AnimationName()+\"-outline\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         }
-      ]
+      ],
+      "parameters": []
     },
     {
       "colorB": 228,
@@ -492,39 +521,6 @@
       "name": "Stuned",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ObjectVariableAsBoolean"
-          },
-          "parameters": [
-            "Player",
-            "stuned",
-            "True"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Arreter"
-          },
-          "parameters": [
-            "Player"
-          ],
-          "subInstructions": []
-        }
-      ],
       "events": [
         {
           "disabled": false,
@@ -534,9 +530,13 @@
             {
               "type": {
                 "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
+                "value": "ObjectVariableAsBoolean"
               },
-              "parameters": [],
+              "parameters": [
+                "Player",
+                "stuned",
+                "True"
+              ],
               "subInstructions": []
             }
           ],
@@ -544,7 +544,95 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ResetObjectTimer"
+                "value": "Arreter"
+              },
+              "parameters": [
+                "Player"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"stunedTimer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Stuned",
+                    "Player.X()",
+                    "Player.Y()-32",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "Player",
+                "\"stunedTimer\"",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "stuned",
+                "False"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "RemoveObjectTimer"
               },
               "parameters": [
                 "Player",
@@ -555,13 +643,10 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Create"
+                "value": "Delete"
               },
               "parameters": [
-                "",
                 "Stuned",
-                "Player.X()",
-                "Player.Y()-32",
                 ""
               ],
               "subInstructions": []
@@ -569,63 +654,8 @@
           ],
           "events": []
         }
-      ]
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ObjectTimer"
-          },
-          "parameters": [
-            "Player",
-            "\"stunedTimer\"",
-            "1"
-          ],
-          "subInstructions": []
-        }
       ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SetObjectVariableAsBoolean"
-          },
-          "parameters": [
-            "Player",
-            "stuned",
-            "False"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "RemoveObjectTimer"
-          },
-          "parameters": [
-            "Player",
-            "\"stunedTimer\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Delete"
-          },
-          "parameters": [
-            "Stuned",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
+      "parameters": []
     },
     {
       "colorB": 228,
@@ -637,35 +667,6 @@
       "name": "Market",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "Space"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [],
       "events": [
         {
           "disabled": false,
@@ -675,97 +676,45 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Distance"
+                "value": "KeyPressed"
               },
               "parameters": [
-                "Player",
-                "Market",
-                "GlobalVariable(gDistanceOfInteraction)",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetSceneVariableAsBoolean"
-              },
-              "parameters": [
-                "foundSpace",
-                "False"
+                "",
+                "Space"
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarScene"
+                "value": "BuiltinCommonInstructions::Once"
               },
-              "parameters": [
-                "rng",
-                "=",
-                "RandomInRange(0,2)"
-              ],
+              "parameters": [],
               "subInstructions": []
             }
           ],
+          "actions": [],
           "events": [
             {
               "disabled": false,
               "folded": false,
-              "type": "BuiltinCommonInstructions::ForEachChildVariable",
-              "iterableVariableName": "playerInventory",
-              "valueIteratorVariableName": "child",
-              "keyIteratorVariableName": "childName",
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "BuiltinCommonInstructions::And"
+                    "value": "Distance"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SceneVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "foundSpace",
-                        "False"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarSceneTxt"
-                      },
-                      "parameters": [
-                        "child",
-                        "=",
-                        "\"empty\""
-                      ],
-                      "subInstructions": []
-                    }
-                  ]
+                  "parameters": [
+                    "Player",
+                    "Market",
+                    "GlobalVariable(gDistanceOfInteraction)",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarSceneTxt"
-                  },
-                  "parameters": [
-                    "playerInventory[Variable(childName)]",
-                    "=",
-                    "GlobalVariableString(gPlayerResources[Variable(rng)])"
-                  ],
-                  "subInstructions": []
-                },
                 {
                   "type": {
                     "inverted": false,
@@ -773,16 +722,98 @@
                   },
                   "parameters": [
                     "foundSpace",
-                    "True"
+                    "False"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "rng",
+                    "=",
+                    "RandomInRange(0,2)"
                   ],
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                  "iterableVariableName": "playerInventory",
+                  "valueIteratorVariableName": "child",
+                  "keyIteratorVariableName": "childName",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "SceneVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "foundSpace",
+                            "False"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "child",
+                            "=",
+                            "\"empty\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "playerInventory[Variable(childName)]",
+                        "=",
+                        "GlobalVariableString(gPlayerResources[Variable(rng)])"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetSceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "foundSpace",
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             }
           ]
         }
-      ]
+      ],
+      "parameters": []
     }
   ]
 }

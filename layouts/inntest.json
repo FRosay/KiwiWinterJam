@@ -1,0 +1,2566 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "InnTest",
+  "name": "InnTest",
+  "oglFOV": 90,
+  "oglZFar": 500,
+  "oglZNear": 1,
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 1.0699999999999998,
+    "windowMask": false
+  },
+  "objectsGroups": [
+    {
+      "name": "Bloc",
+      "objects": [
+        {
+          "name": "Oven"
+        },
+        {
+          "name": "Market"
+        },
+        {
+          "name": "CuttingBoard"
+        },
+        {
+          "name": "Trashcan"
+        },
+        {
+          "name": "Sign"
+        },
+        {
+          "name": "Crate"
+        },
+        {
+          "name": "Dresser"
+        },
+        {
+          "name": "Obstacle"
+        },
+        {
+          "name": "Obstacle2"
+        }
+      ]
+    },
+    {
+      "name": "Interactive",
+      "objects": [
+        {
+          "name": "Oven"
+        },
+        {
+          "name": "Market"
+        },
+        {
+          "name": "CuttingBoard"
+        },
+        {
+          "name": "Trashcan"
+        },
+        {
+          "name": "Sign"
+        },
+        {
+          "name": "Crate"
+        },
+        {
+          "name": "Dresser"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "name": "playerInventory",
+      "type": "array",
+      "children": [
+        {
+          "type": "string",
+          "value": "empty"
+        },
+        {
+          "type": "string",
+          "value": "empty"
+        },
+        {
+          "type": "string",
+          "value": "empty"
+        }
+      ]
+    },
+    {
+      "name": "foundSpace",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "cookBookVisibility",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "itemSlot",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "txt",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "fame",
+      "type": "string",
+      "value": "3"
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 168,
+      "layer": "",
+      "locked": false,
+      "name": "Player",
+      "persistentUuid": "d75eeed8-69c3-4e6a-b424-31d64da8ab0a",
+      "width": 132,
+      "x": 286,
+      "y": 366,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Oven",
+      "persistentUuid": "430b98e0-fd62-41b1-b643-29b2f838754b",
+      "width": 0,
+      "x": 232,
+      "y": 184,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Market",
+      "persistentUuid": "1f5352da-db6b-400a-af87-54336b672603",
+      "width": 0,
+      "x": 246,
+      "y": 313,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "CuttingBoard",
+      "persistentUuid": "3026470f-6d38-4558-b121-26d43d13b20c",
+      "width": 0,
+      "x": 428,
+      "y": 179,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 90,
+      "layer": "Ui",
+      "locked": false,
+      "name": "CookBook",
+      "persistentUuid": "43dbe87e-9336-45d7-a7c3-179f455dea61",
+      "width": 88,
+      "x": 1,
+      "y": 505,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 95,
+      "layer": "CookBookRecepies",
+      "locked": false,
+      "name": "CookBookRecepies",
+      "persistentUuid": "077a695d-9ac6-466f-8bdb-18fee679360f",
+      "width": 561,
+      "x": 108,
+      "y": 127,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 18,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "RestaurantEntry",
+      "persistentUuid": "95963457-0e13-4c64-9f8e-4f2c74d67138",
+      "width": 277,
+      "x": 116,
+      "y": 459,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Trashcan",
+      "persistentUuid": "3b18cd18-fc5e-4e12-9166-9a009d29624e",
+      "width": 0,
+      "x": 103,
+      "y": 395,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 40143,
+      "layer": "Fade",
+      "locked": true,
+      "name": "Fade",
+      "persistentUuid": "ea6c6d8c-38b5-41d9-a56e-22a44cf69180",
+      "width": 48572,
+      "x": -10438,
+      "y": -13616,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 159,
+      "layer": "Fishing",
+      "locked": false,
+      "name": "NewObject",
+      "persistentUuid": "8277b083-e571-4deb-bc81-8b19c8cbd454",
+      "width": 722,
+      "x": 40,
+      "y": 75,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "PotatoShovel",
+      "persistentUuid": "88d7d060-1482-43e1-9d13-b339e9a6c3b2",
+      "width": 0,
+      "x": 409,
+      "y": -171,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 601,
+      "layer": "CuttingBoard",
+      "locked": false,
+      "name": "CuttingBoardBorder",
+      "persistentUuid": "99d0a15c-4999-483b-a717-89ff343d6dc2",
+      "width": 37,
+      "x": 762,
+      "y": -1,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 83,
+      "layer": "CuttingBoard",
+      "locked": false,
+      "name": "CuttingBoardBorder",
+      "persistentUuid": "665ace54-8949-4d45-b8fb-b2e853eec34a",
+      "width": 602,
+      "x": 197,
+      "y": 517,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 17,
+      "layer": "CuttingBoard",
+      "locked": false,
+      "name": "CuttingBoardBorder",
+      "persistentUuid": "8cf1cba1-259d-4f82-83bd-8caad2ce5452",
+      "width": 666,
+      "x": 127,
+      "y": 1,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 117,
+      "layer": "CuttingBoard",
+      "locked": false,
+      "name": "CuttingBoardBorder",
+      "persistentUuid": "870436e2-5e71-4c31-90cf-f28475961694",
+      "width": 593,
+      "x": 206,
+      "y": 198,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 158,
+      "layer": "CuttingBoard",
+      "locked": false,
+      "name": "CuttingBoardBorder",
+      "persistentUuid": "75f81e29-d129-4274-a5aa-d8c47d64a6a7",
+      "width": 103,
+      "x": 132,
+      "y": 1,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 190,
+      "layer": "CuttingBoard",
+      "locked": false,
+      "name": "CuttingBoardBorder",
+      "persistentUuid": "29a136d3-48f0-40bc-af48-89468a5c772d",
+      "width": 103,
+      "x": 292,
+      "y": 53,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 167,
+      "layer": "CuttingBoard",
+      "locked": false,
+      "name": "CuttingBoardBorder",
+      "persistentUuid": "f3e2631e-0746-452e-9c5a-9222953edb53",
+      "width": 103,
+      "x": 449,
+      "y": 1,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 195,
+      "layer": "CuttingBoard",
+      "locked": false,
+      "name": "CuttingBoardBorder",
+      "persistentUuid": "ffcffb31-1849-4e96-9b3a-ff0c472ea1c7",
+      "width": 103,
+      "x": 610,
+      "y": 46,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 83,
+      "layer": "CuttingBoard",
+      "locked": false,
+      "name": "CuttingBoardFinish",
+      "persistentUuid": "b4103da6-e963-4990-8911-33666d658230",
+      "width": 101,
+      "x": 681,
+      "y": 118,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 601,
+      "layer": "CuttingBoard",
+      "locked": false,
+      "name": "CuttingBoardBorder",
+      "persistentUuid": "4d49a440-06da-4380-a169-0e60be5d9702",
+      "width": 129,
+      "x": 0,
+      "y": 0,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 117,
+      "layer": "CuttingBoard",
+      "locked": false,
+      "name": "CuttingBoardBorder",
+      "persistentUuid": "0cd10107-51d7-48fb-be61-ab9e1a0497c8",
+      "width": 666,
+      "x": 43,
+      "y": 348,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Crate",
+      "persistentUuid": "9a50791d-6819-4d0d-9a6a-f9a5a3522f68",
+      "width": 0,
+      "x": 590,
+      "y": 155,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "string",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 20,
+      "layer": "",
+      "locked": false,
+      "name": "Timer",
+      "persistentUuid": "c7b02d87-fd31-4037-9ed1-770dd8d1c42f",
+      "width": 20,
+      "x": 279,
+      "y": 147,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 35,
+      "layer": "",
+      "locked": false,
+      "name": "Dresser",
+      "persistentUuid": "e3a738da-3e27-4d48-8c90-d28cdd9769d5",
+      "width": 76,
+      "x": 443,
+      "y": 430,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 600,
+      "layer": "",
+      "locked": true,
+      "name": "RestaurantBackground",
+      "persistentUuid": "f490926f-858a-4ee8-a931-d481319c2fd4",
+      "width": 750,
+      "x": 20,
+      "y": 0,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 343.6098327636719,
+      "customSize": true,
+      "height": 241.25526428222656,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "5f34f354-89ce-490c-bc1a-8f90b0205fe8",
+      "width": 5.48861837387085,
+      "x": 685.9268188476562,
+      "y": 196.8723602294922,
+      "zOrder": 100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 13.342874526977539,
+      "customSize": true,
+      "height": 131.23060607910156,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "76b5e116-0c7d-44c8-851f-7a876ddff1a4",
+      "width": 4.801119327545166,
+      "x": 162.35696411132812,
+      "y": 322.7828063964844,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 36,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "ee265742-9aa8-42dd-8955-4db12348f61c",
+      "width": 322,
+      "x": 393,
+      "y": 435,
+      "zOrder": 100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 12.175641059875488,
+      "customSize": true,
+      "height": 270.19036865234375,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "203c5391-8a34-4259-a492-9ba5f65f628d",
+      "width": 5.903319358825684,
+      "x": 135.67025756835938,
+      "y": 206.58364868164062,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 600,
+      "layer": "",
+      "locked": true,
+      "name": "IndoorsBackgroundTabletops",
+      "persistentUuid": "58a6bab8-03cc-4504-bf6a-33d4b22b1aa9",
+      "width": 750,
+      "x": 20,
+      "y": 0,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 6,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "3a3836f7-b59a-4802-99f6-cb12019d17a4",
+      "width": 290,
+      "x": 115,
+      "y": 471,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 18,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "d11701d1-2879-41c7-9633-dc9f659e5f5d",
+      "width": 352,
+      "x": 231,
+      "y": 323,
+      "zOrder": 100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Ui",
+      "locked": false,
+      "name": "FameDisplay",
+      "persistentUuid": "c252417f-5448-4d43-86a8-ae884cda81da",
+      "width": 0,
+      "x": 656,
+      "y": 27,
+      "zOrder": 101,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Ui",
+      "locked": false,
+      "name": "DayTimeClock",
+      "persistentUuid": "53f004c3-28e5-4bab-b629-c6f8613184e8",
+      "width": 0,
+      "x": 754,
+      "y": 6,
+      "zOrder": 102,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 196,
+      "layer": "CookBookRecepies",
+      "locked": false,
+      "name": "NewObject",
+      "persistentUuid": "90001227-470f-458b-94c9-f5eca5af5463",
+      "width": 710.1448974609375,
+      "x": 39,
+      "y": 62,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "CookBookRecepies",
+      "locked": false,
+      "name": "SignDisplayButton",
+      "persistentUuid": "c8633337-0c29-43d4-a46b-4aa6d0ee1e20",
+      "width": 0,
+      "x": 626,
+      "y": 179,
+      "zOrder": 103,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sign",
+      "persistentUuid": "4a2494a8-3a83-4dc6-b3fc-bde728671491",
+      "width": 0,
+      "x": 133,
+      "y": 253,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "oven"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sign",
+      "persistentUuid": "56805714-a6ea-408e-b615-1fe0e7223811",
+      "width": 0,
+      "x": 611,
+      "y": 224,
+      "zOrder": 111,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "cutting-board"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sign",
+      "persistentUuid": "2c45a416-3432-41c5-a2e9-7fc6e4eaf45c",
+      "width": 0,
+      "x": 658,
+      "y": 366,
+      "zOrder": 112,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "dresser"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 6,
+      "layer": "Obstacles",
+      "locked": false,
+      "name": "Obstacle",
+      "persistentUuid": "d2a1028f-8904-4470-b305-4b87bccf64ff",
+      "width": 490,
+      "x": 166,
+      "y": 203,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 600,
+      "layer": "",
+      "locked": true,
+      "name": "IndoorsBackgroundLight",
+      "persistentUuid": "63bb913b-efd0-407d-b2f3-b28b86f8ea8d",
+      "width": 750,
+      "x": 20,
+      "y": 0,
+      "zOrder": 103,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 114,
+      "layer": "Ui",
+      "locked": false,
+      "name": "ItemFrame",
+      "persistentUuid": "9f63b2fc-88ba-4896-8a20-73f5b783eacb",
+      "width": 114,
+      "x": 250,
+      "y": 530,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "string",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Ui",
+      "locked": false,
+      "name": "ItemFrame",
+      "persistentUuid": "bcc3b581-786c-4721-8f16-e9c46aecdf0d",
+      "width": 0,
+      "x": 400,
+      "y": 530,
+      "zOrder": 114,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "string",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Ui",
+      "locked": false,
+      "name": "ItemFrame",
+      "persistentUuid": "05ec9626-8d45-4905-ba03-665b060b9c41",
+      "width": 0,
+      "x": 550,
+      "y": 530,
+      "zOrder": 115,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "string",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Ui",
+      "locked": false,
+      "name": "Resources",
+      "persistentUuid": "0965f548-6980-496b-b545-59e7cdadbaa7",
+      "width": 0,
+      "x": 220,
+      "y": 498,
+      "zOrder": 116,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "string",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Ui",
+      "locked": false,
+      "name": "Resources",
+      "persistentUuid": "4a38100a-1fcf-40d9-ba5a-456bd24d1640",
+      "width": 0,
+      "x": 368,
+      "y": 498,
+      "zOrder": 117,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "string",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Ui",
+      "locked": false,
+      "name": "Resources",
+      "persistentUuid": "2d072751-d91a-46d7-b723-9f185e4cb355",
+      "width": 0,
+      "x": 518,
+      "y": 498,
+      "zOrder": 118,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "string",
+          "value": "2"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "name": "Sign",
+      "tags": "interactive",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "sign",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\interactive_items\\sign.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33.810096740722656,
+                        "y": 3.212139368057251
+                      },
+                      {
+                        "x": 32.27163314819336,
+                        "y": 21.2890625
+                      },
+                      {
+                        "x": 24.387020111083984,
+                        "y": 39.75060272216797
+                      },
+                      {
+                        "x": 13.040864944458008,
+                        "y": 39.75060272216797
+                      },
+                      {
+                        "x": 5.925480842590332,
+                        "y": 21.673677444458008
+                      },
+                      {
+                        "x": 4.194711685180664,
+                        "y": 3.7890625
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sign-outline",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\interactive_items\\sign_outline.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33.810096740722656,
+                        "y": 3.212139368057251
+                      },
+                      {
+                        "x": 32.27163314819336,
+                        "y": 21.2890625
+                      },
+                      {
+                        "x": 24.387020111083984,
+                        "y": 39.75060272216797
+                      },
+                      {
+                        "x": 13.040864944458008,
+                        "y": 39.75060272216797
+                      },
+                      {
+                        "x": 5.925480842590332,
+                        "y": 21.673677444458008
+                      },
+                      {
+                        "x": 4.194711685180664,
+                        "y": 3.7890625
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "SignTxt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Sign Txt to explain the game",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "name": "Oven",
+      "tags": "interactive, kitchen",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "contains",
+          "type": "string",
+          "value": "empty"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "oven",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\interactive_items\\oven.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "oven-outline",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\interactive_items\\oven-outline.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Market",
+      "tags": "interactive, kitchen",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "market",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/market.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "market-outline",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/market-outline.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CuttingBoard",
+      "tags": "interactive, kitchen",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "cutting-board",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\interactive_items\\cutting-board.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cutting-board-outline",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\interactive_items\\cutting-board-outline.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CookBook",
+      "tags": "interactive",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "cookbook",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\interactive_items\\cookbook.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cookbook-outline",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\interactive_items\\cookbook-outline.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "CookBookRecepies",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Ajiaco = Poulpe (à couper et cuire) + Patate (à couper et cuire) + Algue\nFéroce = Avocat + Banane + Poisson (à sécher)\nGâteau = Patate (à couper et cuire) + Épice + Rhum",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "name": "Trashcan",
+      "tags": "interactive",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "trashcan",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\interactive_items\\trashcan.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "trashcan-outline",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\interactive_items\\trashcan-outline.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RestaurantEntry",
+      "tags": "invisible",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\Teleportation.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Obstacle2",
+      "tags": "invisible",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "obstacle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\images\\Obstacle2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 59.89514923095703,
+                        "y": 49.8293571472168
+                      },
+                      {
+                        "x": 49.23725509643555,
+                        "y": 59.9609375
+                      },
+                      {
+                        "x": 38.316200256347656,
+                        "y": 64
+                      },
+                      {
+                        "x": 25.816200256347656,
+                        "y": 64
+                      },
+                      {
+                        "x": 14.895148277282715,
+                        "y": 60.22409439086914
+                      },
+                      {
+                        "x": 7.526727199554443,
+                        "y": 54.039886474609375
+                      },
+                      {
+                        "x": 2.92146372795105,
+                        "y": 47.5925178527832
+                      },
+                      {
+                        "x": 0,
+                        "y": 37.855674743652344
+                      },
+                      {
+                        "x": 0,
+                        "y": 25.881990432739258
+                      },
+                      {
+                        "x": 3.974095344543457,
+                        "y": 14.3030424118042
+                      },
+                      {
+                        "x": 15.421463966369629,
+                        "y": 3.9083058834075928
+                      },
+                      {
+                        "x": 25.684621810913086,
+                        "y": 0
+                      },
+                      {
+                        "x": 39.105674743652344,
+                        "y": 0
+                      },
+                      {
+                        "x": 48.7109375,
+                        "y": 3.6451480388641357
+                      },
+                      {
+                        "x": 57.789886474609375,
+                        "y": 11.408306121826172
+                      },
+                      {
+                        "x": 64,
+                        "y": 26.1451473236084
+                      },
+                      {
+                        "x": 64,
+                        "y": 37.855674743652344
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Obstacle",
+      "tags": "invisible",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "obstacle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\Obstacle.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NewObject",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\horizontal_banner.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": 32,
+      "name": "CuttingBoardBorder",
+      "tags": "minigame",
+      "texture": "assets/sprites/cutting-board-border.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "height": 16,
+      "name": "CuttingBoardPoint",
+      "tags": "minigame",
+      "texture": "assets/sprites/cutting-board-point.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 16,
+      "variables": [
+        {
+          "name": "heightToMouse",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "widthToMouse",
+          "type": "string",
+          "value": "0"
+        }
+      ],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "height": 32,
+      "name": "CuttingBoardFinish",
+      "tags": "minigame",
+      "texture": "assets/sprites/cutting-board-finish.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "name": "Crate",
+      "tags": "interactive, kitchen",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "id",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "item",
+          "type": "array",
+          "children": [
+            {
+              "type": "string",
+              "value": "empty"
+            },
+            {
+              "type": "string",
+              "value": "empty"
+            },
+            {
+              "type": "string",
+              "value": "empty"
+            },
+            {
+              "type": "string",
+              "value": "empty"
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "crate",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\interactive_items\\crate.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 67.92367553710938,
+                        "y": 3.404447078704834
+                      },
+                      {
+                        "x": 78.50060272216797,
+                        "y": 45.90444564819336
+                      },
+                      {
+                        "x": 63.308292388916016,
+                        "y": 78.21214294433594
+                      },
+                      {
+                        "x": 16.962139129638672,
+                        "y": 78.40444946289062
+                      },
+                      {
+                        "x": 3.885216236114502,
+                        "y": 46.09675598144531
+                      },
+                      {
+                        "x": 15.0390625,
+                        "y": 3.7890625
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "crate-outline",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\interactive_items\\crate-outline.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 67.92367553710938,
+                        "y": 3.404447078704834
+                      },
+                      {
+                        "x": 78.50060272216797,
+                        "y": 45.90444564819336
+                      },
+                      {
+                        "x": 63.308292388916016,
+                        "y": 78.21214294433594
+                      },
+                      {
+                        "x": 16.962139129638672,
+                        "y": 78.40444946289062
+                      },
+                      {
+                        "x": 3.885216236114502,
+                        "y": 46.09675598144531
+                      },
+                      {
+                        "x": 15.0390625,
+                        "y": 3.7890625
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CrateSlot",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "id",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/crate-slot.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Timer",
+      "tags": "kitchen",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "start",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\non_interactive_items\\clock\\Outlined-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "good",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\non_interactive_items\\clock\\Outlined-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "warning",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\non_interactive_items\\clock\\Outlined-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "burnt",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\non_interactive_items\\clock\\Outlined-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dresser",
+      "tags": "interactive, kitchen",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "dresser",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/interactive_items/dresser.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "dresser-outline",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/interactive_items/dresser-outline.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RestaurantBackground",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\indoors.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IndoorsBackgroundLight",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\indoors_light.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IndoorsBackgroundTabletops",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\indoors_tops.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "MainCharacterEvents"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "CookingEvents"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "UiEvents"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Customers"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "ExternalEvents"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "CuttingBoardGame"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Crate"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Oven"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "InPlate"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "DayTime"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Sign"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Teleportations"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "InventoryTest"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Fade"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Oven",
+            "\"ovenCookingTime\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PauseObjectTimer"
+          },
+          "parameters": [
+            "Oven",
+            "\"ovenCookingTime\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 1869181810,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 0,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": -2147483632,
+      "ambientLightColorG": 6023280,
+      "ambientLightColorR": 7102856,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Obstacles",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 117440512,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 9779112,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Fade",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": -2147483616,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 7861016,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "PlayerInventory",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 25972,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 9779112,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Fishing",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 25,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 9717944,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Gather",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 7869840,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 9896568,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "CuttingBoard",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 7539376,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 10045896,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Crate",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 150995059,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 7820288,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Ui",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 7745072,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 7864952,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "CookBookRecepies",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": []
+}
