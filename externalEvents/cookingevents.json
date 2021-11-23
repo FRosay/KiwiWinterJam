@@ -10,84 +10,6 @@
       "creationTime": 0,
       "disabled": false,
       "folded": false,
-      "name": "Trash",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Distance"
-              },
-              "parameters": [
-                "Player",
-                "Trashcan",
-                "GlobalVariable(gDistanceOfInteraction)",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Space"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarSceneTxt"
-                  },
-                  "parameters": [
-                    "playerInventory[Variable(itemSlot)]",
-                    "=",
-                    "\"empty\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "disabled": false,
-      "folded": false,
       "name": "Drying rack",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -151,7 +73,7 @@
                         "value": "VarSceneTxt"
                       },
                       "parameters": [
-                        "playerInventory[Variable(itemSlot)]",
+                        "playerInventory[GlobalVariable(gItemSlot)]",
                         "=",
                         "\"empty\""
                       ],
@@ -177,7 +99,7 @@
                         "value": "ModVarSceneTxt"
                       },
                       "parameters": [
-                        "playerInventory[Variable(itemSlot)]",
+                        "playerInventory[GlobalVariable(gItemSlot)]",
                         "=",
                         "\"cod-dried\""
                       ],
@@ -208,7 +130,7 @@
                         "value": "VarSceneTxt"
                       },
                       "parameters": [
-                        "playerInventory[Variable(itemSlot)]",
+                        "playerInventory[GlobalVariable(gItemSlot)]",
                         "=",
                         "\"cod\""
                       ],
@@ -222,7 +144,7 @@
                         "value": "ModVarSceneTxt"
                       },
                       "parameters": [
-                        "playerInventory[Variable(itemSlot)]",
+                        "playerInventory[GlobalVariable(gItemSlot)]",
                         "=",
                         "\"empty\""
                       ],
