@@ -100,6 +100,78 @@
             {
               "type": {
                 "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PauseObjectTimer"
+              },
+              "parameters": [
+                "DryingRack",
+                "\"dryingTimer\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "DryingRack",
+                "\"dryingTimer\"",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "DryingRack",
+                "\"cod-dried\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "Distance"
               },
               "parameters": [
@@ -148,24 +220,24 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "VarSceneTxt"
-                      },
-                      "parameters": [
-                        "playerInventory[Variable(itemSlot)]",
-                        "=",
-                        "\"empty\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
                         "value": "ObjectTimer"
                       },
                       "parameters": [
                         "DryingRack",
                         "\"dryingTimer\"",
                         "4"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "playerInventory[Variable(itemSlot)]",
+                        "=",
+                        "\"empty\""
                       ],
                       "subInstructions": []
                     }
@@ -186,11 +258,33 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "RemoveObjectTimer"
+                        "value": "ResetObjectTimer"
                       },
                       "parameters": [
                         "DryingRack",
                         "\"dryingTimer\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PauseObjectTimer"
+                      },
+                      "parameters": [
+                        "DryingRack",
+                        "\"dryingTimer\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "DryingRack",
+                        "\"empty-outline\""
                       ],
                       "subInstructions": []
                     }
@@ -231,22 +325,22 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ResetTimer"
+                        "value": "SetAnimationName"
                       },
                       "parameters": [
-                        "",
-                        "\"dryingTimer\""
+                        "DryingRack",
+                        "\"cod-outline\""
                       ],
                       "subInstructions": []
                     },
                     {
                       "type": {
                         "inverted": false,
-                        "value": "SetAnimationName"
+                        "value": "UnPauseObjectTimer"
                       },
                       "parameters": [
                         "DryingRack",
-                        "\"cod\""
+                        "\"dryingTimer\""
                       ],
                       "subInstructions": []
                     }

@@ -173,85 +173,17 @@
       ]
     },
     {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
       "disabled": false,
       "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Distance"
-          },
-          "parameters": [
-            "Player",
-            "Sign",
-            "GlobalVariable(gDistanceOfInteraction)",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "Space"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "SignTxt",
-            "Sign.X()",
-            "Sign.Y()",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "SignTxt",
-            "=",
-            "Sign.X()-(SignTxt.Width()/2)",
-            "=",
-            "Sign.Y()-32"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ShowLayer"
-          },
-          "parameters": [
-            "",
-            "\"Sign\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
+      "name": "Text to display",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
     },
     {
       "disabled": false,
@@ -295,29 +227,16 @@
         {
           "type": {
             "inverted": false,
-            "value": "HideLayer"
+            "value": "Delete"
           },
           "parameters": [
-            "",
-            "\"Sign\""
+            "SignBanner",
+            ""
           ],
           "subInstructions": []
         }
       ],
       "events": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "disabled": false,
-      "folded": false,
-      "name": "Text to display",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
     },
     {
       "disabled": false,
@@ -351,13 +270,129 @@
         {
           "type": {
             "inverted": false,
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "displaySign",
+            "True"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "NbObjet"
+          },
+          "parameters": [
+            "SignBanner",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": [],
           "subInstructions": []
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "SignBanner",
+            "Sign.X()",
+            "Sign.Y()",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "SignTxt",
+            "Sign.X()",
+            "Sign.Y()",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "SignTxt",
+            "=",
+            "Sign.X()-(SignTxt.Width()/2)",
+            "=",
+            "Sign.Y()-32"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeWidth"
+          },
+          "parameters": [
+            "SignBanner",
+            "=",
+            "SignTxt.Width()+64"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeHeight"
+          },
+          "parameters": [
+            "SignBanner",
+            "=",
+            "SignTxt.Height()+128"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "SignBanner",
+            "=",
+            "SignTxt.X()-32",
+            "=",
+            "SignTxt.Y()-32"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "SignTxt",
+            "+",
+            "1"
+          ],
+          "subInstructions": []
+        }
+      ],
       "events": [
         {
           "disabled": false,

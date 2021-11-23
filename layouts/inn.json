@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.9899999999999997,
+    "zoomFactor": 0.7249999999999985,
     "windowMask": false
   },
   "objectsGroups": [
@@ -278,8 +278,8 @@
       "name": "CookBookRecepies",
       "persistentUuid": "077a695d-9ac6-466f-8bdb-18fee679360f",
       "width": 561,
-      "x": 108,
-      "y": 127,
+      "x": 124,
+      "y": 125,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -310,8 +310,8 @@
       "name": "DryingRack",
       "persistentUuid": "b0ff34c1-4edd-4338-bd50-8e290f087ed1",
       "width": 0,
-      "x": 2328,
-      "y": -8,
+      "x": 2206,
+      "y": -103,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -342,8 +342,8 @@
       "name": "BananaTree",
       "persistentUuid": "8d35b777-7946-49d0-b060-c38eb27fc07c",
       "width": 0,
-      "x": 2322,
-      "y": 286,
+      "x": 2645,
+      "y": -53,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -374,8 +374,8 @@
       "name": "SpiceMerchant",
       "persistentUuid": "0e86e8db-77a2-4851-b245-6cc2f2a1451c",
       "width": 0,
-      "x": 2328,
-      "y": 391,
+      "x": 2931,
+      "y": 506,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -406,8 +406,8 @@
       "name": "PotatoField",
       "persistentUuid": "0a4894da-e011-4269-9d14-9eab18011a5d",
       "width": 0,
-      "x": 2337,
-      "y": 518,
+      "x": 2441,
+      "y": 519,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -483,7 +483,7 @@
       "height": 159,
       "layer": "Fishing",
       "locked": false,
-      "name": "NewObject",
+      "name": "Banner",
       "persistentUuid": "8277b083-e571-4deb-bc81-8b19c8cbd454",
       "width": 722,
       "x": 40,
@@ -850,8 +850,8 @@
       "name": "CustomerBouncingSpace",
       "persistentUuid": "0ae4c42f-0ca9-46b6-a36a-07877ec376d5",
       "width": 18,
-      "x": 2343,
-      "y": 192,
+      "x": 2359,
+      "y": 180,
       "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
@@ -1103,7 +1103,7 @@
       "height": 196,
       "layer": "CookBookRecepies",
       "locked": false,
-      "name": "NewObject",
+      "name": "Banner",
       "persistentUuid": "90001227-470f-458b-94c9-f5eca5af5463",
       "width": 710.1448974609375,
       "x": 39,
@@ -1160,8 +1160,8 @@
       "name": "Sign",
       "persistentUuid": "8cd0e7d5-fe76-4bee-91e9-e738dfdfcf3e",
       "width": 0,
-      "x": 2378,
-      "y": 387,
+      "x": 2976,
+      "y": 480,
       "zOrder": 105,
       "numberProperties": [],
       "stringProperties": [],
@@ -1182,8 +1182,8 @@
       "name": "Sign",
       "persistentUuid": "c8455258-59c9-4b30-aa24-881b9c5428f7",
       "width": 0,
-      "x": 2382,
-      "y": 278,
+      "x": 2588,
+      "y": -67,
       "zOrder": 106,
       "numberProperties": [],
       "stringProperties": [],
@@ -1204,8 +1204,8 @@
       "name": "Sign",
       "persistentUuid": "a054ec93-c87a-4f60-8f71-827abca30aaa",
       "width": 0,
-      "x": 2371,
-      "y": 175,
+      "x": 2306,
+      "y": 238,
       "zOrder": 107,
       "numberProperties": [],
       "stringProperties": [],
@@ -1248,8 +1248,8 @@
       "name": "Sign",
       "persistentUuid": "5be3a409-5c3e-4281-85eb-f7153e2b063c",
       "width": 0,
-      "x": 2269,
-      "y": 54,
+      "x": 2154,
+      "y": -31,
       "zOrder": 109,
       "numberProperties": [],
       "stringProperties": [],
@@ -1336,8 +1336,8 @@
       "name": "Sign",
       "persistentUuid": "e4777121-d640-4296-904f-c0acc54f7870",
       "width": 0,
-      "x": 2026,
-      "y": 358,
+      "x": 2973,
+      "y": 103,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -1358,8 +1358,8 @@
       "name": "Sign",
       "persistentUuid": "dbef4775-e755-41f8-a9a3-0ec1c00c73c0",
       "width": 0,
-      "x": 2884,
-      "y": 179,
+      "x": 2133,
+      "y": 293,
       "zOrder": 114,
       "numberProperties": [],
       "stringProperties": [],
@@ -1380,8 +1380,8 @@
       "name": "Crate",
       "persistentUuid": "ff3de977-18f3-4388-8b6e-411cee46aaa8",
       "width": 0,
-      "x": 2945,
-      "y": 175,
+      "x": 2944,
+      "y": 293,
       "zOrder": 115,
       "numberProperties": [],
       "stringProperties": [],
@@ -2000,8 +2000,8 @@
       "name": "Resources",
       "persistentUuid": "ccc33be4-adf3-487b-b7dd-8f567b864e91",
       "width": 0,
-      "x": 218,
-      "y": 498,
+      "x": 196,
+      "y": 475,
       "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
@@ -2022,8 +2022,8 @@
       "name": "Resources",
       "persistentUuid": "fd0a9771-34d5-4899-b3a5-791601ed6f4d",
       "width": 0,
-      "x": 368,
-      "y": 498,
+      "x": 346,
+      "y": 475,
       "zOrder": 117,
       "numberProperties": [],
       "stringProperties": [],
@@ -2066,8 +2066,8 @@
       "name": "Resources",
       "persistentUuid": "f8fda063-dfc0-46f4-b0aa-71d05791baa9",
       "width": 0,
-      "x": 518,
-      "y": 498,
+      "x": 497,
+      "y": 475,
       "zOrder": 118,
       "numberProperties": [],
       "stringProperties": [],
@@ -2244,13 +2244,93 @@
       "effects": [],
       "behaviors": [],
       "string": "Sign Txt to explain the game",
-      "font": "",
+      "font": "assets\\fonts\\Spinstee.ttf",
       "characterSize": 20,
       "color": {
         "b": 0,
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "name": "SignDisplayButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/interactive_items/sign.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SignBanner",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/horizontal_banner.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Chair",
@@ -2458,25 +2538,7 @@
             {
               "looping": false,
               "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/resources-empty.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
+              "sprites": []
             }
           ]
         },
@@ -4003,7 +4065,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Ajiaco = Poulpe (à couper et cuire) + Patate (à couper et cuire) + Algue\nFéroce = Avocat + Banane + Poisson (à sécher)\nGâteau = Patate (à couper et cuire) + Épice + Rhum",
-      "font": "",
+      "font": "assets\\fonts\\Spinstee.ttf",
       "characterSize": 20,
       "color": {
         "b": 0,
@@ -4208,7 +4270,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\sprites\\interactive_items\\drying-rack-fish.png",
+                  "image": "assets/sprites/interactive_items/drying-rack-cod.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4237,7 +4299,65 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\sprites\\interactive_items\\drying-rack-fish-outline.png",
+                  "image": "assets/sprites/interactive_items/drying-rack-cod-outline.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cod-dried",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/interactive_items/drying-rack-cod-dried.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cod-dried-outline",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/interactive_items/drying-rack-cod-dried-outline.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4297,7 +4417,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "ready-outline",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5897,7 +6017,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "ready-outline",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -6459,7 +6579,7 @@
       ]
     },
     {
-      "name": "NewObject",
+      "name": "Banner",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,

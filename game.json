@@ -1697,6 +1697,78 @@
         "name": "assets/sprites/item-frame.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/sounds/shovel_dig_into_dirt.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/sounds/shovel_dig_into_dirt.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/household_moses_basket_put_down.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/sounds/household_moses_basket_put_down.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/drying-rack-cod.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/interactive_items/drying-rack-cod.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/drying-rack-cod-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/interactive_items/drying-rack-cod-outline.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/drying-rack-cod-dried.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/interactive_items/drying-rack-cod-dried.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/drying-rack-cod-dried-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/interactive_items/drying-rack-cod-dried-outline.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/interactive_items/sign.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/interactive_items/sign.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/horizontal_banner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/horizontal_banner.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
