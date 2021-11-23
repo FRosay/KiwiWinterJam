@@ -94,6 +94,14 @@
                 "8"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -109,6 +117,40 @@
               "subInstructions": []
             }
           ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "AvocadoTree",
+                "GlobalVariable(gDistanceOfInteraction)",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "AvocadoTree",
+                "\"growthTimer\"",
+                "8"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
           "events": [
             {
               "disabled": false,
@@ -118,14 +160,20 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Distance"
+                    "value": "KeyPressed"
                   },
                   "parameters": [
-                    "Player",
-                    "AvocadoTree",
-                    "GlobalVariable(gDistanceOfInteraction)",
-                    ""
+                    "",
+                    "Space"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -134,119 +182,90 @@
                 {
                   "disabled": false,
                   "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
+                  "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                  "iterableVariableName": "playerInventory",
+                  "valueIteratorVariableName": "child",
+                  "keyIteratorVariableName": "childName",
                   "conditions": [
                     {
                       "type": {
                         "inverted": false,
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Space"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "BuiltinCommonInstructions::Once"
+                        "value": "BuiltinCommonInstructions::And"
                       },
                       "parameters": [],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::ForEachChildVariable",
-                      "iterableVariableName": "playerInventory",
-                      "valueIteratorVariableName": "child",
-                      "keyIteratorVariableName": "childName",
-                      "conditions": [
+                      "subInstructions": [
                         {
                           "type": {
                             "inverted": false,
-                            "value": "BuiltinCommonInstructions::And"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "SceneVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "foundSpace",
-                                "False"
-                              ],
-                              "subInstructions": []
-                            },
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "VarSceneTxt"
-                              },
-                              "parameters": [
-                                "child",
-                                "=",
-                                "\"empty\""
-                              ],
-                              "subInstructions": []
-                            }
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarSceneTxt"
+                            "value": "SceneVariableAsBoolean"
                           },
                           "parameters": [
-                            "playerInventory[Variable(childName)]",
-                            "=",
-                            "\"avocado\""
+                            "foundSpace",
+                            "False"
                           ],
                           "subInstructions": []
                         },
                         {
                           "type": {
                             "inverted": false,
-                            "value": "SetSceneVariableAsBoolean"
+                            "value": "VarSceneTxt"
                           },
                           "parameters": [
-                            "foundSpace",
-                            "True"
+                            "child",
+                            "=",
+                            "\"empty\""
                           ],
                           "subInstructions": []
                         }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "playerInventory[Variable(childName)]",
+                        "=",
+                        "\"avocado\""
                       ],
-                      "events": []
+                      "subInstructions": []
                     },
                     {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "AvocadoTree",
-                            "\"growthTimer\""
-                          ],
-                          "subInstructions": []
-                        }
+                      "type": {
+                        "inverted": false,
+                        "value": "SetSceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "foundSpace",
+                        "True"
                       ],
-                      "events": []
+                      "subInstructions": []
                     }
-                  ]
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "AvocadoTree",
+                        "\"growthTimer\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
                 }
               ]
             }
@@ -266,40 +285,6 @@
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "Distance"
-              },
-              "parameters": [
-                "Player",
-                "BananaTree",
-                "GlobalVariable(gDistanceOfInteraction)",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"Gather\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
         {
           "disabled": false,
           "folded": false,
@@ -355,6 +340,17 @@
                   "parameters": [
                     "",
                     "\"Gather\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fade\""
                   ],
                   "subInstructions": []
                 }
@@ -630,6 +626,20 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets/sounds/household_moses_basket_put_down.mp3",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "Delete"
                       },
                       "parameters": [
@@ -695,6 +705,17 @@
                       "parameters": [
                         "",
                         "\"Gather\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Fade\""
                       ],
                       "subInstructions": []
                     }
