@@ -37,6 +37,72 @@
     {
       "disabled": false,
       "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "DayTimeTxt",
+            "=",
+            "\"Journée \"+ToString(GlobalVariable(gDayCount))"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "FameTxt",
+            "=",
+            "\"Fame : \"+ToString(GlobalVariable(gFame))"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "Timer"
+          },
+          "parameters": [
+            "",
+            "4",
+            "\"dayTime\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "DayTimeClock",
+            "\"preparation\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -61,9 +127,17 @@
           },
           "parameters": [
             "",
-            "2",
+            "4",
             "\"dayTime\""
           ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
           "subInstructions": []
         }
       ],
@@ -75,7 +149,89 @@
           },
           "parameters": [
             "DayTimeClock",
-            "\"preparation-end\""
+            "\"dinner\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Timer"
+          },
+          "parameters": [
+            "",
+            "5",
+            "\"dayTime\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "DayTimeClock",
+            "\"dinner-ending\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Timer"
+          },
+          "parameters": [
+            "",
+            "6",
+            "\"dayTime\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "DayTimeClock",
+            "\"end\""
           ],
           "subInstructions": []
         }
@@ -109,9 +265,17 @@
           },
           "parameters": [
             "",
-            "4",
+            "7",
             "\"dayTime\""
           ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
           "subInstructions": []
         }
       ],
@@ -119,11 +283,12 @@
         {
           "type": {
             "inverted": false,
-            "value": "SetAnimationName"
+            "value": "ModVarGlobal"
           },
           "parameters": [
-            "DayTimeClock",
-            "\"day-end\""
+            "gDayCount",
+            "+",
+            "1"
           ],
           "subInstructions": []
         }
@@ -138,11 +303,46 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ResetTimer"
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "gFame",
+                "-",
+                "Count(Customer_female)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "gFame",
+                "-",
+                "Count(Customer_male)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AjoutObjConcern"
               },
               "parameters": [
                 "",
-                "\"dayTime\""
+                "Customer_female"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Customer_female",
+                ""
               ],
               "subInstructions": []
             },
@@ -167,7 +367,117 @@
                 ""
               ],
               "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"dayTime\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "playerInventory[0]",
+                "=",
+                "\"empty\""
+              ],
+              "subInstructions": []
             },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "playerInventory[1]",
+                "=",
+                "\"empty\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "playerInventory[2]",
+                "=",
+                "\"empty\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "gPlayerInventory[0]",
+                "=",
+                "\"empty\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "gPlayerInventory[1]",
+                "=",
+                "\"empty\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "gPlayerInventory[2]",
+                "=",
+                "\"empty\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
             {
               "type": {
                 "inverted": false,
@@ -175,18 +485,59 @@
               },
               "parameters": [
                 "",
-                "Customer_female"
+                "Crate"
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "Delete"
+                "value": "ModVarObjetTxt"
               },
               "parameters": [
-                "Customer_female",
-                ""
+                "Crate",
+                "item[0]",
+                "=",
+                "\"empty\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "Crate",
+                "item[1]",
+                "=",
+                "\"empty\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "Crate",
+                "item[2]",
+                "=",
+                "\"empty\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "Crate",
+                "item[3]",
+                "=",
+                "\"empty\""
               ],
               "subInstructions": []
             }
