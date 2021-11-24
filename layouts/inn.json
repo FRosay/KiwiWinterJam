@@ -181,11 +181,6 @@
       "name": "txt",
       "type": "string",
       "value": ""
-    },
-    {
-      "name": "fame",
-      "type": "string",
-      "value": "3"
     }
   ],
   "instances": [
