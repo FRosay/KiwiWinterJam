@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.3500000000000016,
+    "zoomFactor": 0.5500000000000009,
     "windowMask": false
   },
   "objectsGroups": [
@@ -63,6 +63,41 @@
         },
         {
           "name": "Obstacle2"
+        },
+        {
+          "name": "Sign"
+        }
+      ]
+    },
+    {
+      "name": "Interactive",
+      "objects": [
+        {
+          "name": "PotatoField"
+        },
+        {
+          "name": "FishingSpot"
+        },
+        {
+          "name": "AvocadoTree"
+        },
+        {
+          "name": "SpiceMerchant"
+        },
+        {
+          "name": "BananaTree"
+        },
+        {
+          "name": "RumMerchant"
+        },
+        {
+          "name": "Trashcan"
+        },
+        {
+          "name": "DryingRack"
+        },
+        {
+          "name": "Crate"
         },
         {
           "name": "Sign"
@@ -3535,15 +3570,6 @@
         "includeConfig": 0
       },
       "target": "Crate"
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "InPlate"
     },
     {
       "disabled": false,

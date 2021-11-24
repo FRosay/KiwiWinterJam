@@ -369,245 +369,6 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "disabled": true,
-          "folded": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Resources",
-                    "SceneWindowWidth() / 2 - Resources.Width() / 2 - ItemFrame2.Width() - 16",
-                    "SceneWindowHeight() - ItemFrame2.Height()",
-                    "\"Ui\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Resources",
-                    "id",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "ItemFrame2",
-                        "SceneWindowWidth() / 2 - Resources.Width() / 2 - ItemFrame2.Width() - 16",
-                        "SceneWindowHeight() - ItemFrame2.Height()",
-                        "\"Ui\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "ItemFrame2",
-                        "id",
-                        "=",
-                        "0"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Resources",
-                    "SceneWindowWidth()/2-Resources.Width()/2",
-                    "SceneWindowHeight() - ItemFrame2.Height()",
-                    "\"Ui\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Resources",
-                    "id",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "ItemFrame2",
-                        "SceneWindowWidth()/2-Resources.Width()/2",
-                        "SceneWindowHeight() - ItemFrame2.Height()",
-                        "\"Ui\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "ItemFrame2",
-                        "id",
-                        "=",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Resources",
-                    "SceneWindowWidth() / 2 - Resources.Width() / 2 + ItemFrame2.Width() + 16",
-                    "SceneWindowHeight() - ItemFrame2.Height()",
-                    "\"Ui\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Resources",
-                    "id",
-                    "=",
-                    "2"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "ItemFrame2",
-                        "SceneWindowWidth() / 2 - Resources.Width() / 2 + ItemFrame2.Width() + 16",
-                        "SceneWindowHeight() - ItemFrame2.Height()",
-                        "\"Ui\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "ItemFrame2",
-                        "id",
-                        "=",
-                        "2"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
-            }
-          ]
-        },
-        {
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
@@ -772,18 +533,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "itemSlot",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "ModVarGlobal"
               },
               "parameters": [
@@ -807,7 +556,7 @@
                     "value": "SetAnimationName"
                   },
                   "parameters": [
-                    "ItemFrame2",
+                    "ItemFrame",
                     "\"item-frame\""
                   ],
                   "subInstructions": []
@@ -825,7 +574,7 @@
                         "value": "VarObjet"
                       },
                       "parameters": [
-                        "ItemFrame2",
+                        "ItemFrame",
                         "id",
                         "=",
                         "GlobalVariable(gItemSlot)"
@@ -840,7 +589,7 @@
                         "value": "SetAnimationName"
                       },
                       "parameters": [
-                        "ItemFrame2",
+                        "ItemFrame",
                         "\"item-frame-selected\""
                       ],
                       "subInstructions": []
@@ -901,18 +650,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "itemSlot",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "ModVarGlobal"
               },
               "parameters": [
@@ -937,7 +674,7 @@
                 "value": "SetAnimationName"
               },
               "parameters": [
-                "ItemFrame2",
+                "ItemFrame",
                 "\"item-frame\""
               ],
               "subInstructions": []
@@ -955,7 +692,7 @@
                     "value": "VarObjet"
                   },
                   "parameters": [
-                    "ItemFrame2",
+                    "ItemFrame",
                     "id",
                     "=",
                     "GlobalVariable(gItemSlot)"
@@ -970,7 +707,7 @@
                     "value": "SetAnimationName"
                   },
                   "parameters": [
-                    "ItemFrame2",
+                    "ItemFrame",
                     "\"item-frame-selected\""
                   ],
                   "subInstructions": []
@@ -1029,18 +766,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "itemSlot",
-                "=",
-                "2"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "ModVarGlobal"
               },
               "parameters": [
@@ -1064,7 +789,7 @@
                     "value": "SetAnimationName"
                   },
                   "parameters": [
-                    "ItemFrame2",
+                    "ItemFrame",
                     "\"item-frame\""
                   ],
                   "subInstructions": []
@@ -1082,7 +807,7 @@
                         "value": "VarObjet"
                       },
                       "parameters": [
-                        "ItemFrame2",
+                        "ItemFrame",
                         "id",
                         "=",
                         "GlobalVariable(gItemSlot)"
@@ -1097,7 +822,7 @@
                         "value": "SetAnimationName"
                       },
                       "parameters": [
-                        "ItemFrame2",
+                        "ItemFrame",
                         "\"item-frame-selected\""
                       ],
                       "subInstructions": []
