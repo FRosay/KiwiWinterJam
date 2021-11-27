@@ -11,35 +11,26 @@
         {
           "type": {
             "inverted": false,
-            "value": "BuiltinCommonInstructions::And"
+            "value": "Distance"
           },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Distance"
-              },
-              "parameters": [
-                "Player",
-                "CuttingBoard",
-                "GlobalVariable(gDistanceOfInteraction)",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Space"
-              ],
-              "subInstructions": []
-            }
-          ]
+          "parameters": [
+            "Player",
+            "CuttingBoard",
+            "GlobalVariable(gDistanceOfInteraction)",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Space"
+          ],
+          "subInstructions": []
         },
         {
           "type": {
@@ -56,7 +47,41 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "playerInventory[GlobalVariable(gItemSlot)]",
+                    "=",
+                    "\"potato\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "playerInventory[GlobalVariable(gItemSlot)]",
+                    "=",
+                    "\"octopus\""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -217,7 +242,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -252,6 +277,18 @@
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "playerInventory(GlobalVariable(gItemSlot)]",
+                    "=",
+                    "\"empty\""
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -352,7 +389,7 @@
                     "value": "VarSceneTxt"
                   },
                   "parameters": [
-                    "playerInventory[Variable(itemSlot)]",
+                    "playerInventory[GlobalVariable(gItemSlot)]",
                     "=",
                     "\"potato\""
                   ],
@@ -366,7 +403,7 @@
                     "value": "ModVarSceneTxt"
                   },
                   "parameters": [
-                    "playerInventory[Variable(itemSlot)]",
+                    "playerInventory[GlobalVariable(gItemSlot)]",
                     "=",
                     "\"potato-cutted\""
                   ],
@@ -386,7 +423,7 @@
                     "value": "VarSceneTxt"
                   },
                   "parameters": [
-                    "playerInventory[Variable(itemSlot)]",
+                    "playerInventory[GlobalVariable(gItemSlot)]",
                     "=",
                     "\"octopus\""
                   ],
@@ -400,9 +437,72 @@
                     "value": "ModVarSceneTxt"
                   },
                   "parameters": [
-                    "playerInventory[Variable(itemSlot)]",
+                    "playerInventory[GlobalVariable(gItemSlot)]",
                     "=",
                     "\"octopus-cutted\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "CuttingBoardPoint",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"CuttingBoard\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fade\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MontreSouris"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "cuttingBoardGameOn",
+                    "False"
                   ],
                   "subInstructions": []
                 }

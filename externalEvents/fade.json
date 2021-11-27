@@ -314,6 +314,83 @@
         }
       ],
       "events": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Fade >> hide/show layers",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "disabled": true,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "LayerVisible"
+          },
+          "parameters": [
+            "",
+            "\"Fade\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Ui\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": true,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "LayerVisible"
+          },
+          "parameters": [
+            "",
+            "\"Fade\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"Ui\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
     }
   ]
 }

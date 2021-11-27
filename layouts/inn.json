@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7249999999999985,
+    "zoomFactor": 0.6825999999999988,
     "windowMask": false
   },
   "objectsGroups": [
@@ -173,11 +173,6 @@
       "value": false
     },
     {
-      "name": "itemSlot",
-      "type": "number",
-      "value": 0
-    },
-    {
       "name": "txt",
       "type": "string",
       "value": ""
@@ -225,8 +220,8 @@
       "name": "Market",
       "persistentUuid": "1f5352da-db6b-400a-af87-54336b672603",
       "width": 0,
-      "x": 246,
-      "y": 313,
+      "x": 182,
+      "y": 345,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -1287,8 +1282,8 @@
       "name": "Sign",
       "persistentUuid": "56805714-a6ea-408e-b615-1fe0e7223811",
       "width": 0,
-      "x": 611,
-      "y": 224,
+      "x": 632,
+      "y": 230,
       "zOrder": 111,
       "numberProperties": [],
       "stringProperties": [],
@@ -6883,28 +6878,6 @@
       "behaviors": []
     },
     {
-      "height": 16,
-      "name": "CuttingBoardPoint",
-      "tags": "minigame",
-      "texture": "assets/sprites/cutting-board-point.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 16,
-      "variables": [
-        {
-          "name": "heightToMouse",
-          "type": "string",
-          "value": "0"
-        },
-        {
-          "name": "widthToMouse",
-          "type": "string",
-          "value": "0"
-        }
-      ],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "height": 32,
       "name": "CuttingBoardFinish",
       "tags": "minigame",
@@ -7660,6 +7633,46 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "name": "CuttingBoardPoint",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/sprites/cutting-board-point.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -7679,7 +7692,7 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "CookingEvents"
+      "target": "DryingRack"
     },
     {
       "disabled": false,

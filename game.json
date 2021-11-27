@@ -4808,10 +4808,6 @@
   "externalEvents": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/cookingevents"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/crate"
     },
     {
@@ -4829,6 +4825,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/digging"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/dryingrack"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
