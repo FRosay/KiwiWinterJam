@@ -4785,6 +4785,11 @@
       "name": "gFame",
       "type": "number",
       "value": 3
+    },
+    {
+      "name": "gItemSlot",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [

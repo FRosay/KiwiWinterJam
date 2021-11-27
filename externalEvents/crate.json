@@ -110,7 +110,7 @@
               "parameters": [
                 "",
                 "CrateSlot",
-                "192",
+                "176",
                 "256",
                 "\"Crate\""
               ],
@@ -185,7 +185,7 @@
               "parameters": [
                 "",
                 "CrateSlot",
-                "128",
+                "288",
                 "256",
                 "\"Crate\""
               ],
@@ -260,7 +260,7 @@
               "parameters": [
                 "",
                 "CrateSlot",
-                "256",
+                "400",
                 "256",
                 "\"Crate\""
               ],
@@ -853,7 +853,7 @@
                         "Crate",
                         "item[CrateSlot.Variable(id)]",
                         "=",
-                        "VariableString(playerInventory[Variable(itemSlot)])"
+                        "VariableString(playerInventory[GlobalVariable(gItemSlot)])"
                       ],
                       "subInstructions": []
                     },
