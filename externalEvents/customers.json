@@ -176,7 +176,7 @@
               },
               "parameters": [
                 "",
-                "Resources",
+                "Resourcesg",
                 "Customers",
                 ""
               ],
@@ -212,8 +212,8 @@
                   },
                   "parameters": [
                     "",
-                    "Resources",
-                    "Customers.CenterX()-(Resources.Width()/2)",
+                    "Resourcesg",
+                    "Customers.CenterX() - (Resourcesg.Width() / 2)",
                     "Customers.CenterY()-100",
                     "\"\""
                   ],
@@ -227,7 +227,7 @@
                   "parameters": [
                     "",
                     "Customers",
-                    "Resources"
+                    "Resourcesg"
                   ],
                   "subInstructions": []
                 },
@@ -520,7 +520,7 @@
                     "value": "ModVarObjet"
                   },
                   "parameters": [
-                    "Resources",
+                    "Resourcesg",
                     "id",
                     "=",
                     "Variable(lastUsedId)"
@@ -533,7 +533,7 @@
                     "value": "ChangeAnimation"
                   },
                   "parameters": [
-                    "Resources",
+                    "Resourcesg",
                     "=",
                     "Variable(rng)"
                   ],
@@ -644,7 +644,7 @@
                   },
                   "parameters": [
                     "",
-                    "Resources",
+                    "Resourcesg",
                     "Customers",
                     ""
                   ],
@@ -674,7 +674,7 @@
                             "value": "AnimationName"
                           },
                           "parameters": [
-                            "Resources",
+                            "Resourcesg",
                             "VariableString(child)"
                           ],
                           "subInstructions": []
@@ -723,7 +723,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "Resources",
+                        "Resourcesg",
                         ""
                       ],
                       "subInstructions": []
@@ -764,7 +764,7 @@
       "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::ForEach",
-      "object": "Resources",
+      "object": "Resourcesg",
       "conditions": [
         {
           "type": {
@@ -774,7 +774,7 @@
           "parameters": [
             "",
             "Customers",
-            "Resources",
+            "Resourcesg",
             ""
           ],
           "subInstructions": []
@@ -787,9 +787,9 @@
             "value": "MettreXY"
           },
           "parameters": [
-            "Resources",
+            "Resourcesg",
             "=",
-            "Customers.CenterX()-(Resources.Width()/2)",
+            "Customers.CenterX() - (Resourcesg.Width() / 2)",
             "=",
             "Customers.CenterY()-100"
           ],

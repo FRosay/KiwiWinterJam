@@ -1805,6 +1805,42 @@
         "name": "assets/sprites/non_interactive_items/clock/Outlined-4.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/resource_frame_and_selector/item-frame.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\resource_frame_and_selector\\item-frame.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/resource_frame_and_selector/item-selected.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\resource_frame_and_selector\\item-selected.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/resource_frame_and_selector/resource_frame_large.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\resource_frame_and_selector\\resource_frame_large.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites/resource_frame_and_selector/resource_selector_large.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprites\\resource_frame_and_selector\\resource_selector_large.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4562,7 +4598,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/item-frame.png",
+                  "image": "assets\\sprites\\resource_frame_and_selector\\resource_frame_large.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4591,7 +4627,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets/sprites/item-selected.png",
+                  "image": "assets\\sprites\\resource_frame_and_selector\\resource_selector_large.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5119,19 +5155,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/cuttingboardgame"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/daytime"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/digging"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/dryingrack"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -5143,23 +5171,19 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/fishing"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/gathering"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/inplate"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/inventorymanagement"
+      "referenceTo": "/externalEvents/maincharacterevents"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/maincharacterevents"
+      "referenceTo": "/externalEvents/menuevents"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/minigames"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -5176,10 +5200,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/sign"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/menuevents"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

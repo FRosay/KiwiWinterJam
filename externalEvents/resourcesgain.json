@@ -10,166 +10,386 @@
       "creationTime": 0,
       "disabled": false,
       "folded": false,
-      "name": "Resource Gain and Mini Games",
+      "name": "Drying rack",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PauseObjectTimer"
+              },
+              "parameters": [
+                "DryingRack",
+                "\"dryingTimer\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "DryingRack",
+                "\"dryingTimer\"",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "DryingRack",
+                "\"cod-dried\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "DryingRack",
+                "GlobalVariable(gDistanceOfInteraction)",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ObjectTimer"
+                      },
+                      "parameters": [
+                        "DryingRack",
+                        "\"dryingTimer\"",
+                        "4"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "playerInventory[GlobalVariable(gItemSlot)]",
+                        "=",
+                        "\"empty\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "playerInventory[GlobalVariable(gItemSlot)]",
+                        "=",
+                        "\"cod-dried\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "DryingRack",
+                        "\"dryingTimer\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PauseObjectTimer"
+                      },
+                      "parameters": [
+                        "DryingRack",
+                        "\"dryingTimer\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "DryingRack",
+                        "\"empty-outline\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "playerInventory[GlobalVariable(gItemSlot)]",
+                        "=",
+                        "\"cod\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "playerInventory[GlobalVariable(gItemSlot)]",
+                        "=",
+                        "\"empty\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "DryingRack",
+                        "\"cod-outline\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "UnPauseObjectTimer"
+                      },
+                      "parameters": [
+                        "DryingRack",
+                        "\"dryingTimer\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "parameters": []
     },
     {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
       "disabled": false,
       "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "Space"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SetSceneVariableAsBoolean"
-          },
-          "parameters": [
-            "foundSpace",
-            "False"
-          ],
-          "subInstructions": []
-        }
-      ],
+      "name": "Avocado",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
           "disabled": false,
           "folded": false,
-          "name": "Rum",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "Player",
-                    "RumMerchant",
-                    "GlobalVariable(gDistanceOfInteraction)",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
               ],
-              "actions": [],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::ForEachChildVariable",
-                  "iterableVariableName": "playerInventory",
-                  "valueIteratorVariableName": "child",
-                  "keyIteratorVariableName": "childName",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "SceneVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "foundSpace",
-                            "False"
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "VarSceneTxt"
-                          },
-                          "parameters": [
-                            "child",
-                            "=",
-                            "\"empty\""
-                          ],
-                          "subInstructions": []
-                        }
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarSceneTxt"
-                      },
-                      "parameters": [
-                        "playerInventory[Variable(childName)]",
-                        "=",
-                        "\"rum\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetSceneVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "foundSpace",
-                        "True"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
+              "subInstructions": []
             }
           ],
-          "parameters": []
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "AvocadoTree",
+                "\"growthTimer\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "AvocadoTree",
+                "\"not-ready\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
           "disabled": false,
           "folded": false,
-          "name": "Spice",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "AvocadoTree",
+                "\"growthTimer\"",
+                "8"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "AvocadoTree",
+                "\"ready\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "AvocadoTree",
+                "GlobalVariable(gDistanceOfInteraction)",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
           "events": [
             {
               "disabled": false,
@@ -179,14 +399,32 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Distance"
+                    "value": "KeyPressed"
                   },
                   "parameters": [
-                    "Player",
-                    "SpiceMerchant",
-                    "GlobalVariable(gDistanceOfInteraction)",
-                    ""
+                    "",
+                    "Space"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "AvocadoTree",
+                    "\"growthTimer\"",
+                    "8"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -242,7 +480,7 @@
                       "parameters": [
                         "playerInventory[Variable(childName)]",
                         "=",
-                        "\"spice\""
+                        "\"avocado\""
                       ],
                       "subInstructions": []
                     },
@@ -259,13 +497,309 @@
                     }
                   ],
                   "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "AvocadoTree",
+                        "\"growthTimer\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "AvocadoTree",
+                        "\"not-ready\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
                 }
               ]
             }
-          ],
-          "parameters": []
+          ]
         }
-      ]
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": true,
+      "name": "Simple gathering resources",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "foundSpace",
+                "False"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "disabled": false,
+              "folded": false,
+              "name": "Rum",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Player",
+                        "RumMerchant",
+                        "GlobalVariable(gDistanceOfInteraction)",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                      "iterableVariableName": "playerInventory",
+                      "valueIteratorVariableName": "child",
+                      "keyIteratorVariableName": "childName",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "SceneVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "foundSpace",
+                                "False"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarSceneTxt"
+                              },
+                              "parameters": [
+                                "child",
+                                "=",
+                                "\"empty\""
+                              ],
+                              "subInstructions": []
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "playerInventory[Variable(childName)]",
+                            "=",
+                            "\"rum\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "SetSceneVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "foundSpace",
+                            "True"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "disabled": false,
+              "folded": false,
+              "name": "Spice",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Player",
+                        "SpiceMerchant",
+                        "GlobalVariable(gDistanceOfInteraction)",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                      "iterableVariableName": "playerInventory",
+                      "valueIteratorVariableName": "child",
+                      "keyIteratorVariableName": "childName",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "SceneVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "foundSpace",
+                                "False"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarSceneTxt"
+                              },
+                              "parameters": [
+                                "child",
+                                "=",
+                                "\"empty\""
+                              ],
+                              "subInstructions": []
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "playerInventory[Variable(childName)]",
+                            "=",
+                            "\"spice\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "SetSceneVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "foundSpace",
+                            "True"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
+          ]
+        }
+      ],
+      "parameters": []
     }
   ]
 }
