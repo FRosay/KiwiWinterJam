@@ -7814,6 +7814,15 @@
     {
       "disabled": false,
       "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "MenuEvents"
+    },
+    {
+      "disabled": false,
+      "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -7899,6 +7908,99 @@
           },
           "parameters": [
             "RestaurantEntry"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"Options\"",
+            "0",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "LayerVisible"
+          },
+          "parameters": [
+            "",
+            "\"Options\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"dayTime\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "LayerVisible"
+          },
+          "parameters": [
+            "",
+            "\"Options\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "UnPauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"dayTime\""
           ],
           "subInstructions": []
         }
@@ -8024,6 +8126,17 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "CookBookRecepies",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": -2147483632,
+      "ambientLightColorG": 6024160,
+      "ambientLightColorR": 13083968,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Options",
       "visibility": false,
       "cameras": [],
       "effects": []

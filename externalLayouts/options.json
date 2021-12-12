@@ -1,0 +1,309 @@
+{
+  "associatedLayout": "MainMenu",
+  "name": "Options",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 315,
+      "layer": "Options",
+      "locked": false,
+      "name": "HorizontalBanner",
+      "persistentUuid": "5537b9aa-fc85-4cdd-921a-72068d169a6a",
+      "width": 700,
+      "x": 51,
+      "y": 74,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Options",
+      "locked": false,
+      "name": "MenuText",
+      "persistentUuid": "56eea744-e3d5-45d4-aff5-9a583aef3736",
+      "width": 0,
+      "x": 136,
+      "y": 142,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "initialText",
+          "type": "string",
+          "value": "Global :"
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "value": "MainMenuGlobalSound"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Options",
+      "locked": false,
+      "name": "MenuText",
+      "persistentUuid": "0501759b-85d8-478d-b29b-55fc64263303",
+      "width": 0,
+      "x": 135,
+      "y": 198,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "initialText",
+          "type": "string",
+          "value": "Son :"
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "value": "MainMenuSound"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 45,
+      "layer": "Options",
+      "locked": false,
+      "name": "MenuText",
+      "persistentUuid": "85c506cd-67a2-435c-93ac-2fe6ca8af705",
+      "width": 149,
+      "x": 136,
+      "y": 256,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "initialText",
+          "type": "string",
+          "value": "Musique :"
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "value": "MainMenuMusic"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 45,
+      "layer": "Options",
+      "locked": false,
+      "name": "MenuText",
+      "persistentUuid": "ebc6368c-58f1-4250-8c92-c8e08032813a",
+      "width": 149,
+      "x": 249,
+      "y": 312,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "initialText",
+          "type": "string",
+          "value": "Valider"
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "value": "MainMenuOptionsValidate"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 45,
+      "layer": "Options",
+      "locked": false,
+      "name": "MenuText",
+      "persistentUuid": "66be24f2-c16a-4c86-80a1-1ca3585e5b43",
+      "width": 149,
+      "x": 419,
+      "y": 313,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "initialText",
+          "type": "string",
+          "value": "Annuler"
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "value": "MainMenuOptionsCancel"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Options",
+      "locked": false,
+      "name": "MusicLevel",
+      "persistentUuid": "12af58ee-1059-41dc-a4d9-ba0d36b3f6be",
+      "width": 0,
+      "x": 585,
+      "y": 262,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 36,
+      "layer": "Options",
+      "locked": false,
+      "name": "SoundLevel",
+      "persistentUuid": "bfdb75d7-09b6-45a6-a3cc-0bb21c1d5f26",
+      "width": 40,
+      "x": 584,
+      "y": 210,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Options",
+      "locked": false,
+      "name": "GlobalSoundLevel",
+      "persistentUuid": "20c3d593-22a8-4c4e-9b85-a04a7d991b0d",
+      "width": 0,
+      "x": 583,
+      "y": 163,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Options",
+      "locked": false,
+      "name": "GlobalSound",
+      "persistentUuid": "c8636fac-c4d8-4a5f-b470-0cef2c727662",
+      "width": 0,
+      "x": 298,
+      "y": 163,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Options",
+      "locked": false,
+      "name": "Sound",
+      "persistentUuid": "9c7ddf7e-d94d-46b6-8cc2-727fc2240412",
+      "width": 0,
+      "x": 298,
+      "y": 219,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Options",
+      "locked": false,
+      "name": "Music",
+      "persistentUuid": "a871e0e4-72cb-40a5-9241-ec1522c223a7",
+      "width": 0,
+      "x": 297,
+      "y": 281,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 107,
+      "layer": "Options",
+      "locked": false,
+      "name": "HorizontalBanner",
+      "persistentUuid": "c628393f-5202-4cbd-8a83-a089d199ca9a",
+      "width": 325,
+      "x": 240,
+      "y": 403,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Options",
+      "locked": false,
+      "name": "MenuText",
+      "persistentUuid": "08babe77-d5cf-40b5-81d2-be5275f4912b",
+      "width": 0,
+      "x": 330,
+      "y": 436,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "initialText",
+          "type": "string",
+          "value": "Quitter"
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "value": "MainMenuQuit"
+        }
+      ]
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 1,
+    "windowMask": false
+  }
+}

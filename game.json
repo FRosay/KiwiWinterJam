@@ -4611,6 +4611,273 @@
           ]
         }
       ]
+    },
+    {
+      "name": "HorizontalBanner",
+      "tags": "menu, options",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\sprites\\horizontal_banner.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GlobalSound",
+      "tags": "menu, options, sound",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DraggableSliderControl",
+          "type": "DraggableSliderControl::DraggableSliderControl",
+          "ThumbShape": "circle",
+          "ThumbWidth": 16,
+          "ThumbHeight": 20,
+          "ThumbColor": " 24;119;211",
+          "ThumbOpacity": 255,
+          "TrackWidth": 200,
+          "TrackHeight": 4,
+          "InactiveTrackColor": "",
+          "InactiveTrackOpacity": 96,
+          "ActiveTrackColor": " ",
+          "ActiveTrackOpacity": 255,
+          "HaloRadius": 24,
+          "HaloOpacityHover": 32,
+          "HaloOpacityClick": 64,
+          "IsBeingDragged": false,
+          "Value": 0,
+          "ThumbOffset": 0,
+          "RoundedTrack": true
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "outlineColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true
+    },
+    {
+      "name": "Sound",
+      "tags": "menu, options, sound",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DraggableSliderControl",
+          "type": "DraggableSliderControl::DraggableSliderControl",
+          "ThumbShape": "circle",
+          "ThumbWidth": 16,
+          "ThumbHeight": 20,
+          "ThumbColor": " 24;119;211",
+          "ThumbOpacity": 255,
+          "TrackWidth": 200,
+          "TrackHeight": 4,
+          "InactiveTrackColor": "",
+          "InactiveTrackOpacity": 96,
+          "ActiveTrackColor": " ",
+          "ActiveTrackOpacity": 255,
+          "HaloRadius": 24,
+          "HaloOpacityHover": 32,
+          "HaloOpacityClick": 64,
+          "IsBeingDragged": false,
+          "Value": 0,
+          "ThumbOffset": 0,
+          "RoundedTrack": true
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "outlineColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true
+    },
+    {
+      "name": "Music",
+      "tags": "menu, options, sound",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DraggableSliderControl",
+          "type": "DraggableSliderControl::DraggableSliderControl",
+          "ThumbShape": "circle",
+          "ThumbWidth": 16,
+          "ThumbHeight": 20,
+          "ThumbColor": " 24;119;211",
+          "ThumbOpacity": 255,
+          "TrackWidth": 200,
+          "TrackHeight": 4,
+          "InactiveTrackColor": "",
+          "InactiveTrackOpacity": 96,
+          "ActiveTrackColor": " ",
+          "ActiveTrackOpacity": 255,
+          "HaloRadius": 24,
+          "HaloOpacityHover": 32,
+          "HaloOpacityClick": 64,
+          "IsBeingDragged": false,
+          "Value": 0,
+          "ThumbOffset": 0,
+          "RoundedTrack": true
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "outlineColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "GlobalSoundLevel",
+      "smoothed": true,
+      "tags": "menu, options, sound",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "100",
+      "font": "assets\\fonts\\Spinstee.ttf",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "SoundLevel",
+      "smoothed": true,
+      "tags": "menu, options, sound",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "100",
+      "font": "assets\\fonts\\Spinstee.ttf",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "MusicLevel",
+      "smoothed": true,
+      "tags": "menu, options, sound",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "100",
+      "font": "assets\\fonts\\Spinstee.ttf",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "name": "MenuText",
+      "tags": "menu, options, sound",
+      "type": "BBText::BBText",
+      "variables": [
+        {
+          "name": "initialText",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Lorem Ipsum",
+        "opacity": 255,
+        "fontSize": 30,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "assets\\fonts\\Spinstee.ttf",
+        "align": "center",
+        "wordWrap": true
+      }
     }
   ],
   "objectsGroups": [],
@@ -4790,6 +5057,37 @@
       "name": "gItemSlot",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "gOldOptions",
+      "type": "structure",
+      "children": [
+        {
+          "name": "currentLanguage",
+          "type": "string",
+          "value": "fr"
+        },
+        {
+          "name": "globalSoundLevel",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "musicLevel",
+          "type": "number",
+          "value": 100
+        },
+        {
+          "name": "muteGame",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "soundLevel",
+          "type": "number",
+          "value": 100
+        }
+      ]
     }
   ],
   "layouts": [
@@ -4881,7 +5179,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/soundevents"
+      "referenceTo": "/externalEvents/menuevents"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -4914,6 +5212,11 @@
       "referenceTo": "/eventsFunctionsExtensions/arrayfnct"
     }
   ],
-  "externalLayouts": [],
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/options"
+    }
+  ],
   "externalSourceFiles": []
 }

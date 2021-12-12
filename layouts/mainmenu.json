@@ -186,262 +186,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 315,
-      "layer": "Options",
-      "locked": false,
-      "name": "HorizontalBanner",
-      "persistentUuid": "9b0bb646-aedd-4c1c-8701-cdc90e07d4fe",
-      "width": 700,
-      "x": 44,
-      "y": 70,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 650,
+      "height": 950,
       "layer": "Fade",
       "locked": true,
       "name": "Fade",
-      "persistentUuid": "f7f530ac-4002-4b3b-9b26-f2275a27f878",
-      "width": 850,
-      "x": -25,
-      "y": -25,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 45,
-      "layer": "Options",
-      "locked": false,
-      "name": "MenuText",
-      "persistentUuid": "3987d1b5-48f2-4f01-9914-6db1db10e8af",
-      "width": 149,
-      "x": 412,
-      "y": 309,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "initialText",
-          "type": "string",
-          "value": "Annuler"
-        },
-        {
-          "name": "id",
-          "type": "string",
-          "value": "MainMenuOptionsCancel"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 30,
-      "layer": "Options",
-      "locked": false,
-      "name": "Sound",
-      "persistentUuid": "1472bd08-4bdb-4fc1-8c84-8a18556bcf5d",
-      "width": 250,
-      "x": 290,
-      "y": 218,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 36,
-      "layer": "Options",
-      "locked": false,
-      "name": "SoundLevel",
-      "persistentUuid": "2d2d3557-a34c-4cda-b5c1-99a0ca513d04",
-      "width": 40,
-      "x": 577,
-      "y": 206,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Options",
-      "locked": false,
-      "name": "MenuText",
-      "persistentUuid": "41361d21-6b6b-42e7-bc5d-03cc78000a74",
-      "width": 0,
-      "x": 129,
-      "y": 138,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "initialText",
-          "type": "string",
-          "value": "Global :"
-        },
-        {
-          "name": "id",
-          "type": "string",
-          "value": "MainMenuGlobalSound"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 30,
-      "layer": "Options",
-      "locked": false,
-      "name": "Music",
-      "persistentUuid": "23b220f4-7e0e-4abe-81e1-6c08ce23faa3",
-      "width": 250,
-      "x": 290,
-      "y": 276,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Options",
-      "locked": false,
-      "name": "MusicLevel",
-      "persistentUuid": "d0d8c003-bb27-487f-8c8a-01f7e6a273df",
-      "width": 0,
-      "x": 578,
-      "y": 258,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 45,
-      "layer": "Options",
-      "locked": false,
-      "name": "MenuText",
-      "persistentUuid": "054dab78-4017-4b5d-804a-a8befc464f18",
-      "width": 149,
-      "x": 129,
-      "y": 252,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "initialText",
-          "type": "string",
-          "value": "Musique :"
-        },
-        {
-          "name": "id",
-          "type": "string",
-          "value": "MainMenuMusic"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 45,
-      "layer": "Options",
-      "locked": false,
-      "name": "MenuText",
-      "persistentUuid": "91956eb4-2e4c-41ec-8386-4d2dfcb6c68f",
-      "width": 149,
-      "x": 242,
-      "y": 308,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "initialText",
-          "type": "string",
-          "value": "Valider"
-        },
-        {
-          "name": "id",
-          "type": "string",
-          "value": "MainMenuOptionsValidate"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Options",
-      "locked": false,
-      "name": "MenuText",
-      "persistentUuid": "9780c020-45e1-42e3-8912-2ca40bc28ac9",
-      "width": 0,
-      "x": 128,
-      "y": 194,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "initialText",
-          "type": "string",
-          "value": "Son :"
-        },
-        {
-          "name": "id",
-          "type": "string",
-          "value": "MainMenuSound"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Options",
-      "locked": false,
-      "name": "GlobalSound",
-      "persistentUuid": "792ac996-b0ea-481e-a9f7-87a2f67a6c5b",
-      "width": 246,
-      "x": 290,
-      "y": 163,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Options",
-      "locked": false,
-      "name": "GlobalSoundLevel",
-      "persistentUuid": "687cb566-2a66-4f5b-a2e5-b835ba95abf0",
-      "width": 0,
-      "x": 576,
-      "y": 159,
-      "zOrder": 11,
+      "persistentUuid": "b4bb5be8-0fb2-4250-b212-4d2c8bbabb47",
+      "width": 1267,
+      "x": -225,
+      "y": -164,
+      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -527,284 +280,6 @@
           ]
         }
       ]
-    },
-    {
-      "name": "MenuText",
-      "tags": "",
-      "type": "BBText::BBText",
-      "variables": [
-        {
-          "name": "initialText",
-          "type": "string",
-          "value": ""
-        },
-        {
-          "name": "id",
-          "type": "string",
-          "value": ""
-        }
-      ],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "text": "Lorem Ipsum",
-        "opacity": 255,
-        "fontSize": 30,
-        "visible": true,
-        "color": "0;0;0",
-        "fontFamily": "assets\\fonts\\Spinstee.ttf",
-        "align": "center",
-        "wordWrap": true
-      }
-    },
-    {
-      "name": "HorizontalBanner",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\sprites\\horizontal_banner.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "height": 32,
-      "name": "Fade",
-      "tags": "",
-      "texture": "assets\\images\\fade.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "bold": false,
-      "italic": false,
-      "name": "GlobalSoundLevel",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "100",
-      "font": "assets\\fonts\\Spinstee.ttf",
-      "characterSize": 30,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "bold": false,
-      "italic": false,
-      "name": "SoundLevel",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "100",
-      "font": "assets\\fonts\\Spinstee.ttf",
-      "characterSize": 30,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "bold": false,
-      "italic": false,
-      "name": "MusicLevel",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "100",
-      "font": "assets\\fonts\\Spinstee.ttf",
-      "characterSize": 30,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "name": "GlobalSound",
-      "tags": "",
-      "type": "PrimitiveDrawing::Drawer",
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "DraggableSliderControl",
-          "type": "DraggableSliderControl::DraggableSliderControl",
-          "ThumbShape": "circle",
-          "ThumbWidth": 16,
-          "ThumbHeight": 20,
-          "ThumbColor": " 24;119;211",
-          "ThumbOpacity": 255,
-          "TrackWidth": 200,
-          "TrackHeight": 4,
-          "InactiveTrackColor": "",
-          "InactiveTrackOpacity": 96,
-          "ActiveTrackColor": " ",
-          "ActiveTrackOpacity": 255,
-          "HaloRadius": 24,
-          "HaloOpacityHover": 32,
-          "HaloOpacityClick": 64,
-          "IsBeingDragged": false,
-          "Value": 0,
-          "ThumbOffset": 0,
-          "RoundedTrack": true
-        }
-      ],
-      "fillOpacity": 255,
-      "outlineSize": 1,
-      "outlineOpacity": 255,
-      "fillColor": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      },
-      "outlineColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "absoluteCoordinates": false,
-      "clearBetweenFrames": true
-    },
-    {
-      "name": "Sound",
-      "tags": "",
-      "type": "PrimitiveDrawing::Drawer",
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "DraggableSliderControl",
-          "type": "DraggableSliderControl::DraggableSliderControl",
-          "ThumbShape": "circle",
-          "ThumbWidth": 16,
-          "ThumbHeight": 20,
-          "ThumbColor": " 24;119;211",
-          "ThumbOpacity": 255,
-          "TrackWidth": 200,
-          "TrackHeight": 4,
-          "InactiveTrackColor": "",
-          "InactiveTrackOpacity": 96,
-          "ActiveTrackColor": " ",
-          "ActiveTrackOpacity": 255,
-          "HaloRadius": 24,
-          "HaloOpacityHover": 32,
-          "HaloOpacityClick": 64,
-          "IsBeingDragged": false,
-          "Value": 0,
-          "ThumbOffset": 0,
-          "RoundedTrack": true
-        }
-      ],
-      "fillOpacity": 255,
-      "outlineSize": 1,
-      "outlineOpacity": 255,
-      "fillColor": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      },
-      "outlineColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "absoluteCoordinates": false,
-      "clearBetweenFrames": true
-    },
-    {
-      "name": "Music",
-      "tags": "",
-      "type": "PrimitiveDrawing::Drawer",
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "DraggableSliderControl",
-          "type": "DraggableSliderControl::DraggableSliderControl",
-          "ThumbShape": "circle",
-          "ThumbWidth": 16,
-          "ThumbHeight": 20,
-          "ThumbColor": " 24;119;211",
-          "ThumbOpacity": 255,
-          "TrackWidth": 200,
-          "TrackHeight": 4,
-          "InactiveTrackColor": "",
-          "InactiveTrackOpacity": 96,
-          "ActiveTrackColor": " ",
-          "ActiveTrackOpacity": 255,
-          "HaloRadius": 24,
-          "HaloOpacityHover": 32,
-          "HaloOpacityClick": 64,
-          "IsBeingDragged": false,
-          "Value": 0,
-          "ThumbOffset": 0,
-          "RoundedTrack": true
-        }
-      ],
-      "fillOpacity": 255,
-      "outlineSize": 1,
-      "outlineOpacity": 255,
-      "fillColor": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      },
-      "outlineColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "absoluteCoordinates": false,
-      "clearBetweenFrames": true
     }
   ],
   "events": [
@@ -815,7 +290,7 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "SoundEvents"
+      "target": "MenuEvents"
     },
     {
       "disabled": false,
@@ -834,21 +309,6 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SendAsyncRequest"
-          },
-          "parameters": [
-            "\"translations.json\"",
-            "\"\"",
-            "\"GET\"",
-            "\"\"",
-            "texts",
-            "error"
-          ],
-          "subInstructions": []
-        },
         {
           "type": {
             "inverted": false,
@@ -872,9 +332,46 @@
             "120"
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"Options\"",
+            "0",
+            "0"
+          ],
+          "subInstructions": []
         }
       ],
       "events": [
+        {
+          "disabled": true,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SendAsyncRequest"
+              },
+              "parameters": [
+                "\"translations.json\"",
+                "\"\"",
+                "\"GET\"",
+                "\"\"",
+                "texts",
+                "error"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
         {
           "disabled": false,
           "folded": false,
@@ -982,7 +479,7 @@
         },
         {
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -997,313 +494,269 @@
               "subInstructions": []
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "inverted": false,
-                "value": "LireFichierExp"
-              },
-              "parameters": [
-                "\"Options\"",
-                "\"GlobalSound\"",
-                "",
-                "options.globalSound"
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LireFichierExp"
+                  },
+                  "parameters": [
+                    "\"Options\"",
+                    "\"GlobalSound\"",
+                    "",
+                    "options.globalSound"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
+                  },
+                  "parameters": [
+                    "GlobalSound",
+                    "DraggableSliderControl",
+                    "Variable(options.globalSound)/100",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "GlobalSoundLevel",
+                    "=",
+                    "ToString(Variable(options.globalSound))"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModGlobalVolume"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Variable(options.globalSound)"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "events": []
             },
             {
-              "type": {
-                "inverted": false,
-                "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
-              },
-              "parameters": [
-                "GlobalSound",
-                "DraggableSliderControl",
-                "Variable(options.globalSound)/100",
-                ""
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LireFichierExp"
+                  },
+                  "parameters": [
+                    "\"Options\"",
+                    "\"Sound\"",
+                    "",
+                    "options.sound"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
+                  },
+                  "parameters": [
+                    "Sound",
+                    "DraggableSliderControl",
+                    "Variable(options.sound)/100",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "SoundLevel",
+                    "=",
+                    "ToString(Variable(options.sound))"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "=",
+                    "Variable(options.sound)"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "events": []
             },
             {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "GlobalSoundLevel",
-                "=",
-                "ToString(Variable(options.globalSound))"
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LireFichierExp"
+                  },
+                  "parameters": [
+                    "\"Options\"",
+                    "\"Music\"",
+                    "",
+                    "options.music"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
+                  },
+                  "parameters": [
+                    "Music",
+                    "DraggableSliderControl",
+                    "Variable(options.music)/100",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "MusicLevel",
+                    "=",
+                    "ToString(Variable(options.music))"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVolumeMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "=",
+                    "Variable(options.music)"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "events": []
             },
             {
-              "type": {
-                "inverted": false,
-                "value": "LireFichierExp"
-              },
-              "parameters": [
-                "\"Options\"",
-                "\"Sound\"",
-                "",
-                "options.sound"
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "gOptions.globalSoundLevel",
+                    "=",
+                    "Variable(options.globalSound)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "gOldOptions.globalSoundLevel",
+                    "=",
+                    "Variable(options.globalSound)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "gOptions.soundLevel",
+                    "=",
+                    "Variable(options.sound)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "gOldOptions.soundLevel",
+                    "=",
+                    "Variable(options.sound)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "gOptions.musicLevel",
+                    "=",
+                    "Variable(options.music)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "gOldOptions.musicLevel",
+                    "=",
+                    "Variable(options.music)"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
-              },
-              "parameters": [
-                "Sound",
-                "DraggableSliderControl",
-                "Variable(options.sound)/100",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "SoundLevel",
-                "=",
-                "ToString(Variable(options.sound))"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "LireFichierExp"
-              },
-              "parameters": [
-                "\"Options\"",
-                "\"Music\"",
-                "",
-                "options.music"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
-              },
-              "parameters": [
-                "Music",
-                "DraggableSliderControl",
-                "Variable(options.music)/100",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "MusicLevel",
-                "=",
-                "ToString(Variable(options.music))"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModGlobalVolume"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Variable(options.globalSound)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVolumeSoundCanal"
-              },
-              "parameters": [
-                "",
-                "1",
-                "=",
-                "Variable(options.sound)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVolumeMusicCanal"
-              },
-              "parameters": [
-                "",
-                "1",
-                "=",
-                "Variable(options.music)"
-              ],
-              "subInstructions": []
+              "events": []
             }
-          ],
-          "events": []
-        }
-      ]
-    },
-    {
-      "disabled": true,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Timer"
-          },
-          "parameters": [
-            "",
-            "1",
-            "\"init\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"init\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "JSONToVariableStructure"
-          },
-          "parameters": [
-            "VariableString(texts)",
-            "translations"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "MenuText",
-                "=",
-                "VariableString(translations[MenuText.VariableString(id)][GlobalVariableString(Options.CurrentLanguage)])"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ]
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "MenuText",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjetTxt"
-          },
-          "parameters": [
-            "MenuText",
-            "id",
-            "=",
-            "\"MainMenuOptions\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"Fade\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"Options\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
+          ]
         }
       ]
     },
@@ -1369,6 +822,18 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "gActiveScene",
+                "=",
+                "\"Restaurant\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "Scene"
               },
               "parameters": [
@@ -1382,608 +847,6 @@
           "events": []
         }
       ]
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "disabled": false,
-      "folded": false,
-      "name": "Options layer",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "LayerVisible"
-              },
-              "parameters": [
-                "",
-                "\"Options\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "GlobalSoundLevel",
-                    "=",
-                    "ToString(floor(GlobalSound.DraggableSliderControl::Value()*100))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "SoundLevel",
-                    "=",
-                    "ToString(floor(Sound.DraggableSliderControl::Value()*100))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "MusicLevel",
-                    "=",
-                    "ToString(floor(Music.DraggableSliderControl::Value()*100))"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "DraggableSliderControl::DraggableSliderControl::IsBeingDragged"
-                  },
-                  "parameters": [
-                    "GlobalSound",
-                    "DraggableSliderControl",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "options.globalSound",
-                    "=",
-                    "floor(GlobalSound.DraggableSliderControl::Value()*100)"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "DraggableSliderControl::DraggableSliderControl::IsBeingDragged"
-                  },
-                  "parameters": [
-                    "Sound",
-                    "DraggableSliderControl",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "options.sound",
-                    "=",
-                    "floor(Sound.DraggableSliderControl::Value()*100)"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "DraggableSliderControl::DraggableSliderControl::IsBeingDragged"
-                  },
-                  "parameters": [
-                    "Music",
-                    "DraggableSliderControl",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "options.music",
-                    "=",
-                    "floor(Music.DraggableSliderControl::Value()*100)"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Confirm button",
-              "comment2": ""
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "MenuText",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjetTxt"
-                  },
-                  "parameters": [
-                    "MenuText",
-                    "id",
-                    "=",
-                    "\"MainMenuOptionsValidate\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "EcrireFichierExp"
-                      },
-                      "parameters": [
-                        "\"Options\"",
-                        "\"GlobalSound\"",
-                        "floor(GlobalSound.DraggableSliderControl::Value()*100)"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModGlobalVolume"
-                      },
-                      "parameters": [
-                        "",
-                        "=",
-                        "Variable(options.globalSound)"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "gOptions.globalSound",
-                        "=",
-                        "Variable(options.globalSound)"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "oldOptions.globalSound",
-                        "=",
-                        "Variable(oldOptions.globalSound)"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "EcrireFichierExp"
-                      },
-                      "parameters": [
-                        "\"Options\"",
-                        "\"Sound\"",
-                        "floor(Sound.DraggableSliderControl::Value()*100)"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVolumeSoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "1",
-                        "=",
-                        "Variable(options.sound)"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "gOptions.soundLevel",
-                        "=",
-                        "Variable(options.sound)"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "oldOptions.sound",
-                        "=",
-                        "Variable(oldOptions.sound)"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "EcrireFichierExp"
-                      },
-                      "parameters": [
-                        "\"Options\"",
-                        "\"Music\"",
-                        "floor(Music.DraggableSliderControl::Value()*100)"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVolumeMusicCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "1",
-                        "=",
-                        "Variable(options.music)"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "gOptions.musicLevel",
-                        "=",
-                        "Variable(options.music)"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "oldOptions.music",
-                        "=",
-                        "Variable(oldOptions.music)"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "HideLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Fade\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "HideLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Options\""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Cancel button",
-              "comment2": ""
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "MenuText",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjetTxt"
-                  },
-                  "parameters": [
-                    "MenuText",
-                    "id",
-                    "=",
-                    "\"MainMenuOptionsCancel\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "options.globalSound",
-                        "=",
-                        "Variable(oldOptions.globalSound)"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "options.sound",
-                        "=",
-                        "Variable(oldOptions.sound)"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "options.music",
-                        "=",
-                        "Variable(oldOptions.music)"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "HideLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Fade\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "HideLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Options\""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
     }
   ],
   "layers": [
@@ -2010,9 +873,9 @@
       "effects": []
     },
     {
-      "ambientLightColorB": 67108864,
+      "ambientLightColorB": -2147483616,
       "ambientLightColorG": 6024160,
-      "ambientLightColorR": 8020656,
+      "ambientLightColorR": 13008904,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Fade",
