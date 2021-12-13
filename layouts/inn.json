@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8825999999999989,
+    "zoomFactor": 0.7625999999999988,
     "windowMask": false
   },
   "objectsGroups": [
@@ -66,9 +66,6 @@
         },
         {
           "name": "DryingRack"
-        },
-        {
-          "name": "Sign"
         },
         {
           "name": "Crate"
@@ -518,14 +515,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 45,
+      "height": 17,
       "layer": "Obstacles",
       "locked": false,
       "name": "BeachEntry",
       "persistentUuid": "a207bc54-94bc-46a7-901c-45f40a054175",
       "width": 37,
       "x": 2682,
-      "y": 151,
+      "y": 163,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -888,8 +885,8 @@
       "name": "Dresser",
       "persistentUuid": "e3a738da-3e27-4d48-8c90-d28cdd9769d5",
       "width": 76,
-      "x": 443,
-      "y": 430,
+      "x": 514,
+      "y": 426,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -1282,8 +1279,8 @@
       "name": "Sign",
       "persistentUuid": "56805714-a6ea-408e-b615-1fe0e7223811",
       "width": 0,
-      "x": 632,
-      "y": 230,
+      "x": 615,
+      "y": 234,
       "zOrder": 111,
       "numberProperties": [],
       "stringProperties": [],
@@ -1304,8 +1301,8 @@
       "name": "Sign",
       "persistentUuid": "2c45a416-3432-41c5-a2e9-7fc6e4eaf45c",
       "width": 0,
-      "x": 658,
-      "y": 366,
+      "x": 644,
+      "y": 405,
       "zOrder": 112,
       "numberProperties": [],
       "stringProperties": [],
@@ -1842,7 +1839,7 @@
       "width": 0,
       "x": 2553,
       "y": 175,
-      "zOrder": 112,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1906,7 +1903,7 @@
       "width": 0,
       "x": 2520,
       "y": -139,
-      "zOrder": 114,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -7130,6 +7127,15 @@
         "includeConfig": 0
       },
       "target": "ExternalEvents"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Fade"
     },
     {
       "disabled": false,
